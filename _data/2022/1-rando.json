@@ -1,0 +1,31 @@
+{
+    "start": "2022-06-15",
+    "duration": 6,
+    "treck": "Haute-Ariège",
+    "riders": [{
+            "fistname": "Zohre",
+            "horse": "Zuhal",
+            "diet": "sans"
+        },
+        {
+            "nom": "Chanya",
+            "horse": "Quirin",
+            "diet": "sans"
+        },
+        {
+            "nom": "Keona",
+            "horse": "Timéa",
+            "diet": "veggie"
+        },
+        {
+            "nom": "Mariska",
+            "horse": "Tahys",
+            "diet": "sans"
+        },
+        {
+            "nom": "Anne-Bérangère",
+            "horse": "Naïka",
+            "diet": "sans"
+        }
+    ]
+}

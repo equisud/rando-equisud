@@ -1,0 +1,31 @@
+{
+    "start": "2022-06-15",
+    "duration": 6,
+    "treck": "Haute-Ariège",
+    "riders": [{
+            "fistname": "Morwenna",
+            "horse": "Houaida",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Era",
+            "horse": "Wilna",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Zdenka",
+            "horse": "Cloee",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Gustine",
+            "horse": "Aissa",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Khalyssa",
+            "horse": "Olaia",
+            "diet": "sans"
+        }
+    ]
+}
