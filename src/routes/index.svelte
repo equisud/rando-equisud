@@ -1,119 +1,53 @@
+<script>
+	import Treck from '$lib/Treck.svelte';
+
+	const treck = {
+		period: '14/05 au 21/05',
+		title: 'Haute-Ariège',
+		riders: [
+			{
+				firstname: 'Zohre',
+				horse: 'Zuhal',
+				diet: 'sans'
+			},
+			{
+				firstname: 'Chanya',
+				horse: 'Quirin',
+				diet: 'sans'
+			},
+			{
+				firstname: 'Keona',
+				horse: 'Timéa',
+				diet: 'veggie'
+			},
+			{
+				firstname: 'Mariska',
+				horse: 'Tahys',
+				diet: 'sans'
+			},
+			{
+				firstname: 'Anne-Bérangère',
+				horse: 'Naïka',
+				diet: 'sans'
+			}
+		]
+	};
+</script>
+
+<svelte:head>
+	<title>Equisud riding 2022</title>
+</svelte:head>
+
 <h1>Equisud riding 2022</h1>
-<div class="grid">
-	<article>
-		<header>
-			<h4>14/05 au 21/05</h4>
-			<h6>Capcir</h6>
-		</header>
-		<h5>Riders</h5>
-		<table>
-			<thead>
-				<tr>
-					<td>Name</td>
-					<td>Diet</td>
-					<td>Horse</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Sonia</td>
-					<td>All</td>
-					<td>Poly</td>
-				</tr>
-				<tr>
-					<td>Sophie</td>
-					<td>All</td>
-					<td>Sattou</td>
-				</tr>
-				<tr>
-					<td>Sarah</td>
-					<td>Veggie</td>
-					<td>Smarty</td>
-				</tr>
-				<tr>
-					<td>Juliette</td>
-					<td>Vegan</td>
-					<td>Princess</td>
-				</tr>
-			</tbody>
-		</table>
-	</article>
-
-	<article>
-		<header>
-			<h4>14/05 au 21/05</h4>
-			<h6>Haute-Ariège</h6>
-		</header>
-		<h5>Riders</h5>
-		<table>
-			<thead>
-				<tr>
-					<td>Name</td>
-					<td>Diet</td>
-					<td>Horse</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Sonia</td>
-					<td>All</td>
-					<td>Poly</td>
-				</tr>
-				<tr>
-					<td>Sophie</td>
-					<td>All</td>
-					<td>Sattou</td>
-				</tr>
-				<tr>
-					<td>Sarah</td>
-					<td>Veggie</td>
-					<td>Smarty</td>
-				</tr>
-				<tr>
-					<td>Juliette</td>
-					<td>Vegan</td>
-					<td>Princess</td>
-				</tr>
-			</tbody>
-		</table>
-	</article>
-
-	<article>
-		<header>
-			<h4>14/05 au 21/05</h4>
-			<h6>Andorre</h6>
-		</header>
-		<h5>Riders</h5>
-		<table>
-			<thead>
-				<tr>
-					<td>Name</td>
-					<td>Diet</td>
-					<td>Horse</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Sonia</td>
-					<td>All</td>
-					<td>Poly</td>
-				</tr>
-				<tr>
-					<td>Sophie</td>
-					<td>All</td>
-					<td>Sattou</td>
-				</tr>
-				<tr>
-					<td>Sarah</td>
-					<td>Veggie</td>
-					<td>Smarty</td>
-				</tr>
-				<tr>
-					<td>Juliette</td>
-					<td>Vegan</td>
-					<td>Princess</td>
-				</tr>
-			</tbody>
-		</table>
-	</article>
-</div>
+<section>
+	<div class="grid">
+		<Treck {treck} />
+		<Treck {treck} />
+		<Treck {treck} />
+	</div>
+	<div class="grid">
+		<Treck {treck} />
+		<Treck {treck} />
+		<Treck {treck} />
+	</div>
+</section>
