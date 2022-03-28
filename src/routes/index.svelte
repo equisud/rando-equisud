@@ -1,53 +1,47 @@
-<script>
-	import Treck from '$lib/Treck.svelte';
+<script context="module">
+  export async function load() {
+    try {
+      const Post = await import(
+        /* @vite-ignore */ "$lib/_data/2022/1-week.json"
+      );
+      return {
+        props: {
+          treck: Post.default
+        }
+      };
+    } catch (e) {
+      return {
+        props: {
+          treck: {
+            headling: "404",
+            content: "Page not found"
+          }
+        }
+      };
+    }
+  }
+</script>
 
-	const treck = {
-		period: '14/05 au 21/05',
-		title: 'Haute-Ariège',
-		riders: [
-			{
-				firstname: 'Zohre',
-				horse: 'Zuhal',
-				diet: 'sans'
-			},
-			{
-				firstname: 'Chanya',
-				horse: 'Quirin',
-				diet: 'sans'
-			},
-			{
-				firstname: 'Keona',
-				horse: 'Timéa',
-				diet: 'veggie'
-			},
-			{
-				firstname: 'Mariska',
-				horse: 'Tahys',
-				diet: 'sans'
-			},
-			{
-				firstname: 'Anne-Bérangère',
-				horse: 'Naïka',
-				diet: 'sans'
-			}
-		]
-	};
+<script>
+  import Treck from "$lib/Treck.svelte";
+  export let treck;
 </script>
 
 <svelte:head>
-	<title>Equisud riding 2022</title>
+  <title>Equisud riding 2022</title>
 </svelte:head>
 
 <h1>Equisud riding 2022</h1>
+
 <section>
-	<div class="grid">
-		<Treck {treck} />
-		<Treck {treck} />
-		<Treck {treck} />
-	</div>
-	<div class="grid">
-		<Treck {treck} />
-		<Treck {treck} />
-		<Treck {treck} />
-	</div>
+  <div class="grid">
+    <Treck {treck} />
+    <Treck {treck} />
+    <Treck {treck} />
+  </div>
+  <div class="grid">
+    <Treck {treck} />
+    <Treck {treck} />
+    <Treck {treck} />
+  </div>
 </section>

@@ -1,29 +1,29 @@
 {
-    "start": "2022-06-15",
-    "duration": 6,
-    "treck": "Haute-Ariège",
+
+    "period": "07/05 au 14/05",
+    "title": "Transhumance",
     "riders": [{
-            "fistname": "Zohre",
+            "firstname": "Zohre",
             "horse": "Zuhal",
             "diet": "sans"
         },
         {
-            "nom": "Chanya",
+            "firstname": "Chanya",
             "horse": "Quirin",
             "diet": "sans"
         },
         {
-            "nom": "Keona",
+            "firstname": "Keona",
             "horse": "Timéa",
             "diet": "veggie"
         },
         {
-            "nom": "Mariska",
+            "firstname": "Mariska",
             "horse": "Tahys",
             "diet": "sans"
         },
         {
-            "nom": "Anne-Bérangère",
+            "firstname": "Anne-Bérangère",
             "horse": "Naïka",
             "diet": "sans"
         }
