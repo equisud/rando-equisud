@@ -1,16 +1,15 @@
 {
-    "start": "2022-06-15",
-    "duration": 6,
-    "treck": "Haute-Ariège",
+    "period": "14/05 au 21/05",
+    "title": "Haure-Ariège",
     "riders": [{
-            "fistname": "Morwenna",
+            "firstname": "Morwenna",
             "horse": "Houaida",
             "diet": "sans"
         },
         {
             "firstname": "Era",
             "horse": "Wilna",
-            "diet": "sans"
+            "diet": "veggie"
         },
         {
             "firstname": "Zdenka",

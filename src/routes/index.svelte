@@ -1,30 +1,31 @@
 <script context="module">
   export async function load() {
-    try {
-      const Post = await import(
-        /* @vite-ignore */ "$lib/_data/2022/1-week.json"
-      );
-      return {
-        props: {
-          treck: Post.default
-        }
-      };
-    } catch (e) {
-      return {
-        props: {
-          treck: {
-            headling: "404",
-            content: "Page not found"
-          }
-        }
-      };
+    const jsonUrl = "../lib/_data/2022/";
+
+    async function importData(url) {
+      try {
+        const Post = await import(/* @vite-ignore */ url);
+        return Post.default;
+      } catch (e) {
+        return {
+          headling: "404",
+          content: "Page not found"
+        };
+      }
     }
+    const trecks = [
+      await importData(jsonUrl + "128-week.json"),
+      await importData(jsonUrl + "2-week.json"),
+      await importData(jsonUrl + "3-week.json")
+    ];
+
+    return { props: { trecks: trecks } };
   }
 </script>
 
 <script>
   import Treck from "$lib/Treck.svelte";
-  export let treck;
+  export let trecks;
 </script>
 
 <svelte:head>
@@ -35,13 +36,8 @@
 
 <section>
   <div class="grid">
-    <Treck {treck} />
-    <Treck {treck} />
-    <Treck {treck} />
-  </div>
-  <div class="grid">
-    <Treck {treck} />
-    <Treck {treck} />
-    <Treck {treck} />
+    {#each trecks as treck}
+      <Treck {treck} />
+    {/each}
   </div>
 </section>
