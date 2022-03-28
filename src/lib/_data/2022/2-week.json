@@ -1,0 +1,30 @@
+{
+    "period": "14/05 au 21/05",
+    "title": "Haure-Ariège",
+    "riders": [{
+            "firstname": "Morwenna",
+            "horse": "Houaida",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Era",
+            "horse": "Wilna",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Zdenka",
+            "horse": "Cloee",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Gustine",
+            "horse": "Aissa",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Khalyssa",
+            "horse": "Olaia",
+            "diet": "sans"
+        }
+    ]
+}

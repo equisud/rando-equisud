@@ -1,0 +1,31 @@
+{
+
+    "period": "09/05 au 15/05",
+    "title": "Transhumance",
+    "riders": [{
+            "firstname": "Zohre",
+            "horse": "Zuhal",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Chanya",
+            "horse": "Quirin",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Keona",
+            "horse": "Timéa",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Mariska",
+            "horse": "Tahys",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Anne-Bérangère",
+            "horse": "Naïka",
+            "diet": "sans"
+        }
+    ]
+}

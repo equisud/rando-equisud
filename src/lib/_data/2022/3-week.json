@@ -1,0 +1,30 @@
+{
+    "period": "21/05 au 28/05",
+    "title": "Méditerrannée",
+    "riders": [{
+            "firstname": "Morwenna",
+            "horse": "Houaida",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Era",
+            "horse": "Wilna",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Zdenka",
+            "horse": "Cloee",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Gustine",
+            "horse": "Aissa",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Khalyssa",
+            "horse": "Olaia",
+            "diet": "sans"
+        }
+    ]
+}

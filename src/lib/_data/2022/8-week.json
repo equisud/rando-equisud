@@ -1,0 +1,31 @@
+{
+    "period": "07/07 au 14/08",
+
+    "title": "Capcir",
+    "riders": [{
+            "firstname": "Morwenna",
+            "horse": "Houaida",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Era",
+            "horse": "Wilna",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Zdenka",
+            "horse": "Cloee",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Gustine",
+            "horse": "Aissa",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Khalyssa",
+            "horse": "Olaia",
+            "diet": "sans"
+        }
+    ]
+}
