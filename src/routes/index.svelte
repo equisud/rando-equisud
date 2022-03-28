@@ -1,25 +1,36 @@
 <script context="module">
   export async function load() {
-    const jsonUrl = "../lib/_data/2022/";
+    const jsonPath = {
+      path: "../lib/_data/2022/",
+      filenameSuffixe: "-week.json"
+    };
 
-    async function importData(url) {
-      try {
-        const Post = await import(/* @vite-ignore */ url);
-        return Post.default;
-      } catch (e) {
-        return {
-          headling: "404",
-          content: "Page not found"
-        };
+    async function getTrecksData() {
+      async function importData(path) {
+        try {
+          const Post = await import(/* @vite-ignore */ path);
+          return Post.default;
+        } catch (e) {
+          return {
+            headling: "404",
+            content: "Page not found"
+          };
+        }
       }
-    }
-    const trecks = [
-      await importData(jsonUrl + "128-week.json"),
-      await importData(jsonUrl + "2-week.json"),
-      await importData(jsonUrl + "3-week.json")
-    ];
 
-    return { props: { trecks: trecks } };
+      const weeksNumber = 35;
+      const trecks = [];
+
+      for (let i = 1; i <= weeksNumber; i++) {
+        trecks.push(
+          await importData(jsonPath.path + i + jsonPath.filenameSuffixe)
+        );
+      }
+
+      return trecks;
+    }
+
+    return { props: { trecks: await getTrecksData() } };
   }
 </script>
 
@@ -27,6 +38,12 @@
   import Treck from "$lib/Treck.svelte";
   export let trecks;
 </script>
+
+<style>
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  }
+</style>
 
 <svelte:head>
   <title>Equisud riding 2022</title>
