@@ -1,6 +1,6 @@
 <script>
   export let riders;
-  const ridersForceArray = Array.isArray(riders) || [];
+  const ridersForceArray = Array.isArray(riders) ? riders : [];
 </script>
 
 {#if ridersForceArray.length}
