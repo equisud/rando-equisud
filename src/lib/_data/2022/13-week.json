@@ -1,0 +1,31 @@
+{
+    "period": "07/05 au 14/05",
+
+    "title": "Haute-Ariège",
+    "riders": [{
+            "firstname": "Morwenna",
+            "horse": "Houaida",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Era",
+            "horse": "Wilna",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Zdenka",
+            "horse": "Cloee",
+            "diet": "veggie"
+        },
+        {
+            "firstname": "Gustine",
+            "horse": "Aissa",
+            "diet": "sans"
+        },
+        {
+            "firstname": "Khalyssa",
+            "horse": "Olaia",
+            "diet": "sans"
+        }
+    ]
+}
