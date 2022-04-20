@@ -4,26 +4,56 @@
     "title": "Transhumance",
     "riders": [{
             "firstname": "Zohre",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Zuhal",
             "diet": "sans"
         },
         {
             "firstname": "Chanya",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Quirin",
             "diet": "sans"
         },
         {
             "firstname": "Keona",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Timéa",
             "diet": "veggie"
         },
         {
             "firstname": "Mariska",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Tahys",
             "diet": "sans"
         },
         {
             "firstname": "Anne-Bérangère",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Naïka",
             "diet": "sans"
         }

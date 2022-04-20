@@ -3,26 +3,56 @@
     "title": "Capcir",
     "riders": [{
             "firstname": "Morwenna",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Houaida",
             "diet": "sans"
         },
         {
             "firstname": "Era",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Wilna",
             "diet": "sans"
         },
         {
             "firstname": "Zdenka",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Cloee",
             "diet": "veggie"
         },
         {
             "firstname": "Gustine",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Aissa",
             "diet": "sans"
         },
         {
             "firstname": "Khalyssa",
+            "gender": "F",
+            "age": 32,
+            "weight": 80,
+            "relationship": true,
+            "arrival": "Mont-Louis 17/07 à 11h",
+            "country": "FR",
             "horse": "Olaia",
             "diet": "sans"
         }
