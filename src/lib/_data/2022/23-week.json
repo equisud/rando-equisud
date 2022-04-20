@@ -3,9 +3,11 @@
 
     "title": "Haute-Ariège",
     "riders": [{
+            "booking": "validé",
             "firstname": "Morwenna",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
@@ -14,9 +16,11 @@
             "diet": "sans"
         },
         {
+            "booking": "validé",
             "firstname": "Era",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
@@ -25,9 +29,11 @@
             "diet": "sans"
         },
         {
+            "booking": "validé",
             "firstname": "Zdenka",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
@@ -36,9 +42,11 @@
             "diet": "veggie"
         },
         {
+            "booking": "validé",
             "firstname": "Gustine",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
@@ -47,9 +55,11 @@
             "diet": "sans"
         },
         {
+            "booking": "validé",
             "firstname": "Khalyssa",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",

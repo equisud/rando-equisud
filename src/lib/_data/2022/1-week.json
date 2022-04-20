@@ -3,59 +3,69 @@
     "period": "09/05 au 15/05",
     "title": "Transhumance",
     "riders": [{
+            "booking": "validé",
             "firstname": "Zohre",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
-            "relationship": true,
+            "relationship": false,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Zuhal",
-            "diet": "sans"
+            "diet": "sans lactose"
         },
         {
+            "booking": "validé",
             "firstname": "Chanya",
             "gender": "F",
             "age": 32,
-            "weight": 80,
+            "height": 1.80,
+            "weight": 90,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Quirin",
-            "diet": "sans"
+            "diet": "vegan"
         },
         {
+            "booking": "validé",
             "firstname": "Keona",
             "gender": "F",
             "age": 32,
-            "weight": 80,
+            "height": 1.60,
+            "weight": 60,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "NL",
             "horse": "Timéa",
             "diet": "veggie"
         },
         {
+            "booking": "option",
             "firstname": "Mariska",
-            "gender": "F",
+            "gender": "M",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
-            "relationship": true,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "relationship": false,
+            "arrival": "Latour 17/07 à 11h",
+            "country": "BE",
             "horse": "Tahys",
             "diet": "sans"
         },
         {
+            "booking": "validé",
             "firstname": "Anne-Bérangère",
             "gender": "F",
             "age": 32,
+            "height": 1.80,
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Naïka",
-            "diet": "sans"
+            "diet": "veggie"
         }
     ]
 }
