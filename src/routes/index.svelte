@@ -35,7 +35,7 @@
 </script>
 
 <script>
-  import Treck from "$lib/Treck.svelte";
+  import TreckTour from "$lib/TreckTour.svelte";
   export let trecks;
 </script>
 
@@ -49,12 +49,12 @@
   <title>Equisud riding 2022</title>
 </svelte:head>
 
-<h1>Equisud riding 2022</h1>
+<h1>Equisud riding 2022 - Tour Operator</h1>
 
 <section>
   <div class="grid">
     {#each trecks as treck}
-      <Treck {treck} />
+      <TreckTour {treck} />
     {/each}
   </div>
 </section>
