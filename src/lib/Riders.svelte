@@ -17,6 +17,7 @@
         <li>Relationship: {rider.relationship || '?'}</li>
         <li>Horse: {rider.horse || '?'}</li>
       </ul>
+      <p>Arrival: {rider.arrival || '?'}</p>
     </details>
   {/each}
 {/if}
