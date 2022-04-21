@@ -46,7 +46,7 @@
 </style>
 
 <svelte:head>
-  <title>Equisud riding 2022</title>
+  <title>Equisud riding 2022 - Tour Operator</title>
 </svelte:head>
 
 <h1>Equisud riding 2022 - Tour Operator</h1>

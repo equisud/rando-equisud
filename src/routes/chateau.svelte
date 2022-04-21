@@ -49,7 +49,9 @@
   <title>Equisud riding 2022</title>
 </svelte:head>
 
-<h1>Equisud riding 2022</h1>
+<h1>
+  <a href="/">Equisud riding 2022</a>
+</h1>
 
 <section>
   <div class="grid">
