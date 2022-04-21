@@ -2,11 +2,7 @@
   import Riders from "$lib/Riders.svelte";
   export let treck;
 
-  const countrySummary = getCountrySummary(treck.riders);
-
   function getCountrySummary(riders) {
-    if (!riders) return [];
-
     const summary = {};
 
     for (const rider of riders.map(rider => rider.country)) {
@@ -19,6 +15,12 @@
 
     return Object.entries(summary);
   }
+
+  const countBooking = riders =>
+    riders.filter(rider => rider.status === "booking").length;
+
+  const countOption = riders =>
+    riders.filter(rider => rider.status === "option").length;
 </script>
 
 <article>
@@ -26,10 +28,17 @@
     <h4>{treck.period || '?'}</h4>
     <h6>{treck.title || '?'}</h6>
   </header>
-  <h6>Countries</h6>
-  <ul>
-    {#each countrySummary as country}
-      <li>{country[0]}: {country[1]}</li>
-    {/each}
-  </ul>
+  {#if treck.riders}
+    <strong>Booking</strong>
+    <ul>
+      <li>Booking: {countBooking(treck.riders)}</li>
+      <li>Option: {countOption(treck.riders)}</li>
+    </ul>
+    <strong>Countries</strong>
+    <ul>
+      {#each getCountrySummary(treck.riders) as country}
+        <li>{country[0]}: {country[1]}</li>
+      {/each}
+    </ul>
+  {/if}
 </article>
