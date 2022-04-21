@@ -3,7 +3,7 @@
 
     "title": "Haute-Ariège",
     "riders": [{
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Morwenna",
             "gender": "F",
             "age": 32,
@@ -16,7 +16,7 @@
             "diet": "sans"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Era",
             "gender": "F",
             "age": 32,
@@ -29,7 +29,7 @@
             "diet": "sans"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Zdenka",
             "gender": "F",
             "age": 32,
@@ -42,7 +42,7 @@
             "diet": "veggie"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Gustine",
             "gender": "F",
             "age": 32,
@@ -55,7 +55,7 @@
             "diet": "sans"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Khalyssa",
             "gender": "F",
             "age": 32,

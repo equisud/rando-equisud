@@ -3,7 +3,7 @@
     "period": "09/05 au 15/05",
     "title": "Transhumance",
     "riders": [{
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Zohre",
             "gender": "F",
             "age": 32,
@@ -16,7 +16,7 @@
             "diet": "sans lactose"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Chanya",
             "gender": "F",
             "age": 32,
@@ -29,7 +29,7 @@
             "diet": "vegan"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Keona",
             "gender": "F",
             "age": 32,
@@ -42,7 +42,7 @@
             "diet": "veggie"
         },
         {
-            "booking": "option",
+            "status": "option",
             "firstname": "Mariska",
             "gender": "M",
             "age": 32,
@@ -55,7 +55,7 @@
             "diet": "sans"
         },
         {
-            "booking": "validé",
+            "status": "booking",
             "firstname": "Anne-Bérangère",
             "gender": "F",
             "age": 32,
