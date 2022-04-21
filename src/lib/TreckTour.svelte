@@ -17,10 +17,10 @@
   }
 
   const countBooking = riders =>
-    riders.filter(rider => rider.status === "booking").length;
+    +riders.filter(rider => rider.status === "booking").length;
 
   const countOption = riders =>
-    riders.filter(rider => rider.status === "option").length;
+    +riders.filter(rider => rider.status === "option").length;
 </script>
 
 <article>
@@ -33,6 +33,9 @@
     <ul>
       <li>Booking: {countBooking(treck.riders)}</li>
       <li>Option: {countOption(treck.riders)}</li>
+      <li>
+        Free: {8 - (countOption(treck.riders) + countBooking(treck.riders))}
+      </li>
     </ul>
     <strong>Countries</strong>
     <ul>
