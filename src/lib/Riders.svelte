@@ -9,6 +9,7 @@
     <details>
       <summary>{rider.firstname || '?'} - ({rider.country || '?'})</summary>
       <ul>
+        <li>Status: {rider.status || '?'}</li>
         <li>Diet: {rider.diet || '?'}</li>
         <li>Age: {rider.age || '?'}</li>
         <li>Weight: {rider.weight || '?'}</li>
