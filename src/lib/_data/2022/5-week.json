@@ -2,7 +2,7 @@
     "period": "04/06 au 11/06",
     "title": "Capcir",
     "riders": [{
-            "status": "booking",
+            "status": "option",
             "firstname": "Morwenna",
             "gender": "F",
             "age": 32,
@@ -28,7 +28,7 @@
             "diet": "sans"
         },
         {
-            "status": "booking",
+            "status": "option",
             "firstname": "Zdenka",
             "gender": "F",
             "age": 32,
@@ -36,7 +36,7 @@
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "JP",
             "horse": "Cloee",
             "diet": "veggie"
         },

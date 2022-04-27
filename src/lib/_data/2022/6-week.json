@@ -3,7 +3,7 @@
 
     "title": "Haute-Ariège",
     "riders": [{
-            "status": "booking",
+            "status": "option",
             "firstname": "Morwenna",
             "gender": "F",
             "age": 32,
@@ -11,12 +11,12 @@
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "BE",
             "horse": "Houaida",
             "diet": "sans"
         },
         {
-            "status": "booking",
+            "status": "option",
             "firstname": "Era",
             "gender": "F",
             "age": 32,
@@ -24,12 +24,12 @@
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "BE",
             "horse": "Wilna",
             "diet": "sans"
         },
         {
-            "status": "booking",
+            "status": "option",
             "firstname": "Zdenka",
             "gender": "F",
             "age": 32,
@@ -37,7 +37,7 @@
             "weight": 80,
             "relationship": true,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "CN",
             "horse": "Cloee",
             "diet": "veggie"
         },
