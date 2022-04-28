@@ -49,6 +49,8 @@
   <title>Equisud riding 2022 - Tour Operator</title>
 </svelte:head>
 
+<a href="/chateau">admin</a>
+
 <h1>Equisud riding 2022 - Tour Operator</h1>
 
 <section>

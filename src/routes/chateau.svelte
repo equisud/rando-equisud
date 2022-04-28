@@ -48,10 +48,8 @@
 <svelte:head>
   <title>Equisud riding 2022</title>
 </svelte:head>
-
-<h1>
-  <a href="/">Equisud riding 2022</a>
-</h1>
+<a href="/">home</a>
+<h1>Equisud riding 2022</h1>
 
 <section>
   <div class="grid">
