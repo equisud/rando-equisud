@@ -4,20 +4,48 @@
 </script>
 
 {#if ridersForceArray.length}
-  <h5>Riders</h5>
-  {#each ridersForceArray as rider}
-    <details>
-      <summary>{rider.firstname || '?'} - ({rider.country || '?'})</summary>
-      <ul>
-        <li>Status: {rider.status || '?'}</li>
-        <li>Diet: {rider.diet || '?'}</li>
-        <li>Age: {rider.age || '?'}</li>
-        <li>Weight: {rider.weight || '?'}</li>
-        <li>Height: {rider.height || '?'}</li>
-        <li>Relationship: {rider.relationship || '?'}</li>
-        <li>Horse: {rider.horse || '?'}</li>
-      </ul>
-      <p>Arrival: {rider.arrival || '?'}</p>
-    </details>
-  {/each}
+  <details>
+    <summary>
+      <strong>Riders</strong>
+    </summary>
+    {#each ridersForceArray as rider}
+      <details>
+        <summary>{rider.firstname || '?'} - ({rider.country || '?'})</summary>
+        <ul>
+          <li>
+            <i>Status</i>
+            : {rider.status || '?'}
+          </li>
+          <li>
+            <i>Diet</i>
+            : {rider.diet || '?'}
+          </li>
+          <li>
+            <i>Age</i>
+            : {rider.age || '?'}
+          </li>
+          <li>
+            <i>Weight</i>
+            : {rider.weight || '?'}
+          </li>
+          <li>
+            <i>Height</i>
+            : {rider.height || '?'}
+          </li>
+          <li>
+            <i>Relationship</i>
+            : {rider.relationship || '?'}
+          </li>
+          <li>
+            <i>Horse</i>
+            : {rider.horse || '?'}
+          </li>
+        </ul>
+        <p>
+          <i>Arrival</i>
+          : {rider.arrival || '?'}
+        </p>
+      </details>
+    {/each}
+  </details>
 {/if}
