@@ -1,6 +1,5 @@
 {
-
-    "period": "09/05 au 15/05",
+    "period": "05/09 to 05/15",
     "title": "Transhumance",
     "riders": [{
             "status": "booking",
@@ -9,7 +8,7 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "single",
+            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Zuhal",
@@ -22,7 +21,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 90,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Quirin",
@@ -35,7 +33,6 @@
             "age": 32,
             "height": 1.60,
             "weight": 60,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "NL",
             "horse": "Timéa",
@@ -48,7 +45,7 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "single",
+            "bed": "double",
             "arrival": "Latour 17/07 à 11h",
             "country": "BE",
             "horse": "Tahys",
@@ -61,7 +58,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "horse": "Naïka",
@@ -75,7 +71,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "diet": "sans"
@@ -87,7 +82,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "diet": "sans"
@@ -99,7 +93,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "diet": "veggie"
@@ -111,7 +104,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "diet": "sans"
@@ -123,7 +115,6 @@
             "age": 32,
             "height": 1.80,
             "weight": 80,
-            "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
             "diet": "sans"

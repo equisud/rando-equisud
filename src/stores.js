@@ -12,5 +12,20 @@ const trecksContents = await Promise.all(Object.entries(jsons).map(async([path, 
 }))
 
 export const trecks = readable(null, (set) => {
-    set(trecksContents)
+
+    const trecksContentsSortByDate = trecksContents.sort((a, b) => {
+
+        function extractDate(period) {
+            const year = new Date().getFullYear()
+            const mmdd = period.match(/^[0-9]*\/[0-9]*/)[0]
+
+            return new Date(`${year}/${mmdd}`)
+        }
+
+        return extractDate(a.period) - extractDate(b.period)
+
+    })
+
+
+    set(trecksContentsSortByDate)
 })
