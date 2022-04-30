@@ -5,7 +5,7 @@
     "riders": [{
             "status": "booking",
             "firstname": "Zohre",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -18,7 +18,7 @@
         {
             "status": "booking",
             "firstname": "Chanya",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 90,
@@ -31,7 +31,7 @@
         {
             "status": "booking",
             "firstname": "Keona",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.60,
             "weight": 60,
@@ -44,7 +44,7 @@
         {
             "status": "option",
             "firstname": "Mariska",
-            "gender": "M",
+            "gender": "man",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -57,7 +57,7 @@
         {
             "status": "booking",
             "firstname": "Anne-Bérangère",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,

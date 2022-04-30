@@ -4,8 +4,8 @@
     "title": "Haute-Ariège",
     "riders": [{
             "status": "booking",
-            "firstname": "Morwenna",
-            "gender": "F",
+            "firstname": "Morwen",
+            "gender": "man",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -18,7 +18,7 @@
         {
             "status": "booking",
             "firstname": "Era",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -31,7 +31,7 @@
         {
             "status": "booking",
             "firstname": "Zdenka",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -44,7 +44,7 @@
         {
             "status": "booking",
             "firstname": "Gustine",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,
@@ -57,7 +57,7 @@
         {
             "status": "booking",
             "firstname": "Khalyssa",
-            "gender": "F",
+            "gender": "woman",
             "age": 32,
             "height": 1.80,
             "weight": 80,
