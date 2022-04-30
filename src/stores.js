@@ -23,9 +23,7 @@ export const trecks = readable(null, (set) => {
         }
 
         return extractDate(a.period) - extractDate(b.period)
-
     })
-
 
     set(trecksContentsSortByDate)
 })
