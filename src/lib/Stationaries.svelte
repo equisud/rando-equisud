@@ -14,10 +14,10 @@
       <li>{gender[0]}: {gender[1]}</li>
     {/each}
   </ul>
-  <p>
-    <strong>Double beds</strong>
-    : {getDoubleBeds(stationariesForceArray)}
-  </p>
+  <strong>Hosting</strong>
+  <ul>
+    <li>Double beds: {getDoubleBeds(stationariesForceArray)}</li>
+  </ul>
   <strong>Diets</strong>
   <ul>
     {#each getDietSummary(stationariesForceArray) as diet}

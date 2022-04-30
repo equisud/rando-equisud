@@ -1,6 +1,7 @@
 {
     "period": "05/09 to 05/15",
     "title": "Transhumance",
+    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
     "riders": [{
             "status": "booking",
             "firstname": "Zohre",

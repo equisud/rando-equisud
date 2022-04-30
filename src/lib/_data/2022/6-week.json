@@ -2,6 +2,7 @@
     "period": "05/07 to 05/14",
 
     "title": "Haute-Ariège",
+    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
     "riders": [{
             "status": "option",
             "firstname": "Morwen",

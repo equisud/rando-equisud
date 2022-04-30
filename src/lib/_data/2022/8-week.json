@@ -2,6 +2,7 @@
     "period": "07/07 to 08/14",
 
     "title": "Capcir",
+    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
     "riders": [{
             "status": "booking",
             "firstname": "Morwen",

@@ -1,6 +1,7 @@
 {
     "period": "05/21 to 05/28",
     "title": "Méditerrannée",
+    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
     "riders": [{
             "status": "booking",
             "firstname": "Morwen",
