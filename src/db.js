@@ -1,7 +1,7 @@
-export function getCountrySummary(riders) {
+function getSummary(riders, field) {
     const summary = {};
 
-    for (const rider of riders.map(rider => rider.country)) {
+    for (const rider of riders.map(rider => rider[field])) {
         if (summary[rider]) {
             summary[rider] += 1;
         } else {
@@ -12,19 +12,8 @@ export function getCountrySummary(riders) {
     return Object.entries(summary);
 }
 
-export function getGenderSummary(riders) {
-    const summary = {};
-
-    for (const rider of riders.map(rider => rider.gender)) {
-        if (summary[rider]) {
-            summary[rider] += 1;
-        } else {
-            summary[rider] = 1;
-        }
-    }
-
-    return Object.entries(summary);
-}
+export const getCountrySummary = (riders) => getSummary(riders, 'country')
+export const getGenderSummary = (riders) => getSummary(riders, 'gender')
 
 export const countBooking = riders =>
     +riders.filter(rider => rider.status === "booking").length;
