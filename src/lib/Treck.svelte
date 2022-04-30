@@ -1,5 +1,5 @@
 <script>
-  import { getGenderSummary } from "../db";
+  import { getGenderSummary, getDietSummary } from "../db";
   import Riders from "$lib/Riders.svelte";
   export let treck;
 </script>
@@ -14,6 +14,12 @@
     <ul>
       {#each getGenderSummary(treck.riders) as gender}
         <li>{gender[0]}: {gender[1]}</li>
+      {/each}
+    </ul>
+    <strong>Diets</strong>
+    <ul>
+      {#each getDietSummary(treck.riders) as diet}
+        <li>{diet[0]}: {diet[1]}</li>
       {/each}
     </ul>
   {/if}

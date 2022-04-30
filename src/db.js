@@ -14,6 +14,7 @@ function getSummary(riders, field) {
 
 export const getCountrySummary = (riders) => getSummary(riders, 'country')
 export const getGenderSummary = (riders) => getSummary(riders, 'gender')
+export const getDietSummary = (riders) => getSummary(riders, 'diet')
 
 export const countBooking = riders =>
     +riders.filter(rider => rider.status === "booking").length;
