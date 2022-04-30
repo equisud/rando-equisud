@@ -1,5 +1,5 @@
 <script>
-  import { getGenderSummary, getDietSummary } from "../db";
+  import { getGenderSummary, getDietSummary, getDoubleBeds } from "../db";
   export let stationaries;
   const stationariesForceArray = Array.isArray(stationaries)
     ? stationaries
@@ -14,6 +14,10 @@
       <li>{gender[0]}: {gender[1]}</li>
     {/each}
   </ul>
+  <p>
+    <strong>Double beds</strong>
+    : {getDoubleBeds(stationariesForceArray)}
+  </p>
   <strong>Diets</strong>
   <ul>
     {#each getDietSummary(stationariesForceArray) as diet}

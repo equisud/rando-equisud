@@ -1,5 +1,5 @@
 <script>
-  import { getGenderSummary, getDietSummary } from "../db";
+  import { getGenderSummary, getDietSummary, getDoubleBeds } from "../db";
   export let riders;
   const ridersForceArray = Array.isArray(riders) ? riders : [];
 </script>
@@ -12,6 +12,10 @@
       <li>{gender[0]}: {gender[1]}</li>
     {/each}
   </ul>
+  <p>
+    <strong>Double beds</strong>
+    : {getDoubleBeds(ridersForceArray)}
+  </p>
   <strong>Diets</strong>
   <ul>
     {#each getDietSummary(ridersForceArray) as diet}
@@ -47,8 +51,8 @@
             : {rider.height || '?'}
           </li>
           <li>
-            <i>Relationship</i>
-            : {rider.relationship || '?'}
+            <i>Bed</i>
+            : {rider.bed || 'single'}
           </li>
           <li>
             <i>Horse</i>

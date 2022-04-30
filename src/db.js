@@ -1,20 +1,21 @@
-function getSummary(riders, field) {
+function getSummary(customers, field) {
     const summary = {};
 
-    for (const rider of riders.map(rider => rider[field])) {
-        if (summary[rider]) {
-            summary[rider] += 1;
+    for (const customer of customers.map(customer => customer[field])) {
+        if (summary[customer]) {
+            summary[customer] += 1;
         } else {
-            summary[rider] = 1;
+            summary[customer] = 1;
         }
     }
 
     return Object.entries(summary);
 }
 
-export const getCountrySummary = (riders) => getSummary(riders, 'country')
-export const getGenderSummary = (riders) => getSummary(riders, 'gender')
-export const getDietSummary = (riders) => getSummary(riders, 'diet')
+export const getCountrySummary = (customers) => getSummary(customers, 'country')
+export const getGenderSummary = (customers) => getSummary(customers, 'gender')
+export const getDietSummary = (customers) => getSummary(customers, 'diet')
+export const getDoubleBeds = (customers) => +customers.filter(customer => customer.bed === "double").length;
 
 export const countBooking = riders =>
     +riders.filter(rider => rider.status === "booking").length;
