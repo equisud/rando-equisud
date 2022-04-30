@@ -11,6 +11,6 @@ const trecksContents = await Promise.all(Object.entries(jsons).map(async([path, 
     return content.default
 }))
 
-export let trecks = readable(null, (set) => {
+export const trecks = readable(null, (set) => {
     set(trecksContents)
 })
