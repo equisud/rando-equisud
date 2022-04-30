@@ -1,20 +1,22 @@
 <script>
   import { getGenderSummary, getDietSummary } from "../db";
-  export let riders;
-  const ridersForceArray = Array.isArray(riders) ? riders : [];
+  export let stationaries;
+  const stationariesForceArray = Array.isArray(stationaries)
+    ? stationaries
+    : [];
 </script>
 
-{#if ridersForceArray.length}
-  <h5>Riders</h5>
+{#if stationariesForceArray.length}
+  <h5>Stationaries</h5>
   <strong>Genders</strong>
   <ul>
-    {#each getGenderSummary(ridersForceArray) as gender}
+    {#each getGenderSummary(stationariesForceArray) as gender}
       <li>{gender[0]}: {gender[1]}</li>
     {/each}
   </ul>
   <strong>Diets</strong>
   <ul>
-    {#each getDietSummary(ridersForceArray) as diet}
+    {#each getDietSummary(stationariesForceArray) as diet}
       <li>{diet[0]}: {diet[1]}</li>
     {/each}
   </ul>
@@ -22,42 +24,40 @@
     <summary>
       <strong>Details</strong>
     </summary>
-    {#each ridersForceArray as rider}
+    {#each stationariesForceArray as stationary}
       <details>
-        <summary>{rider.firstname || '?'} - ({rider.country || '?'})</summary>
+        <summary>
+          {stationary.firstname || '?'} - ({stationary.country || '?'})
+        </summary>
         <ul>
           <li>
             <i>Status</i>
-            : {rider.status || '?'}
+            : {stationary.status || '?'}
           </li>
           <li>
             <i>Diet</i>
-            : {rider.diet || '?'}
+            : {stationary.diet || '?'}
           </li>
           <li>
             <i>Age</i>
-            : {rider.age || '?'}
+            : {stationary.age || '?'}
           </li>
           <li>
             <i>Weight</i>
-            : {rider.weight || '?'}
+            : {stationary.weight || '?'}
           </li>
           <li>
             <i>Height</i>
-            : {rider.height || '?'}
+            : {stationary.height || '?'}
           </li>
           <li>
             <i>Relationship</i>
-            : {rider.relationship || '?'}
-          </li>
-          <li>
-            <i>Horse</i>
-            : {rider.horse || '?'}
+            : {stationary.relationship || '?'}
           </li>
         </ul>
         <p>
           <i>Arrival</i>
-          : {rider.arrival || '?'}
+          : {stationary.arrival || '?'}
         </p>
       </details>
     {/each}
