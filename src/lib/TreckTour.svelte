@@ -1,26 +1,7 @@
 <script>
+  import { getCountrySummary, countBooking, countOption } from "../db";
   import Riders from "$lib/Riders.svelte";
   export let treck;
-
-  function getCountrySummary(riders) {
-    const summary = {};
-
-    for (const rider of riders.map(rider => rider.country)) {
-      if (summary[rider]) {
-        summary[rider] += 1;
-      } else {
-        summary[rider] = 1;
-      }
-    }
-
-    return Object.entries(summary);
-  }
-
-  const countBooking = riders =>
-    +riders.filter(rider => rider.status === "booking").length;
-
-  const countOption = riders =>
-    +riders.filter(rider => rider.status === "option").length;
 </script>
 
 <article>
