@@ -1,6 +1,6 @@
 <script>
   import { trecks } from "../stores";
-  import TreckTour from "$lib/TreckTour.svelte";
+  import Treck from "$lib/Treck.svelte";
 </script>
 
 <style>
@@ -10,17 +10,15 @@
 </style>
 
 <svelte:head>
-  <title>Equisud riding 2022 - Tour Operator</title>
+  <title>Equisud riding 2022</title>
 </svelte:head>
-
-<a href="/chateau">admin</a>
-
-<h1>Equisud riding 2022 - Tour Operator</h1>
+<a href="/">home</a>
+<h1>Equisud riding 2022</h1>
 
 <section>
   <div class="grid">
     {#each $trecks as treck}
-      <TreckTour {treck} />
+      <Treck {treck} />
     {/each}
   </div>
 </section>
