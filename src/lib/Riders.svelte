@@ -2,26 +2,34 @@
   import { getGenderSummary, getDietSummary, getDoubleBeds } from "../db";
   export let riders;
   const ridersForceArray = Array.isArray(riders) ? riders : [];
+
+  const dietSummary = getDietSummary(ridersForceArray);
+  const doubleBeds = getDoubleBeds(ridersForceArray);
+  const genderSummary = getGenderSummary(ridersForceArray);
 </script>
 
 {#if ridersForceArray.length}
   <h5>Riders</h5>
   <strong>Genders</strong>
   <ul>
-    {#each getGenderSummary(ridersForceArray) as gender}
+    {#each genderSummary as gender}
       <li>{gender[0]}: {gender[1]}</li>
     {/each}
   </ul>
-  <strong>Hosting</strong>
-  <ul>
-    <li>Double beds: {getDoubleBeds(ridersForceArray)}</li>
-  </ul>
-  <strong>Diets</strong>
-  <ul>
-    {#each getDietSummary(ridersForceArray) as diet}
-      <li>{diet[0]}: {diet[1]}</li>
-    {/each}
-  </ul>
+  {#if doubleBeds}
+    <strong>Hosting</strong>
+    <ul>
+      <li>Double beds: {doubleBeds}</li>
+    </ul>
+  {/if}
+  {#if dietSummary.length}
+    <strong>Diets</strong>
+    <ul>
+      {#each dietSummary as diet}
+        <li>{diet[0]}: {diet[1]}</li>
+      {/each}
+    </ul>
+  {/if}
   <details>
     <summary>
       <strong>Details</strong>

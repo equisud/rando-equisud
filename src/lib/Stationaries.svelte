@@ -4,26 +4,20 @@
   const stationariesForceArray = Array.isArray(stationaries)
     ? stationaries
     : [];
+
+  const dietSummary = getDietSummary(stationariesForceArray);
 </script>
 
 {#if stationariesForceArray.length}
   <h5>Stationaries</h5>
-  <strong>Genders</strong>
-  <ul>
-    {#each getGenderSummary(stationariesForceArray) as gender}
-      <li>{gender[0]}: {gender[1]}</li>
-    {/each}
-  </ul>
-  <strong>Hosting</strong>
-  <ul>
-    <li>Double beds: {getDoubleBeds(stationariesForceArray)}</li>
-  </ul>
-  <strong>Diets</strong>
-  <ul>
-    {#each getDietSummary(stationariesForceArray) as diet}
-      <li>{diet[0]}: {diet[1]}</li>
-    {/each}
-  </ul>
+  {#if dietSummary.length}
+    <strong>Diets</strong>
+    <ul>
+      {#each dietSummary as diet}
+        <li>{diet[0]}: {diet[1]}</li>
+      {/each}
+    </ul>
+  {/if}
   <details>
     <summary>
       <strong>Details</strong>
@@ -55,8 +49,8 @@
             : {stationary.height || '?'}
           </li>
           <li>
-            <i>Relationship</i>
-            : {stationary.relationship || '?'}
+            <i>Horse</i>
+            : {stationary.horse || '?'}
           </li>
         </ul>
         <p>
