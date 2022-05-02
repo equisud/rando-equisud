@@ -1,5 +1,5 @@
 {
-    "period": "05/09 to 05/15",
+    "period": "05/05 to 05/15",
     "title": "Transhumance",
     "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
     "riders": [{
@@ -29,6 +29,18 @@
         },
         {
             "status": "booking",
+            "firstname": "Math",
+            "gender": "man",
+            "age": 22,
+            "height": 1.90,
+            "weight": 80,
+            "arrival": "Latour 17/07 à 11h",
+            "country": "SM",
+            "horse": "Poutrou",
+            "diet": "vegan"
+        },
+        {
+            "status": "booking",
             "firstname": "Keona",
             "gender": "woman",
             "age": 32,
@@ -49,8 +61,7 @@
             "bed": "double",
             "arrival": "Latour 17/07 à 11h",
             "country": "BE",
-            "horse": "Tahys",
-            "diet": "sans"
+            "horse": "Tahys"
         },
         {
             "status": "booking",
@@ -74,7 +85,7 @@
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
-            "diet": "sans"
+            "horse": "Naïka"
         },
         {
             "status": "booking",
@@ -84,8 +95,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -95,8 +105,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "veggie"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -106,8 +115,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -117,8 +125,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         }
     ]
 }

@@ -13,8 +13,7 @@
             "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
-            "horse": "Houaida",
-            "diet": "sans"
+            "horse": "Houaida"
         },
         {
             "status": "booking",
@@ -26,8 +25,7 @@
             "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
-            "horse": "Wilna",
-            "diet": "sans"
+            "horse": "Wilna"
         },
         {
             "status": "booking",
@@ -50,8 +48,7 @@
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
-            "horse": "Aissa",
-            "diet": "sans"
+            "horse": "Aissa"
         },
         {
             "status": "booking",
@@ -62,8 +59,7 @@
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
             "country": "FR",
-            "horse": "Olaia",
-            "diet": "sans"
+            "horse": "Olaia"
         }
     ],
     "stationaries": [{
@@ -75,8 +71,7 @@
             "weight": 80,
             "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -87,8 +82,7 @@
             "weight": 80,
             "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -109,8 +103,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         },
         {
             "status": "booking",
@@ -120,8 +113,7 @@
             "height": 1.80,
             "weight": 80,
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "sans"
+            "country": "FR"
         }
     ]
 }
