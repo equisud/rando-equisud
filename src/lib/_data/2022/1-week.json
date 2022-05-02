@@ -7,13 +7,13 @@
             "firstname": "Zohre",
             "gender": "woman",
             "age": 32,
-            "height": 1.80,
+            "height": 1.82,
             "weight": 80,
             "bed": "double",
             "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "country": "LI",
             "horse": "Zuhal",
-            "diet": "sans lactose"
+            "diet": "flexitarien"
         },
         {
             "status": "booking",
