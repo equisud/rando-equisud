@@ -1,7 +1,9 @@
 function getSummary(customers, field) {
     const summary = {};
 
-    for (const customer of customers.map(customer => customer[field])) {
+    const relevantCustomers = customers.filter(customer => customer[field])
+
+    for (const customer of relevantCustomers.map(customer => customer[field])) {
         if (summary[customer]) {
             summary[customer] += 1;
         } else {

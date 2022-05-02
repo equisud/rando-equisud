@@ -1,6 +1,8 @@
 <script>
-  import { trecks } from "../stores";
+  import { getTrecks } from "../stores";
   import Treck from "$lib/Treck.svelte";
+
+  let trecks = getTrecks();
 </script>
 
 <style>
