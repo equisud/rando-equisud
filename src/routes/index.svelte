@@ -3,6 +3,8 @@
   import TreckTour from "$lib/TreckTour.svelte";
 
   let trecks = getTrecks();
+
+  const year = new Date().getFullYear();
 </script>
 
 <style>
@@ -12,12 +14,12 @@
 </style>
 
 <svelte:head>
-  <title>Equisud riding 2022 - Tour Operator</title>
+  <title>Equisud riding {year} - Tour Operator</title>
 </svelte:head>
 
-<a href="/chateau">admin</a>
+<a href="/chateau">.</a>
 
-<h1>Equisud riding 2022 - Tour Operator</h1>
+<h1>Equisud riding {year} - Tour Operator</h1>
 
 <section>
   <div class="grid">
