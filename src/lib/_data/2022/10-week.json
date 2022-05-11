@@ -2,7 +2,7 @@
     "period": "05/14 to 05/21",
 
     "title": "capcir",
-    "locations": ["equisud", "Sansa", "espousouille", "bouillouses", "bouillouses", "equisud", ],
+    "locations": ["equisud", "Sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
             "status": "booking",
             "firstname": "Hannah",
