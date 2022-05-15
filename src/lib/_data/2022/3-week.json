@@ -1,45 +1,10 @@
 {
-    "period": "06/04 to 06/11",
-    "title": "Capcir",
+    "period": "06/11 to 06/18",
+    "title": "Andorra",
     "locations": [],
     "riders": [{
-            "status": "booking",
-            "firstname": "marloes",
-            "gender": "woman",
-            "age": 29,
-            "height": 160,
-            "weight": 58,
-            "country": "NL"
-        },
-        {
-            "status": "booking",
-            "firstname": "tamar",
-            "gender": "woman",
-            "age": 28,
-            "height": 164,
-            "weight": 70,
-            "country": "NL"
-        },
-        {
-            "status": "booking",
-            "firstname": "roxane",
-            "gender": "woman",
-            "age": 70,
-            "height": 168,
-            "weight": 80,
-            "arrival": "avion",
-            "country": "NL"
-        },
-        {
-            "status": "booking",
-            "firstname": "jolanda",
-            "gender": "woman",
-            "age": 32,
-            "height": 163,
-            "weight": 54,
-            "arrival": "avion",
-            "country": "DE"
-        }
-    ],
+        "status": "booking",
+        "country": "FR"
+    }],
     "stationaries": []
 }
