@@ -20,21 +20,17 @@
 
 <h2>Future treck</h2>
 <section>
-  <div class="grid">
-    {#each $trecks as treck}
-      {#if !treck.old}
-        <Treck {treck} />
-      {/if}
-    {/each}
-  </div>
+  {#each $trecks as treck}
+    {#if !treck.old}
+      <Treck {treck} />
+    {/if}
+  {/each}
 </section>
 <h2>Past treck</h2>
 <section>
-  <div class="grid">
-    {#each $trecks as treck}
-      {#if treck.old}
-        <Treck {treck} />
-      {/if}
-    {/each}
-  </div>
+  {#each $trecks as treck}
+    {#if treck.old}
+      <Treck {treck} />
+    {/if}
+  {/each}
 </section>
