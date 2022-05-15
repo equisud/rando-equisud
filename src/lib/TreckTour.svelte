@@ -7,7 +7,7 @@
 <article>
   <header>
     <h4>{treck.period || '?'}</h4>
-    <h6>{treck.title || '?'}</h6>
+    <h4>{treck.title || '?'}</h4>
   </header>
   <body>
     {#if treck.riders}

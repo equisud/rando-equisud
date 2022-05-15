@@ -27,7 +27,7 @@
   {/each}
 </section>
 <h2>Past treck</h2>
-<section>
+<section class="past-treck">
   {#each $trecks as treck}
     {#if treck.old}
       <Treck {treck} />
