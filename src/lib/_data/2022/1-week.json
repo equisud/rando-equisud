@@ -1,19 +1,17 @@
 {
-    "period": "05/05 to 05/15",
+    "period": "05/07 to 05/14",
     "title": "Transhumance",
-    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
+    "locations": ["Cantegrill", "Roquefixade", "Montsegur", "Camurac", "Mijanes", "Equisud"],
     "riders": [{
             "status": "booking",
-            "firstname": "Zohre",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "bed": "double",
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Zuhal",
-            "diet": "sans lactose"
+            "firstname": "stephane",
+            "gender": "man",
+            "age": 54,
+            "height": 1.82,
+            "weight": 85,
+            "arrival": "done",
+            "country": "fr",
+            "horse": "Zuhal"
         },
         {
             "status": "booking",

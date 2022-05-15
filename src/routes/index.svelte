@@ -18,7 +18,6 @@
 </svelte:head>
 
 <a href="/chateau">.</a>
-
 <h1>Equisud riding {year} - Tour Operator</h1>
 <h2>Future trecks</h2>
 <section>

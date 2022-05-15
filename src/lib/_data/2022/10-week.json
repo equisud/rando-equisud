@@ -1,115 +1,54 @@
 {
-    "period": "05/07 to 05/14",
+    "period": "05/14 to 05/21",
 
-    "title": "Haute-Ariège",
-    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
+    "title": "capcir",
+    "locations": ["equisud", "Sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
             "status": "booking",
-            "firstname": "Morwen",
-            "gender": "man",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "firstname": "Hannah",
+            "gender": "woman",
+            "age": 24,
+            "height": 175,
+            "weight": 63,
+            "arrival": "latour de carol 15 may 16h40",
+            "country": "DE",
+            "diet": "veggie",
             "horse": "Houaida"
         },
         {
             "status": "booking",
-            "firstname": "Era",
+            "firstname": "anja",
             "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "age": 25,
+            "height": 167,
+            "weight": 62,
+            "arrival": "latour de carol 15 may 16h40",
+            "country": "DE",
+            "diet": "veggie",
             "horse": "Wilna"
         },
         {
             "status": "booking",
-            "firstname": "Zdenka",
+            "firstname": "sara",
             "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Cloee",
-            "diet": "veggie"
+            "age": 28,
+            "height": 170,
+            "weight": 70,
+            "arrival": "voiture",
+            "country": "DE",
+            "horse": "Cloee"
         },
         {
             "status": "booking",
-            "firstname": "Gustin",
-            "gender": "man",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
+            "firstname": "celine",
+            "gender": "woman",
+            "age": 30,
+            "height": 170,
+            "weight": 68,
+            "arrival": "voiture",
+            "country": "DE",
             "horse": "Aissa"
-        },
-        {
-            "status": "booking",
-            "firstname": "Khalyssa",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Olaia"
         }
     ],
-    "stationaries": [{
-            "status": "booking",
-            "firstname": "Morwen",
-            "gender": "man",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Era",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Zdenka",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "veggie"
-        },
-        {
-            "status": "booking",
-            "firstname": "Gustine",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Khalyssa",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        }
-    ]
+    "stationaries": []
 }
