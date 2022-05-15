@@ -3,8 +3,43 @@
     "title": "Andorra",
     "locations": [],
     "riders": [{
-        "status": "booking",
-        "country": "FR"
-    }],
+            "status": "booking",
+            "firstname": "marloes",
+            "gender": "woman",
+            "age": 29,
+            "height": 160,
+            "weight": 58,
+            "country": "DE"
+        },
+        {
+            "status": "booking",
+            "firstname": "tamar",
+            "gender": "woman",
+            "age": 28,
+            "height": 164,
+            "weight": 70,
+            "country": "DE"
+        },
+        {
+            "status": "booking",
+            "firstname": "roxane",
+            "gender": "woman",
+            "age": 70,
+            "height": 168,
+            "weight": 80,
+            "arrival": "avion",
+            "country": "DE"
+        },
+        {
+            "status": "booking",
+            "firstname": "jolanda",
+            "gender": "woman",
+            "age": 32,
+            "height": 163,
+            "weight": 54,
+            "arrival": "avion",
+            "country": "DE"
+        }
+    ],
     "stationaries": []
 }

@@ -1,29 +1,10 @@
 {
-    "period": "06/25 to 07/02",
-    "title": "Haute Ariège",
+    "period": "06/11 to 06/18",
+    "title": "Andorra",
     "locations": [],
     "riders": [{
-            "status": "booking",
-            "country": "DE"
-        },
-        {
-            "status": "booking",
-            "firstname": "nathalie",
-            "gender": "woman",
-            "age": 25,
-            "height": 160,
-            "weight": 57,
-            "country": "NL"
-        },
-        {
-            "status": "booking",
-            "firstname": "akke",
-            "gender": "man",
-            "age": 26,
-            "height": 173,
-            "weight": 65,
-            "country": "NL"
-        }
-    ],
+        "status": "booking",
+        "country": "FR"
+    }],
     "stationaries": []
 }

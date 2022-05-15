@@ -1,7 +1,28 @@
 {
-    "period": "07/10 to 07/17",
-    "title": "Conflent",
+    "period": "06/25 to 07/02",
+    "title": "Haute Ariège",
     "locations": [],
-    "riders": [],
+    "riders": [{
+            "status": "booking",
+            "firstname": "nathalie",
+            "gender": "woman",
+            "age": 25,
+            "height": 160,
+            "weight": 57,
+            "country": "DE"
+        },
+        {
+            "status": "booking",
+            "firstname": "akke",
+            "gender": "man",
+            "age": 26,
+            "height": 173,
+            "weight": 65,
+            "country": "DE"
+        },
+        {
+            "status": "option"
+        }
+    ],
     "stationaries": []
 }
