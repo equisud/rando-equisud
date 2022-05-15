@@ -4,25 +4,52 @@
     "locations": [],
     "riders": [{
             "status": "booking",
-            "country": "DE"
-        },
-        {
-            "status": "booking",
-            "firstname": "nathalie",
+            "firstname": "henny",
             "gender": "woman",
-            "age": 25,
-            "height": 160,
-            "weight": 57,
-            "country": "NL"
+            "age": 59,
+            "height": 180,
+            "weight": 76,
+            "country": "NL",
+            "arrival": "train"
         },
         {
             "status": "booking",
-            "firstname": "akke",
-            "gender": "man",
-            "age": 26,
-            "height": 173,
+            "firstname": "olga",
+            "gender": "woman",
+            "age": 63,
+            "height": 172,
+            "weight": 80,
+            "country": "NL",
+            "arrival": "train"
+        }, {
+            "status": "booking",
+            "firstname": "margot",
+            "gender": "woman",
+            "age": 41,
+            "height": 170,
+            "weight": 52,
+            "country": "FR",
+            "arrival": "train"
+        },
+        {
+            "status": "booking",
+            "firstname": "esmee",
+            "gender": "woman",
+            "age": 23,
+            "height": 176,
             "weight": 65,
-            "country": "NL"
+            "country": "NL",
+            "arrival": "voiture"
+        },
+        {
+            "status": "booking",
+            "firstname": "anoushka",
+            "gender": "woman",
+            "age": 53,
+            "height": 178,
+            "weight": 67,
+            "country": "NL",
+            "arrival": "voiture"
         }
     ],
     "stationaries": []
