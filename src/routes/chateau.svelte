@@ -18,7 +18,7 @@
 <a href="/">home</a>
 <h1>Equisud riding {year}</h1>
 
-<h2>Future treck</h2>
+<h2>Future trecks</h2>
 <section>
   {#each $trecks as treck}
     {#if !treck.old}
@@ -26,7 +26,7 @@
     {/if}
   {/each}
 </section>
-<h2>Past treck</h2>
+<h2>Past trecks</h2>
 <section class="past-treck">
   {#each $trecks as treck}
     {#if treck.old}
