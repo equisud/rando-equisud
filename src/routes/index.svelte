@@ -20,11 +20,19 @@
 <a href="/chateau">.</a>
 
 <h1>Equisud riding {year} - Tour Operator</h1>
-
+<h2>Future trecks</h2>
 <section>
-  <div class="grid">
-    {#each $trecks as treck}
+  {#each $trecks as treck}
+    {#if treck.title.toLowerCase() !== 'transhumance' && !treck.old}
       <TreckTour {treck} />
-    {/each}
-  </div>
+    {/if}
+  {/each}
+</section>
+<h2>Past trecks</h2>
+<section class="past-treck">
+  {#each $trecks as treck}
+    {#if treck.title.toLowerCase() !== 'transhumance' && treck.old}
+      <TreckTour {treck} />
+    {/if}
+  {/each}
 </section>
