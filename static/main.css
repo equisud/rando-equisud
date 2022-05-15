@@ -4,6 +4,48 @@
     color: #415462;
 }
 
+@media (min-width: 300px) {
+    article {
+        width: 80%;
+        margin: 0.4em auto;
+    }
+    .container {
+        max-width: 510px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    article {
+        width: 30%;
+        margin: 0.4rem;
+    }
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    article {
+        width: 30%;
+        margin: 0.4rem;
+    }
+    .container {
+        max-width: 920px;
+    }
+}
+
+@media (min-width: 1200px) {
+    article {
+        width: 20%;
+        margin: 0.4rem;
+    }
+    .container {
+        max-width: 1130px;
+    }
+}
+
 h1 {
     color: #1b2832;
 }
@@ -21,6 +63,11 @@ h4 {
     margin: .4em;
 }
 
+body {
+    width: 100%;
+    margin: 0;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -29,11 +76,9 @@ section {
 article {
     display: flex;
     flex-direction: column;
-    width: 20%;
     box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
     border: .05rem solid #dadee4;
     border-radius: .1rem;
-    margin: 0.4rem;
 }
 
 article>body {
@@ -42,6 +87,12 @@ article>body {
 
 article>header {
     background-color: #afe1af;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .past-treck header {
