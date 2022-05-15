@@ -31,7 +31,7 @@
   </div>
 </section>
 <h2>Past treck</h2>
-<section>
+<section class="past-treck">
   <div class="grid">
     {#each $trecks as treck}
       {#if treck.title.toLowerCase() !== 'transhumance' && treck.old}
