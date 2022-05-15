@@ -3,7 +3,6 @@
   import Treck from "$lib/Treck.svelte";
 
   let trecks = getTrecks();
-
   const year = new Date().getFullYear();
 </script>
 
@@ -19,10 +18,19 @@
 <a href="/">home</a>
 <h1>Equisud riding {year}</h1>
 
+<h2>Future trecks</h2>
 <section>
-  <div class="grid">
-    {#each $trecks as treck}
+  {#each $trecks as treck}
+    {#if !treck.old}
       <Treck {treck} />
-    {/each}
-  </div>
+    {/if}
+  {/each}
+</section>
+<h2>Past trecks</h2>
+<section class="past-treck">
+  {#each $trecks as treck}
+    {#if treck.old}
+      <Treck {treck} />
+    {/if}
+  {/each}
 </section>

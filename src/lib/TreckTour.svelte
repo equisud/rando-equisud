@@ -7,22 +7,24 @@
 <article>
   <header>
     <h4>{treck.period || '?'}</h4>
-    <h6>{treck.title || '?'}</h6>
+    <h4>{treck.title || '?'}</h4>
   </header>
-  {#if treck.riders}
-    <strong>Booking</strong>
-    <ul>
-      <li>Booking: {countBooking(treck.riders)}</li>
-      <li>Option: {countOption(treck.riders)}</li>
-      <li>
-        Free: {8 - (countOption(treck.riders) + countBooking(treck.riders))}
-      </li>
-    </ul>
-    <strong>Countries</strong>
-    <ul>
-      {#each getCountrySummary(treck.riders) as country}
-        <li>{country[0]}: {country[1]}</li>
-      {/each}
-    </ul>
-  {/if}
+  <body>
+    {#if treck.riders}
+      <strong>Booking</strong>
+      <ul>
+        <li>Booking: {countBooking(treck.riders)}</li>
+        <li>Option: {countOption(treck.riders)}</li>
+        <li>
+          Free: {8 - (countOption(treck.riders) + countBooking(treck.riders))}
+        </li>
+      </ul>
+      <strong>Countries</strong>
+      <ul>
+        {#each getCountrySummary(treck.riders) as country}
+          <li>{country[0]}: {country[1]}</li>
+        {/each}
+      </ul>
+    {/if}
+  </body>
 </article>

@@ -3,6 +3,31 @@ import {
 } from 'svelte/store'
 
 async function trecksContents(set) {
+
+    function convertPeriodToDate(period) {
+
+        function convertToDate(mmjj) {
+            const year = new Date().getFullYear();
+
+            return new Date(`${year}/${mmjj}`);
+        }
+
+        const date = {};
+        date.departure = convertToDate(period.match(/^[0-9]*\/[0-9]*/)[0]);
+        date.arrival = convertToDate(period.match(/[0-9]*\/[0-9]*$/)[0]);
+
+        return date;
+    }
+
+    function formatTreck(trecks) {
+        return trecks.map(treck => {
+            treck.dates = convertPeriodToDate(treck.period);
+            treck.old = treck.dates.arrival < Date.now()
+
+            return treck
+        })
+    }
+
     const jsons =
         import.meta.glob('./lib/_data/2022/*.json')
 
@@ -12,19 +37,11 @@ async function trecksContents(set) {
         return await content.default
     }))
 
-    const trecksContentsSortByDate = trecksContents.sort((a, b) => {
+    function sortByDate(trecks) {
+        return trecks.sort((a, b) => a.dates.departure - b.dates.departure)
+    }
 
-        function extractDate(period) {
-            const year = new Date().getFullYear()
-            const mmdd = period.match(/^[0-9]*\/[0-9]*/)[0]
-
-            return new Date(`${year}/${mmdd}`)
-        }
-
-        return extractDate(a.period) - extractDate(b.period)
-    })
-
-    set(trecksContentsSortByDate)
+    set(sortByDate(formatTreck(trecksContents)))
 
     return () => {}
 }
