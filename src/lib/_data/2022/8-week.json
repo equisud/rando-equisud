@@ -53,7 +53,8 @@
             "age": 46,
             "height": 163,
             "weight": 56,
-            "country": "NL"
+            "country": "NL",
+            "diet": "vegan"
         },
         {
             "status": "booking",
@@ -62,7 +63,8 @@
             "age": 56,
             "height": 163,
             "weight": 57,
-            "country": "NL"
+            "country": "NL",
+            "diet": "vegan"
         }
     ],
     "stationaries": [{
