@@ -10,16 +10,18 @@
     <h4>{treck.title || '?'}</h4>
   </header>
   <body>
-    <details>
-      <summary>
-        <strong>Locations</strong>
-      </summary>
-      <ul>
-        {#each treck.locations as host}
-          <li>{host}</li>
-        {/each}
-      </ul>
-    </details>
+    {#if treck.locations}
+      <details>
+        <summary>
+          <strong>Locations</strong>
+        </summary>
+        <ul>
+          {#each treck.locations as host}
+            <li>{host}</li>
+          {/each}
+        </ul>
+      </details>
+    {/if}
     <Riders riders={treck.riders} />
     <Stationaries stationaries={treck.stationaries} />
   </body>
