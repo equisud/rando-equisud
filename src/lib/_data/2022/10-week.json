@@ -1,54 +1,15 @@
 {
-    "period": "09/14 to 09/21",
-
-    "title": "capcir",
-    "locations": ["equisud", "Sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "period": "08/13 to 08/20",
+    "title": "Andorra",
+    "locations": [],
     "riders": [{
-            "status": "booking",
-            "firstname": "Hannah",
-            "gender": "woman",
-            "age": 24,
-            "height": 175,
-            "weight": 63,
-            "arrival": "latour de carol 15 may 16h40",
-            "country": "DE",
-            "diet": "veggie",
-            "horse": "Houaida"
-        },
-        {
-            "status": "booking",
-            "firstname": "anja",
-            "gender": "woman",
-            "age": 25,
-            "height": 167,
-            "weight": 62,
-            "arrival": "latour de carol 15 may 16h40",
-            "country": "DE",
-            "diet": "veggie",
-            "horse": "Wilna"
-        },
-        {
-            "status": "booking",
-            "firstname": "sara",
-            "gender": "woman",
-            "age": 28,
-            "height": 170,
-            "weight": 70,
-            "arrival": "voiture",
-            "country": "DE",
-            "horse": "Cloee"
-        },
-        {
-            "status": "booking",
-            "firstname": "celine",
-            "gender": "woman",
-            "age": 30,
-            "height": 170,
-            "weight": 68,
-            "arrival": "voiture",
-            "country": "DE",
-            "horse": "Aissa"
-        }
-    ],
+        "status": "booking",
+        "firstname": "danielle",
+        "gender": "woman",
+        "age": 44,
+        "height": 168,
+        "weight": 60,
+        "country": "NL"
+    }],
     "stationaries": []
 }
