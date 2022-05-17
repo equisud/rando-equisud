@@ -3,7 +3,7 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "bouillouses non dispo!", "sansa", "mijanes", "espousouille", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "henny",
             "gender": "woman",
             "age": 60,
@@ -13,7 +13,7 @@
             "arrival": "train"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "olga",
             "gender": "woman",
             "age": 63,
@@ -22,13 +22,13 @@
             "country": "NL",
             "arrival": "train"
         }, {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nathalie",
             "gender": "woman",
             "country": "FR"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "margot",
             "gender": "woman",
             "age": 43,
@@ -39,7 +39,7 @@
             "diet": "ail"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "esmee",
             "gender": "woman",
             "age": 23,
@@ -50,7 +50,7 @@
             "notes": "5 jours"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "anoushka",
             "gender": "woman",
             "age": 54,

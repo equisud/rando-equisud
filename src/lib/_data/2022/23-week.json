@@ -3,7 +3,7 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "marloes",
             "gender": "woman",
             "age": 29,
@@ -12,7 +12,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "tamar",
             "gender": "woman",
             "age": 28,
@@ -21,7 +21,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "roxane",
             "gender": "woman",
             "age": 70,
@@ -31,7 +31,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "jolanda",
             "gender": "woman",
             "age": 33,
@@ -41,7 +41,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "carsten",
             "gender": "man",
             "age": 54,
@@ -50,7 +50,7 @@
             "country": "DE"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "tina",
             "gender": "woman",
             "age": 46,
@@ -59,7 +59,7 @@
             "country": "DE"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "lea",
             "gender": "woman",
             "age": 16,
@@ -68,7 +68,7 @@
             "country": "DE"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "carla",
             "gender": "woman",
             "age": 17,

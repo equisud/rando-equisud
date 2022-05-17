@@ -3,7 +3,7 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "mirjam",
             "gender": "woman",
             "age": 39,
@@ -12,7 +12,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "jorien",
             "gender": "man",
             "age": 40,
@@ -20,7 +20,7 @@
             "weight": 65,
             "country": "NL"
         }, {
-            "status": "booking",
+            "status": "booked",
             "firstname": "anneke",
             "gender": "woman",
             "age": 23,
@@ -28,7 +28,7 @@
             "weight": 60,
             "country": "DE"
         }, {
-            "status": "booking",
+            "status": "booked",
             "firstname": "levke",
             "gender": "woman",
             "age": 32,

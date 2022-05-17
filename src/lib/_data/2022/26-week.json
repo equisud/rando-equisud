@@ -3,7 +3,7 @@
     "title": "Haute Ariège",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "refuge rhule", "llop gris", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "ulrik",
             "gender": "man",
             "age": 55,
@@ -13,7 +13,7 @@
             "diet": "veggie+lactose"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "hans",
             "gender": "man",
             "age": 55,
@@ -23,7 +23,7 @@
             "diet": "gluten+lactose"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nathalie",
             "gender": "woman",
             "age": 25,
@@ -32,7 +32,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "sjoerdje",
             "gender": "woman",
             "age": 26,
@@ -41,7 +41,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "vanessa",
             "gender": "woman",
             "age": 22,

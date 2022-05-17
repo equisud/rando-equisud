@@ -3,7 +3,7 @@
     "title": "Transhumance",
     "locations": ["Cantegrill", "Roquefixade", "Montsegur", "Camurac", "Mijanes", "Equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "stephane",
             "gender": "man",
             "age": 54,
@@ -13,7 +13,7 @@
             "horse": "savane"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "sophie",
             "age": 22,
             "height": 178,
@@ -23,13 +23,13 @@
             "horse": "ima"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "mederic",
             "gender": "man",
             "country": "FR"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "Jenny",
             "gender": "woman",
             "age": 45,
@@ -38,23 +38,23 @@
             "horse": "paloma"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "marlen",
             "gender": "woman",
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "gender": "woman",
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "gender": "man",
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "gender": "man",
             "country": "NL"
         }

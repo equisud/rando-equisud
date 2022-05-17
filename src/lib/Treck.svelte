@@ -14,7 +14,7 @@
     {#if treck.locations}
       <details>
         <summary>
-          <strong>Locations</strong>
+          <strong>Accommodation</strong>
         </summary>
         <ul>
           {#each treck.locations as host}

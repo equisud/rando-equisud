@@ -2,7 +2,7 @@
     "period": "07/23 to 07/30",
     "title": "No trail",
     "stationaries": [{
-        "status": "booking",
+        "status": "booked",
         "firstname": "mark",
         "gender": "man",
         "age": 49,
@@ -10,7 +10,7 @@
         "weight": 72,
         "country": "DE"
     }, {
-        "status": "booking",
+        "status": "booked",
         "firstname": "bennet",
         "gender": "man",
         "age": 15,
@@ -18,7 +18,7 @@
         "weight": 55,
         "country": "DE"
     }, {
-        "status": "booking",
+        "status": "booked",
         "firstname": "maria",
         "gender": "woman",
         "age": 13,
