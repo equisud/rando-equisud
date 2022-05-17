@@ -1,7 +1,7 @@
 {
     "period": "07/15 to 07/22",
     "title": "Capcir",
-    "locations": ["equisud", "equisud", "bouillouses", "sansa", "mijanes", "espousouille", "equisud"],
+    "locations": ["equisud", "equisud", "bouillouses non dispo!", "sansa", "mijanes", "espousouille", "equisud"],
     "riders": [{
             "status": "booking",
             "firstname": "henny",
@@ -59,6 +59,16 @@
             "country": "NL",
             "arrival": "voiture",
             "notes": "5 jours tranquilles"
+        },
+        {
+            "status": "booking",
+            "firstname": "nicole",
+            "gender": "woman",
+            "age": 27,
+            "height": 168,
+            "weight": 55,
+            "country": "DE",
+            "notes": "5 jours"
         }
     ],
     "stationaries": []
