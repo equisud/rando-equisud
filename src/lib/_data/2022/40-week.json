@@ -3,13 +3,13 @@
     "title": "Capcir - No stationary",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "catalans",
             "gender": "woman",
             "country": "FR"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "moussa",
             "gender": "man",
             "country": "FR"

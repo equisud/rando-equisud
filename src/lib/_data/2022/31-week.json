@@ -3,7 +3,7 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "bouillouses", "sansa", "mijanes", "espousouille", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "elke",
             "gender": "woman",
             "age": 26,
@@ -12,7 +12,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "dagmar",
             "gender": "man",
             "age": 26,
@@ -20,7 +20,7 @@
             "weight": 70,
             "country": "NL"
         }, {
-            "status": "booking",
+            "status": "booked",
             "firstname": "jennifer",
             "gender": "woman",
             "age": 28,
@@ -29,7 +29,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nienke",
             "gender": "woman",
             "age": 27,
@@ -38,7 +38,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "jessie",
             "gender": "woman",
             "age": 25,
@@ -47,7 +47,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "jasmin",
             "gender": "woman",
             "age": 46,
@@ -57,7 +57,7 @@
             "diet": "veggie"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "carmen",
             "gender": "woman",
             "age": 57,
@@ -68,7 +68,7 @@
         }
     ],
     "stationaries": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "linda",
             "gender": "woman",
             "age": 37,
@@ -77,7 +77,7 @@
             "country": "DE"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "ronja",
             "gender": "woman",
             "age": 10,
@@ -86,7 +86,7 @@
             "country": "DE"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "carsten",
             "gender": "man",
             "age": 28,

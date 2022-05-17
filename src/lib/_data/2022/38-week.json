@@ -3,7 +3,7 @@
     "title": "Andorra",
     "locations": ["equisud", "bouillouses", "porté", "llop gris", "refuge d'illa", "aransa", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "sarah",
             "gender": "woman",
             "age": 41,
@@ -12,7 +12,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "liesbeth",
             "gender": "woman",
             "age": 40,

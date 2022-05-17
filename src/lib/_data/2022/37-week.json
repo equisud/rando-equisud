@@ -3,7 +3,7 @@
     "title": "Haute Ariège",
     "locations": [],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "thais",
             "gender": "woman",
             "age": 38,
@@ -12,13 +12,13 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "gert",
             "gender": "man",
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nathalie",
             "gender": "woman",
             "age": 25,
@@ -27,7 +27,7 @@
             "country": "NL"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nico",
             "gender": "man",
             "country": "NL"

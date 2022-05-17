@@ -3,7 +3,7 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "bouillouses", "sansa", "mijanes", "espousouille", "equisud"],
     "riders": [{
-            "status": "booking",
+            "status": "booked",
             "firstname": "eline",
             "gender": "woman",
             "age": 26,
@@ -13,7 +13,7 @@
             "arrival": "avion"
         },
         {
-            "status": "booking",
+            "status": "booked",
             "firstname": "nienke",
             "gender": "woman",
             "age": 22,
@@ -22,7 +22,7 @@
             "country": "NL",
             "arrival": "avion"
         }, {
-            "status": "booking",
+            "status": "booked",
             "firstname": "lisa",
             "gender": "woman",
             "age": 22,

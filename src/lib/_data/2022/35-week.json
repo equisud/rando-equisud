@@ -2,7 +2,7 @@
     "period": "08/27 to 09/03",
     "title": "No trail",
     "stationaries": [{
-        "status": "booking",
+        "status": "booked",
         "firstname": "jan",
         "gender": "woman",
         "age": 65,

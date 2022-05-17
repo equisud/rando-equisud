@@ -1,8 +1,15 @@
 <script>
-  import { getCountrySummary, countBooking, countOption } from "../db";
+  import { getCountrySummary, countBooked, countOption } from "../db";
   import Riders from "$lib/Riders.svelte";
   export let treck;
 </script>
+
+<style>
+  h3 {
+    color: gray;
+    text-decoration: underline;
+  }
+</style>
 
 <article>
   <header
@@ -10,22 +17,29 @@
     <h4>{treck.period || '?'}</h4>
     <h4>{treck.title || '?'}</h4>
   </header>
+
   <body>
     {#if treck.riders}
-      <strong>Booking</strong>
+      <h3>Riders</h3>
+      <strong>Booked</strong>
       <ul>
-        <li>Booking: {countBooking(treck.riders)}</li>
+        <li>Booked: {countBooked(treck.riders)}</li>
         <li>Option: {countOption(treck.riders)}</li>
         <li>
-          Free: {8 - (countOption(treck.riders) + countBooking(treck.riders))}
+          <strong>
+            Available: {8 - (countOption(treck.riders) + countBooked(treck.riders))}
+          </strong>
         </li>
       </ul>
-      <strong>Countries</strong>
+      <strong>Origin</strong>
       <ul>
         {#each getCountrySummary(treck.riders) as country}
           <li>{country[0]}: {country[1]}</li>
         {/each}
       </ul>
+    {/if}
+    {#if treck.stationaries}
+      <h3>Stationaries</h3>
     {/if}
   </body>
 </article>
