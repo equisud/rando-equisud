@@ -1,0 +1,37 @@
+{
+    "period": "09/10 to 09/17",
+    "title": "Haute Ariège",
+    "locations": [],
+    "riders": [{
+            "status": "booking",
+            "firstname": "thais",
+            "gender": "woman",
+            "age": 38,
+            "height": 173,
+            "weight": 75,
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "gert",
+            "gender": "man",
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "nathalie",
+            "gender": "woman",
+            "age": 25,
+            "height": 160,
+            "weight": 57,
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "nico",
+            "gender": "man",
+            "country": "NL"
+        }
+    ],
+    "stationaries": []
+}

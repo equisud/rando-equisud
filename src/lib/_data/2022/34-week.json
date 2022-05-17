@@ -1,12 +1,12 @@
 {
-    "period": "08/20 to 08/27",
+    "period": "08/19 to 08/27",
     "title": "Andorra",
-    "locations": [],
+    "locations": ["equisud", "bouillouses", "porté", "llop gris", "refuge d'illa", "aransa", "equisud"],
     "riders": [{
             "status": "booking",
             "firstname": "edwin",
             "gender": "woman",
-            "age": 49,
+            "age": 50,
             "height": 178,
             "weight": 78,
             "country": "NL"
@@ -15,10 +15,19 @@
             "status": "booking",
             "firstname": "sabrina",
             "gender": "woman",
-            "age": 49,
+            "age": 43,
             "height": 180,
             "weight": 80,
             "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "anita",
+            "gender": "woman",
+            "age": 53,
+            "height": 170,
+            "weight": 75,
+            "country": "DE"
         },
         {
             "status": "booking",
@@ -27,7 +36,7 @@
             "age": 59,
             "height": 173,
             "weight": 68,
-            "country": "DE",
+            "country": "NL",
             "diet": "veggie"
         }
     ],

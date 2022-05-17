@@ -1,0 +1,14 @@
+{
+    "period": "08/27 to 09/03",
+    "title": "No trail",
+    "stationaries": [{
+        "status": "booking",
+        "firstname": "jan",
+        "gender": "woman",
+        "age": 65,
+        "height": 187,
+        "weight": 87,
+        "country": "NL",
+        "diet": "veggie"
+    }]
+}

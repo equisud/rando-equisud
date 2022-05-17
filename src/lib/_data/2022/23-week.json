@@ -1,119 +1,81 @@
 {
-    "period": "09/07 to 09/14",
-
-    "title": "Haute-Ariège",
-    "locations": ["Bouillouses", "Sansa", "Pelican", "Grand pivert", "Le Tetra", "La cloche", "La poste"],
+    "period": "06/04 to 06/11",
+    "title": "Capcir",
+    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
             "status": "booking",
-            "firstname": "Morwen",
+            "firstname": "marloes",
+            "gender": "woman",
+            "age": 29,
+            "height": 160,
+            "weight": 58,
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "tamar",
+            "gender": "woman",
+            "age": 28,
+            "height": 164,
+            "weight": 70,
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "roxane",
+            "gender": "woman",
+            "age": 70,
+            "height": 168,
+            "weight": 80,
+            "arrival": "avion",
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "jolanda",
+            "gender": "woman",
+            "age": 33,
+            "height": 163,
+            "weight": 54,
+            "arrival": "avion",
+            "country": "NL"
+        },
+        {
+            "status": "booking",
+            "firstname": "carsten",
             "gender": "man",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "bed": "double",
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Houaida"
+            "age": 54,
+            "height": 185,
+            "weight": 84,
+            "country": "DE"
         },
         {
             "status": "booking",
-            "firstname": "Era",
+            "firstname": "tina",
             "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "bed": "double",
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Wilna"
+            "age": 46,
+            "height": 166,
+            "weight": 60,
+            "country": "DE"
         },
         {
             "status": "booking",
-            "firstname": "Zdenka",
+            "firstname": "lea",
             "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Cloee",
-            "diet": "veggie"
+            "age": 16,
+            "height": 170,
+            "weight": 50,
+            "country": "DE"
         },
         {
             "status": "booking",
-            "firstname": "Gustine",
+            "firstname": "carla",
             "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Aissa"
-        },
-        {
-            "status": "booking",
-            "firstname": "Khalyssa",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "horse": "Olaia"
+            "age": 17,
+            "height": 167,
+            "weight": 51,
+            "country": "DE"
         }
     ],
-    "stationaries": [{
-            "status": "booking",
-            "firstname": "Morwen",
-            "gender": "man",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "bed": "double",
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Era",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "bed": "double",
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Zdenka",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR",
-            "diet": "veggie"
-        },
-        {
-            "status": "booking",
-            "firstname": "Gustine",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        },
-        {
-            "status": "booking",
-            "firstname": "Khalyssa",
-            "gender": "woman",
-            "age": 32,
-            "height": 1.80,
-            "weight": 80,
-            "arrival": "Mont-Louis 17/07 à 11h",
-            "country": "FR"
-        }
-    ]
+    "stationaries": []
 }

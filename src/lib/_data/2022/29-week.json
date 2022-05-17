@@ -1,12 +1,12 @@
 {
-    "period": "07/16 to 07/23",
+    "period": "07/15 to 07/22",
     "title": "Capcir",
-    "locations": [],
+    "locations": ["equisud", "equisud", "bouillouses", "sansa", "mijanes", "espousouille", "equisud"],
     "riders": [{
             "status": "booking",
             "firstname": "henny",
             "gender": "woman",
-            "age": 59,
+            "age": 60,
             "height": 180,
             "weight": 76,
             "country": "NL",
@@ -23,13 +23,20 @@
             "arrival": "train"
         }, {
             "status": "booking",
+            "firstname": "nathalie",
+            "gender": "woman",
+            "country": "FR"
+        },
+        {
+            "status": "booking",
             "firstname": "margot",
             "gender": "woman",
-            "age": 41,
+            "age": 43,
             "height": 170,
             "weight": 52,
             "country": "FR",
-            "arrival": "train"
+            "arrival": "train",
+            "diet": "ail"
         },
         {
             "status": "booking",
@@ -45,7 +52,7 @@
             "status": "booking",
             "firstname": "anoushka",
             "gender": "woman",
-            "age": 53,
+            "age": 54,
             "height": 178,
             "weight": 67,
             "country": "NL",

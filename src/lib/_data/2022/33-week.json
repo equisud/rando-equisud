@@ -1,12 +1,12 @@
 {
     "period": "08/13 to 08/20",
     "title": "Andorra",
-    "locations": [],
+    "locations": ["equisud", "bouillouses", "porté", "llop gris", "refuge d'illa", "aransa", "equisud"],
     "riders": [{
         "status": "booking",
         "firstname": "danielle",
         "gender": "woman",
-        "age": 44,
+        "age": 46,
         "height": 168,
         "weight": 60,
         "country": "NL"

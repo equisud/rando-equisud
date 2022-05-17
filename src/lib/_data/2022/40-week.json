@@ -1,0 +1,19 @@
+{
+    "period": "10/01 to 10/08",
+    "title": "Capcir - no stationaries",
+    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "riders": [{
+            "status": "booking",
+            "firstname": "catalans",
+            "gender": "woman",
+            "country": "FR"
+        },
+        {
+            "status": "booking",
+            "firstname": "moussa",
+            "gender": "man",
+            "country": "FR"
+        }
+    ],
+    "stationaries": []
+}
