@@ -46,7 +46,8 @@
             "height": 176,
             "weight": 65,
             "country": "NL",
-            "arrival": "voiture"
+            "arrival": "voiture",
+            "notes": "5 jours"
         },
         {
             "status": "booking",
@@ -56,7 +57,8 @@
             "height": 178,
             "weight": 67,
             "country": "NL",
-            "arrival": "voiture"
+            "arrival": "voiture",
+            "notes": "5 jours tranquilles"
         }
     ],
     "stationaries": []

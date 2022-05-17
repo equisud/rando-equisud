@@ -92,7 +92,8 @@
             "age": 28,
             "height": 187,
             "weight": 73,
-            "country": "DE"
+            "country": "DE",
+            "notes": "not ridding"
         }
     ]
 }

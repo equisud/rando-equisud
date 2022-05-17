@@ -71,6 +71,10 @@
           <i>Arrival</i>
           : {rider.arrival || '?'}
         </p>
+        <p>
+          <i>Notes</i>
+          : {rider.notes || '?'}
+        </p>
       </details>
     {/each}
   </details>

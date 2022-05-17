@@ -57,6 +57,10 @@
           <i>Arrival</i>
           : {stationary.arrival || '?'}
         </p>
+        <p>
+          <i>Notes</i>
+          : {stationary.notes || '?'}
+        </p>
       </details>
     {/each}
   </details>
