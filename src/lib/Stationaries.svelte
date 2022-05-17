@@ -8,8 +8,15 @@
   const dietSummary = getDietSummary(stationariesForceArray);
 </script>
 
+<style>
+  h3 {
+    color: gray;
+    text-decoration: underline;
+  }
+</style>
+
 {#if stationariesForceArray.length}
-  <h5>Stationaries</h5>
+  <h3>Stationaries</h3>
   {#if dietSummary.length}
     <strong>Diets</strong>
     <ul>

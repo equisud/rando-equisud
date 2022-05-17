@@ -8,8 +8,15 @@
   const genderSummary = getGenderSummary(ridersForceArray);
 </script>
 
+<style>
+  h3 {
+    color: gray;
+    text-decoration: underline;
+  }
+</style>
+
 {#if ridersForceArray.length}
-  <h5>Riders</h5>
+  <h3>Riders</h3>
   <strong>Genders</strong>
   <ul>
     {#each genderSummary as gender}

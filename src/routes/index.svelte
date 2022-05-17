@@ -16,7 +16,7 @@
 <h2>Future trecks</h2>
 <section>
   {#each $trecks as treck}
-    {#if treck.title.toLowerCase() !== 'transhumance' && !treck.old}
+    {#if treck.title && treck.title.toLowerCase() !== 'transhumance' && !treck.old}
       <TreckTour {treck} />
     {/if}
   {/each}
@@ -24,7 +24,7 @@
 <h2>Past trecks</h2>
 <section class="past-treck">
   {#each $trecks as treck}
-    {#if treck.title.toLowerCase() !== 'transhumance' && treck.old}
+    {#if treck.title && treck.title.toLowerCase() !== 'transhumance' && treck.old}
       <TreckTour {treck} />
     {/if}
   {/each}

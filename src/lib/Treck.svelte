@@ -5,7 +5,8 @@
 </script>
 
 <article>
-  <header>
+  <header
+    class={treck.title && treck.title.includes('No trail') ? 'no-trail' : ''}>
     <h4>{treck.period || '?'}</h4>
     <h4>{treck.title || '?'}</h4>
   </header>
