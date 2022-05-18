@@ -5,12 +5,48 @@
     "riders": [{
             "status": "booked",
             "firstname": "catalans",
-            "gender": "woman",
+            "gender": "man",
             "country": "FR"
         },
         {
             "status": "booked",
             "firstname": "moussa",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        }, 
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        }, 
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
             "gender": "man",
             "country": "FR"
         }
