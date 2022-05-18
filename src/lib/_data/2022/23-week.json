@@ -9,7 +9,8 @@
             "age": 29,
             "height": 160,
             "weight": 58,
-            "country": "NL"
+            "country": "NL",
+            "diet": "sans gluten"
         },
         {
             "status": "booked",
