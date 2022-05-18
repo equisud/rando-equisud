@@ -14,7 +14,7 @@
 <a href="/chateau">.</a>
 <h1>Equisud riding {year} - Tour Operator</h1>
 <h2>Future trecks</h2>
-<section>
+<section class="weeks">
   {#each $trecks as treck}
     {#if treck.title && treck.title.toLowerCase() !== 'transhumance' && !treck.old}
       <TreckTour {treck} />

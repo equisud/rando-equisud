@@ -4,26 +4,15 @@
   export let treck;
 </script>
 
-<article>
-  <header
-    class={treck.title && treck.title.includes('No trail') ? 'no-trail' : ''}>
-    <h4>{treck.period || '?'}</h4>
-    <h4>{treck.title || '?'}</h4>
+<article class="week">
+  <header class="week-banner">
+    <h3>{treck.period || '?'}</h3>
   </header>
   <body>
-    {#if treck.locations}
-      <details>
-        <summary>
-          <strong>Accommodation</strong>
-        </summary>
-        <ul>
-          {#each treck.locations as host}
-            <li>{host}</li>
-          {/each}
-        </ul>
-      </details>
-    {/if}
-    <Riders riders={treck.riders} />
-    <Stationaries stationaries={treck.stationaries} />
+    <Riders
+      riders={treck.riders}
+      title={treck.title}
+      locations={treck.locations} />
+    <Stationaries stationaries={treck.stationaries} title={treck.title} />
   </body>
 </article>

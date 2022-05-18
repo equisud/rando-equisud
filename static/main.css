@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 300px) {
-    article {
+    .week {
         width: 80%;
         margin: 0.4em auto;
     }
@@ -17,9 +17,8 @@
 }
 
 @media (min-width: 768px) {
-    article {
+    .week {
         width: 30%;
-        margin: 0.4rem;
     }
     .container {
         max-width: 700px;
@@ -27,7 +26,7 @@
 }
 
 @media (min-width: 992px) {
-    article {
+    .week {
         width: 30%;
         margin: 0.4rem;
     }
@@ -37,9 +36,8 @@
 }
 
 @media (min-width: 1200px) {
-    article {
+    .week {
         width: 20%;
-        margin: 0.4rem;
     }
     .container {
         max-width: 1130px;
@@ -56,41 +54,31 @@ h2 {
 
 h3 {
     color: #2c3d49;
+    margin: .4em;
 }
 
 h4 {
     color: #374956;
+    margin: auto;
+}
+
+h5 {
+    color: #374956;
     margin: .4em;
+}
+
+ul {
+    margin-top: 0;
+    padding: .4em 1em;
+}
+
+header {
+    text-align: center;
 }
 
 body {
     width: 100%;
     margin: 0;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
-    border: .05rem solid #dadee4;
-    border-radius: .1rem;
-}
-
-article>body {
-    padding: 0.4rem;
-}
-
-article>header {
-    background-color: #afe1af;
-}
-
-article>header.no-trail {
-    background-color: tomato;
 }
 
 .container {
@@ -99,11 +87,52 @@ article>header.no-trail {
     margin-left: auto;
 }
 
-.past-treck header {
-    background-color: #eee;
+.weeks {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.past-treck,
-.past-treck h4 {
+.week {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
+    border: .05rem solid #dadee4;
+    border-radius: .1rem;
+}
+
+.week>header {
+    background-color: #d4e9d4;
+    padding: .2em;
+}
+
+.rider-banner,
+.stationary-banner {
+    background-color: rgb(124, 233, 139);
+    padding: .2em
+}
+
+.rider body,
+.stationary body {
+    padding: 0 .4em;
+}
+
+.no-way {
+    background-color: tomato;
+}
+
+.rider {
+    min-height: 15em;
+}
+
+.past-treck {
     color: #aaa;
+}
+
+.past-treck .week-banner {
+    background-color: rgb(212, 212, 212);
+}
+
+.past-treck .stationary-banner,
+.past-treck .rider-banner {
+    background-color: #eee;
 }
