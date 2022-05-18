@@ -9,7 +9,7 @@
             "age": 41,
             "height": 163,
             "weight": 57,
-            "country": "NL"
+            "country": "BE"
         },
         {
             "status": "booked",
@@ -18,7 +18,7 @@
             "age": 40,
             "height": 165,
             "weight": 76,
-            "country": "NL"
+            "country": "BE"
         }
     ],
     "stationaries": []
