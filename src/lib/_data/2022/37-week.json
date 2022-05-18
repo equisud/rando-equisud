@@ -15,21 +15,18 @@
             "status": "booked",
             "firstname": "gert",
             "gender": "man",
-            "country": "NL"
-        },
-        {
-            "status": "booked",
-            "firstname": "nathalie",
-            "gender": "woman",
-            "age": 25,
-            "height": 160,
-            "weight": 57,
+            "age": 70,
+            "height": 186,
+            "weight": 90,
             "country": "NL"
         },
         {
             "status": "booked",
             "firstname": "nico",
             "gender": "man",
+            "age": 60,
+            "height": 183,
+            "weight": 72,
             "country": "NL"
         }
     ],
