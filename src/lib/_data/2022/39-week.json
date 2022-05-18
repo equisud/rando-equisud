@@ -4,7 +4,7 @@
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
             "status": "booked",
-            "firstname": "mirjam",
+            "firstname": "mirjam 5J",
             "gender": "woman",
             "age": 39,
             "height": 158,
@@ -13,7 +13,7 @@
         },
         {
             "status": "booked",
-            "firstname": "jorien",
+            "firstname": "jorien 5J",
             "gender": "man",
             "age": 40,
             "height": 164,
