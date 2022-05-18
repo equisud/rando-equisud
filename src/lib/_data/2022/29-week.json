@@ -21,11 +21,6 @@
             "weight": 80,
             "country": "NL",
             "arrival": "train"
-        }, {
-            "status": "booked",
-            "firstname": "nathalie",
-            "gender": "woman",
-            "country": "FR"
         },
         {
             "status": "booked",
@@ -34,13 +29,13 @@
             "age": 43,
             "height": 170,
             "weight": 52,
-            "country": "FR",
+            "country": "NL",
             "arrival": "train",
             "diet": "ail"
         },
         {
             "status": "booked",
-            "firstname": "esmee",
+            "firstname": "esmee 5J",
             "gender": "woman",
             "age": 23,
             "height": 176,
@@ -51,7 +46,7 @@
         },
         {
             "status": "booked",
-            "firstname": "anoushka",
+            "firstname": "anoushka 5J",
             "gender": "woman",
             "age": 54,
             "height": 178,
@@ -62,7 +57,7 @@
         },
         {
             "status": "booking",
-            "firstname": "nicole",
+            "firstname": "nicole 5J",
             "gender": "woman",
             "age": 27,
             "height": 168,
