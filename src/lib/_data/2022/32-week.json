@@ -34,6 +34,15 @@
         }, 
         {
             "status": "booked",
+            "firstname": "Annemiek 5J",
+            "gender": "woman",
+            "age": 65,
+            "height": 167,
+            "weight": 58,
+            "country": "NL",
+            "arrival": "avion"
+        },
+            "status": "booked",
             "firstname": "Merel 5J",
             "gender": "woman",
             "age": 22,
