@@ -103,6 +103,24 @@
             "weight": 73,
             "country": "DE",
             "notes": "not ridding"
+        },
+        {
+            "status": "option",
+            "firstname": "Sara",
+            "gender": "woman",
+            "age": 11,
+            "height": 140,
+            "weight": 35,
+            "country": "FR"
+        },
+        {
+            "status": "option",
+            "firstname": "Ninon",
+            "gender": "woman",
+            "age": 11,
+            "height": 140,
+            "weight": 35,
+            "country": "FR"
         }
     ]
 }
