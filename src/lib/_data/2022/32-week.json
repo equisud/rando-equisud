@@ -42,6 +42,7 @@
             "country": "NL",
             "arrival": "avion"
         },
+        {
             "status": "booked",
             "firstname": "Merel 5J",
             "gender": "woman",
