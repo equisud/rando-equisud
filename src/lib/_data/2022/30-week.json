@@ -9,7 +9,8 @@
         "height": 181,
         "weight": 72,
         "country": "DE"
-    }, {
+    }, 
+    {
         "status": "booked",
         "firstname": "bennet",
         "gender": "man",
@@ -17,7 +18,8 @@
         "height": 165,
         "weight": 55,
         "country": "DE"
-    }, {
+    }, 
+    {
         "status": "booked",
         "firstname": "maria",
         "gender": "woman",
@@ -25,5 +27,14 @@
         "height": 165,
         "weight": 65,
         "country": "DE"
+    }, 
+    {
+        "status": "booked",
+        "firstname": "Erin",
+        "gender": "woman",
+        "age": 18,
+        "height": 170,
+        "weight": 55,
+        "country": "FR"
     }]
 }
