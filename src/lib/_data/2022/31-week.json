@@ -14,7 +14,7 @@
         {
             "status": "booked",
             "firstname": "dagmar",
-            "gender": "man",
+            "gender": "woman",
             "age": 26,
             "height": 170,
             "weight": 70,
