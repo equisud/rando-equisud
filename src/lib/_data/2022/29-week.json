@@ -64,7 +64,16 @@
             "weight": 55,
             "country": "DE",
             "notes": "5 jours"
-        }
+        },
+        {
+            "status": "booking",
+            "firstname": "Laure",
+            "gender": "woman",
+            "age": ,
+            "height": ,
+            "weight": ,
+            "country": "FR",
+         }
     ],
     "stationaries": []
 }
