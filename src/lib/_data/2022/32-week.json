@@ -51,6 +51,26 @@
             "weight": 63,
             "country": "NL"
             "arrival": "avion"
+        },
+        {
+            "status": "booked",
+            "firstname": "Lindsey 5J",
+            "gender": "woman",
+            "age": 21,
+            "height": 180,
+            "weight": 70,
+            "country": "NL"
+            "arrival": "avion"
+        },
+        {
+            "status": "booked",
+            "firstname": "Maria 5J",
+            "gender": "woman",
+            "age": 19,
+            "height": 145,
+            "weight": 50,
+            "country": "NL"
+            "arrival": "avion"
         }
     ],
     "stationaries": []
