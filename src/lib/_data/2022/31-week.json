@@ -121,6 +121,18 @@
             "height": 140,
             "weight": 35,
             "country": "FR"
+        }, 
+        {
+        "status": "booked",
+        "firstname": "complet"
+        }, 
+        {
+        "status": "booked",
+        "firstname": "complet"
+        }, 
+        {
+        "status": "booked",
+        "firstname": "complet"
         }
     ]
 }
