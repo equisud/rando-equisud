@@ -29,7 +29,7 @@ async function trecksContents(set) {
     }
 
     const jsons =
-        import.meta.glob('./lib/_data/2022/*.json')
+        import.meta.glob('./lib/_data/2023/*.json')
 
     const trecksContents = await Promise.all(Object.entries(jsons).map(async([path, resolver]) => {
         const content = await resolver()
