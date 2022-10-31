@@ -1,5 +1,5 @@
 <script>
-  import { countBooked, countOption } from "../db";
+  import { countBooked, countOption } from "$lib/db";
   export let customers;
 </script>
 
