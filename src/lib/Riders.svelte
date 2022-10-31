@@ -3,10 +3,14 @@
 </script>
 
 <section class="riders">
-<strong>Details</strong>
-    <article>
-        {#each riders as rider}
+    <strong class="riders-title">Riders :</strong>        
+    {#each riders as rider}
+    <article class="rider"  >
+        <header class="rider-banner">
             {rider.firstname || '?'} - ({rider.country || '?'})
+        </header>
+        
+        <body>
             <ul>
                 <li>
                 <i>Status</i>
@@ -45,6 +49,7 @@
                 <i>Notes</i>
                 : {rider.notes || '?'}
             </p>
-        {/each}
+        </body>
     </article>
+    {/each}
 </section>

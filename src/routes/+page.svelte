@@ -1,9 +1,13 @@
 <script>
-  import { getTreck, getTrecks } from "$lib/stores";
-  import Trecks from "$lib/Trecks.svelte";
+  import { getTreck, getTrecks } from "$lib/stores"
+  import Trecks from "$lib/Trecks.svelte"
+  import { page } from '$app/stores';
+
+
+  console.log($page.url.searchParams)
 
   let trecks = getTrecks();
-  const year = new Date().getFullYear();
+  const year = new Date().getFullYear()
 </script>
 
 <svelte:head>

@@ -1,7 +1,10 @@
 <script>
   import { getCountrySummary } from "$lib/db"
   import Booked from "$lib/Booked.svelte"
+  import Icon from '@iconify/svelte';
+
   export let treck;
+  
   const isStationaries = !(
     treck.title && treck.title.includes("No stationary")
   )
@@ -11,8 +14,8 @@
 <article class="week">
   <header class="week-banner">
     <h3>{treck.period || '?'}</h3>
-    <a href="{githubEditLink}">edit</a> - 
-    <a href="/treck/{treck.file}">details</a>
+    <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a> - 
+    <a href="/treck/{treck.file}"><Icon icon="mdi-light:eye" /></a>
   </header>
   <body>
     <article class="week-rider">
