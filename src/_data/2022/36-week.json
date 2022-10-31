@@ -1,0 +1,65 @@
+{
+    "period": "09/02 to 09/10",
+    "title": "Capcir",
+    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "riders": [{
+            "status": "booked",
+            "firstname": "hans",
+            "gender": "man",
+            "age": 55,
+            "height": 173,
+            "weight": 73,
+            "country": "NL"
+        },
+        {
+            "status": "booked",
+            "firstname": "jolanda",
+            "gender": "woman",
+            "age": 53,
+            "height": 170,
+            "weight": 65,
+            "country": "NL"
+        }, {
+            "status": "booked",
+            "firstname": "sanca",
+            "gender": "man",
+            "age": 51,
+            "height": 184,
+            "weight": 92,
+            "country": "NL"
+        }, {
+            "status": "booked",
+            "firstname": "maaike",
+            "gender": "woman",
+            "age": 54,
+            "height": 182,
+            "weight": 79,
+            "country": "NL"
+        }, {
+            "status": "booked",
+            "firstname": "kirsten",
+            "gender": "woman",
+            "age": 47,
+            "height": 181,
+            "weight": 86,
+            "country": "NL"
+        }, {
+            "status": "booked",
+            "firstname": "natasha",
+            "gender": "woman",
+            "age": 51,
+            "height": 168,
+            "weight": 75,
+            "country": "NL"
+        }, {
+            "status": "booked",
+            "firstname": "angeline",
+            "gender": "woman",
+            "age": 56,
+            "height": 160,
+            "weight": 58,
+            "country": "NL"
+        }
+    ],
+    "stationaries": []
+}

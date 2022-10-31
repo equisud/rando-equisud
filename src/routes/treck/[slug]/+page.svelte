@@ -1,0 +1,13 @@
+<script>
+  import Treck from "$lib/Treck.svelte"
+  export let data;
+  const treck = data.post.content
+</script>
+
+<h1>Treck : {treck.title}</h1>
+<h2>{treck.period}</h2>
+
+<Treck riders={treck.riders} title={treck.title} locations={treck.locations} />
+
+
+

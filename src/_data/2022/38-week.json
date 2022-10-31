@@ -1,0 +1,25 @@
+{
+    "period": "09/17 to 09/24",
+    "title": "Andorra",
+    "locations": ["equisud", "bouillouses", "porté", "llop gris", "refuge d'illa", "aransa", "equisud"],
+    "riders": [{
+            "status": "booked",
+            "firstname": "sarah",
+            "gender": "woman",
+            "age": 41,
+            "height": 163,
+            "weight": 57,
+            "country": "BE"
+        },
+        {
+            "status": "booked",
+            "firstname": "liesbeth",
+            "gender": "woman",
+            "age": 40,
+            "height": 165,
+            "weight": 76,
+            "country": "BE"
+        }
+    ],
+    "stationaries": []
+}
