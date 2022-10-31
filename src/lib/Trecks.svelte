@@ -2,6 +2,9 @@
   import { getCountrySummary } from "$lib/db"
   import Booked from "$lib/Booked.svelte"
   import Icon from '@iconify/svelte';
+  import { page } from '$app/stores';
+
+  const isAdmin = $page.url.search === "?admin"
 
   export let treck;
   
@@ -14,8 +17,11 @@
 <article class="week">
   <header class="week-banner">
     <h3>{treck.period || '?'}</h3>
-    <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a> - 
-    <a href="/treck/{treck.file}"><Icon icon="mdi-light:eye" /></a>
+    {#if isAdmin}
+      <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a>
+      -
+      <a href="/treck/{treck.file}"><Icon icon="mdi-light:eye" /></a>
+    {/if}
   </header>
   <body>
     <article class="week-rider">
