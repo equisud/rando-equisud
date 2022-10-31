@@ -15,7 +15,7 @@
     <a href="/treck/{treck.file}">details</a>
   </header>
   <body>
-    <article class="rider">
+    <article class="week-rider">
       <header
         class="{treck.title && treck.title.includes('No trail') ? 'no-way' : ''}
         rider-banner">
@@ -34,7 +34,7 @@
         {/if}
       </body>
     </article>
-    <article class="stationary">
+    <article class="week-stationary">
       <header
         class="stationary-banner {treck.title && treck.title.includes('No stationary') ? 'no-way' : ''}">
         {isStationaries ? 'Stationaries' : 'No stationary'}

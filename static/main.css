@@ -88,12 +88,14 @@ body {
 }
 
 .weeks,
-.past-treck {
+.past-treck,
+.riders {
     display: flex;
     flex-wrap: wrap;
 }
 
-.week {
+.week,
+.treck {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
@@ -106,23 +108,24 @@ body {
     padding: .2em;
 }
 
+.treck-banner,
 .rider-banner,
 .stationary-banner {
     background-color: rgb(124, 233, 139);
     padding: .2em
 }
 
-.rider body,
+.treck-banner {
+    font-size: 2em;
+}
+
+.treck {
+    min-height: 15em;
+}
+
+.treck body,
 .stationary body {
     padding: 0 .4em;
-}
-
-.no-way {
-    background-color: tomato;
-}
-
-.rider {
-    min-height: 15em;
 }
 
 .past-treck {
@@ -136,4 +139,8 @@ body {
 .past-treck .stationary-banner,
 .past-treck .rider-banner {
     background-color: #eee;
+}
+
+.no-way {
+    background-color: tomato;
 }
