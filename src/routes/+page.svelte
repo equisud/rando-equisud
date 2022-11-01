@@ -1,6 +1,6 @@
 <script>
   import { getTreck, getTrecks } from "$lib/stores"
-  import Trecks from "$lib/Trecks.svelte"
+  import Week from "$lib/Week.svelte"
 
   let trecks = getTrecks();
   const year = new Date().getFullYear()
@@ -11,19 +11,19 @@
 </svelte:head>
 
 <h1>Equisud riding {year} - Tour Operator</h1>
-<h2>Future trecks</h2>
-<section class="weeks">
+<h2>Future weeks</h2>
+<section class="future-weeks">
   {#each $trecks as treck}
     {#if treck.title && treck.title.toLowerCase() !== 'transhumance' && !treck.old}
-      <Trecks {treck} />
+      <Week {treck} />
     {/if}
   {/each}
 </section>
-<h2>Past trecks</h2>
-<section class="past-treck">
+<h2>Past weeks</h2>
+<section class="past-weeks">
   {#each $trecks as treck}
     {#if treck.title && treck.title.toLowerCase() !== 'transhumance' && treck.old}
-      <Trecks {treck} />
+      <Week {treck} />
     {/if}
   {/each}
 </section>
