@@ -11,7 +11,7 @@
   <article>
     <header
       class="treck-banner {title && title.includes('No trail') ? 'no-way' : ''}">
-      {title || '?'}- {period || '?'}
+      {title || '?'} - {period || '?'}
     </header>
     <body>
       {#if locations}
