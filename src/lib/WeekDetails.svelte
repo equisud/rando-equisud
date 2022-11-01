@@ -2,22 +2,23 @@
   import Riders from "$lib/Riders.svelte"
   import Synthesis from "$lib/Synthesis.svelte"
 
-  export let riders, title, locations, period
+  export let week
+  console.log("week", week.old)
 
-  const ridersForceArray = Array.isArray(riders) ? riders : [];
+  const ridersForceArray = Array.isArray(week.riders) ? week.riders : [];
 
 </script>
-<section class="treck">
+<section class="treck { week.old && 'past-week'}">
   <article>
     <header
-      class="treck-banner {title && title.includes('No trail') ? 'no-way' : ''}">
-      {title || '?'} - {period || '?'}
+      class="week-detail-banner {week.title && week.title.includes('No trail') ? 'no-way' : ''}">
+      {week.title || '?'} - {week.period || '?'}
     </header>
     <body>
-      {#if locations}
+      {#if week.locations}
           <ul class="locations">
           <strong class="locations-title">Accommodation : </strong>
-            {#each locations as location}
+            {#each week.locations as location}
               <li class="location">{location}</li>
             {/each}
         </ul>

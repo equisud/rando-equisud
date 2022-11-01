@@ -1,5 +1,5 @@
 <script>
-  import { getGenderSummary, getDietSummary, getDoubleBeds } from "$lib/db";
+  import { getGenderSummary, getDietSummary, getDoubleBeds } from "$lib/db"
   export let stationaries, title;
   const stationariesForceArray = Array.isArray(stationaries)
     ? stationaries

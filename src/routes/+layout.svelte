@@ -14,8 +14,10 @@
 <nav class="nav">
   {#if isAdmin} 
     <a href="/?admin"><Icon icon="mdi-light:home" /></a>
+    <a href="/weeks?admin"><Icon icon="mdi-light:file-multiple" /></a>
   {:else}
     <a href="/"><Icon icon="mdi-light:home" /></a>
+    <a href="/weeks"><Icon icon="mdi-light:file-multiple" /></a>
   {/if}
 </nav>
 

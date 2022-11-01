@@ -6,36 +6,36 @@
 
   const isAdmin = $page.url.search === "?admin"
 
-  export let treck;
+  export let week;
   
   const isStationaries = !(
-    treck.title && treck.title.includes("No stationary")
+    week.title && week.title.includes("No stationary")
   )
-  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${treck.file}`
+  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${week.file}`
 </script>
 
 <article class="week">
   <header class="week-banner">
-    <h3>{treck.period || '?'}</h3>
+    <h3>{week.period || '?'}</h3>
     {#if isAdmin}
       <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a>
       -
-      <a href="/treck/{treck.file}?admin"><Icon icon="mdi-light:eye" /></a>
+      <a href="/week/{week.file}?admin"><Icon icon="mdi-light:eye" /></a>
     {/if}
   </header>
   <body>
     <article class="week-rider">
       <header
-        class="{treck.title && treck.title.includes('No trail') ? 'no-way' : ''}
+        class="{week.title && week.title.includes('No trail') ? 'no-way' : ''}
         rider-banner">
-        {treck.title || '?'}
+        {week.title || '?'}
       </header>
       <body>
-        {#if treck.riders}
-          <Booked customers={treck.riders} />
-          {#if getCountrySummary(treck.riders).length}
+        {#if week.riders}
+          <Booked customers={week.riders} />
+          {#if getCountrySummary(week.riders).length}
             <ul>
-              {#each getCountrySummary(treck.riders) as country}
+              {#each getCountrySummary(week.riders) as country}
                 <li>{country[0]}: {country[1]}</li>
               {/each}
             </ul>
@@ -45,16 +45,16 @@
     </article>
     <article class="week-stationary">
       <header
-        class="stationary-banner {treck.title && treck.title.includes('No stationary') ? 'no-way' : ''}">
+        class="stationary-banner {week.title && week.title.includes('No stationary') ? 'no-way' : ''}">
         {isStationaries ? 'Stationaries' : 'No stationary'}
       </header>
-      {#if isStationaries && treck.stationaries}
+      {#if isStationaries && week.stationaries}
         <body>
-          <Booked customers={treck.stationaries} />
-          {#if getCountrySummary(treck.stationaries).length}
+          <Booked customers={week.stationaries} />
+          {#if getCountrySummary(week.stationaries).length}
             <strong>Origin</strong>
             <ul>
-              {#each getCountrySummary(treck.stationaries) as country}
+              {#each getCountrySummary(week.stationaries) as country}
                 <li>{country[0]}: {country[1]}</li>
               {/each}
             </ul>

@@ -112,14 +112,14 @@ body {
     padding: .2em;
 }
 
-.treck-banner,
+.week-banner,
 .rider-banner,
 .stationary-banner {
     background-color: rgb(124, 233, 139);
     padding: .2em
 }
 
-.treck-banner {
+.week-detail-banner {
     font-size: 2em;
 }
 
@@ -136,12 +136,15 @@ body {
     color: #aaa;
 }
 
-.past-weeks .week-banner {
+.past-weeks .week-banner,
+.past-week .week-banner {
     background-color: rgb(212, 212, 212);
 }
 
 .past-weeks .stationary-banner,
-.past-weeks .rider-banner {
+.past-weeks .rider-banner,
+.past-week .stationary-banner,
+.past-week .rider-banner {
     background-color: #eee;
 }
 
