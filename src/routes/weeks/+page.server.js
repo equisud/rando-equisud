@@ -8,7 +8,7 @@ export async function load({
 
     const jsons =
         import.meta.glob('$lib/_data/2022/*.json')
-    console.log(jsons)
+
     const weeksContents = await Promise.all(Object.entries(jsons).map(async([path, resolver]) => {
         const content = await resolver()
         const week = content.default

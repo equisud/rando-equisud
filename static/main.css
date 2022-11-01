@@ -88,14 +88,13 @@ body {
 }
 
 .future-weeks,
-.past-weeks,
-.riders {
+.past-weeks {
     display: flex;
     flex-wrap: wrap;
 }
 
 .week,
-.treck,
+.week-detail,
 .rider,
 .location {
     padding: .3em;
@@ -123,11 +122,11 @@ body {
     font-size: 2em;
 }
 
-.treck {
+.week-detail {
     min-height: 15em;
 }
 
-.treck body,
+.week-detail body,
 .stationary body {
     padding: 0 .4em;
 }

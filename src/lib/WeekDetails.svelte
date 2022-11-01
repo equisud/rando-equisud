@@ -3,12 +3,11 @@
   import Synthesis from "$lib/Synthesis.svelte"
 
   export let week
-  console.log("week", week.old)
 
   const ridersForceArray = Array.isArray(week.riders) ? week.riders : [];
 
 </script>
-<section class="treck { week.old && 'past-week'}">
+<section class="week-detail { week.old && 'past-week'}">
   <article>
     <header
       class="week-detail-banner {week.title && week.title.includes('No trail') ? 'no-way' : ''}">
