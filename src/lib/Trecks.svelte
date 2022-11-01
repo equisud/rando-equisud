@@ -20,7 +20,7 @@
     {#if isAdmin}
       <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a>
       -
-      <a href="/treck/{treck.file}"><Icon icon="mdi-light:eye" /></a>
+      <a href="/treck/{treck.file}?admin"><Icon icon="mdi-light:eye" /></a>
     {/if}
   </header>
   <body>
