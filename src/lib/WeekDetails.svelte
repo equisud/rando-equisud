@@ -7,7 +7,7 @@
   const ridersForceArray = Array.isArray(week.riders) ? week.riders : [];
 
 </script>
-<section class="week-detail { week.old && 'past-week'}">
+<section class="section week-detail { week.old && 'past-week'}">
   <article>
     <header
       class="week-detail-banner {week.title && week.title.includes('No trail') ? 'no-way' : ''}">
@@ -15,12 +15,14 @@
     </header>
     <body>
       {#if week.locations}
-          <ul class="locations">
-          <strong class="locations-title">Accommodation : </strong>
+      <section class="section locations">
+        <strong class="title locations-title">Accommodation : </strong>
+        <ul>
             {#each week.locations as location}
               <li class="location">{location}</li>
             {/each}
         </ul>
+        </section>
       {/if}
       {#if ridersForceArray.length}
         <Synthesis riders={ridersForceArray} />

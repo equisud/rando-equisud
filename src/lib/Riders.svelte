@@ -2,14 +2,13 @@
     export let riders
 </script>
 
-<section class="riders">
-    <strong class="riders-title">Riders :</strong>        
+<section class="section riders">
+    <strong class="title riders-title">Riders :</strong>        
     {#each riders as rider}
     <article class="rider"  >
         <header class="rider-banner">
             {rider.firstname || '?'} - ({rider.country || '?'})
         </header>
-        
         <body>
             <ul>
                 <li>

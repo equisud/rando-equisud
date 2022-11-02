@@ -87,6 +87,16 @@ body {
     margin-left: auto;
 }
 
+.section {
+    margin: 1em;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+}
+
 .future-weeks,
 .past-weeks {
     display: flex;
@@ -136,7 +146,7 @@ body {
 }
 
 .past-weeks .week-banner,
-.past-week .week-banner {
+.past-week .week-detail-banner {
     background-color: rgb(212, 212, 212);
 }
 
@@ -151,20 +161,13 @@ body {
     background-color: tomato;
 }
 
-.locations,
+.locations ul,
 .riders {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
-    margin: 1em;
 }
 
 .locations {
     align-items: center;
-}
-
-.locations-title,
-.riders-title {
-    width: 100%;
 }
