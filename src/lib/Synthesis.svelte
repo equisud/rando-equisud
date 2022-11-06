@@ -1,11 +1,11 @@
 <script>
   import { getGenderSummary, getDietSummary, getDoubleBeds } from "$lib/db"
 
-  export let riders
+  export let persons
 
-  const dietSummary = getDietSummary(riders)
-  const doubleBeds = getDoubleBeds(riders)
-  const genderSummary = getGenderSummary(riders)
+  const dietSummary = getDietSummary(persons)
+  const doubleBeds = getDoubleBeds(persons)
+  const genderSummary = getGenderSummary(persons)
 </script>
 <section class="section synthesis">
   <strong class="title synthesis-title">Synthesis :</strong>

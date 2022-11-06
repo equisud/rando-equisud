@@ -106,7 +106,8 @@ body {
 .week,
 .week-detail,
 .rider,
-.location {
+.location,
+.stationary {
     padding: .3em;
     margin: 0 .2em;
     display: flex;
@@ -132,6 +133,10 @@ body {
     font-size: 2em;
 }
 
+.treck-detail-banner {
+    font-size: 1.5em;
+}
+
 .week-detail {
     min-height: 15em;
 }
@@ -153,7 +158,8 @@ body {
 .past-weeks .stationary-banner,
 .past-weeks .rider-banner,
 .past-week .stationary-banner,
-.past-week .rider-banner {
+.past-week .rider-banner,
+.past-week .treck-detail-banner {
     background-color: #eee;
 }
 
@@ -162,7 +168,8 @@ body {
 }
 
 .locations ul,
-.riders {
+.riders,
+.stationaries {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
