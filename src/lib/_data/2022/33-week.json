@@ -9,8 +9,8 @@
         "age": 53,
         "height": 170,
         "weight": 66,
-        "diet": veggie,
-        "horse": ufo,
+        "diet": "veggie",
+        "horse": "ufo",
         "country": "NL"
     }],
     "stationaries": []
