@@ -2,13 +2,6 @@
     "period": "06/17 to 06/24",
     "title": "No trail",
     "stationaries": [{
-        "status": "booked",
-        "firstname": "lea",
-        "gender": "woman",
-        "age": 32,
-        "height": 164,
-        "weight": 65,
-        "country": "DE",
-        "diet": "veggie+lactose"
+        
     }]
 }
