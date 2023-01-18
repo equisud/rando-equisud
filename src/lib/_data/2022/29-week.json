@@ -1,6 +1,6 @@
 {
     "period": "07/16 to 07/23",
-    "title": "hte ariege",
+    "title": "haute ariege",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "rhule", "el tarter", "equisud"],
     "riders": [{
             "status": "booked",
@@ -11,8 +11,7 @@
             "weight": 82,
             "country": "NL",
             "arrival": "voiture",
-        },
-       
+        }       
     ],
     "no stationaries": []
 }
