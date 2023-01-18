@@ -10,7 +10,7 @@
             "height": 160,
             "weight": 65,
             "country": "nl",
-            "diet": ""}
+        }
         {
             "status": "booked",
             "firstname": "annemiek",
@@ -19,7 +19,7 @@
             "height": 168,
             "weight": 68,
             "country": "nl",
-            "diet": ""}
+         }
          {      
          "status": "booked",
             "firstname": "monique",
@@ -28,7 +28,7 @@
             "height": 174,
             "weight": 78,
             "country": "nl",
-            "diet": ""}
+         }
          {
         "status": "booked",
             "firstname": "nathalie 5j",
@@ -37,7 +37,7 @@
             "height": 168,
             "weight": 62,
             "country": "nl",
-            "diet": ""}
+          }
           {
       "status": "booked",
             "firstname": "angela 5j",
@@ -46,7 +46,7 @@
             "height": 172,
             "weight": 80,
             "country": "nl",
-            "diet": ""}
+          }
     ],
     "NO STATIONARIES": []
 }
