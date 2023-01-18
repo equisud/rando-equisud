@@ -2,55 +2,6 @@
     "period": "07/23 to 07/30",
     "title": "No trail",
     "stationaries": [{
-        "status": "booked",
-        "firstname": "mark",
-        "gender": "man",
-        "age": 49,
-        "height": 181,
-        "weight": 72,
-        "country": "DE"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "bennet",
-        "gender": "man",
-        "age": 15,
-        "height": 165,
-        "weight": 55,
-        "country": "DE"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "maria",
-        "gender": "woman",
-        "age": 13,
-        "height": 165,
-        "weight": 65,
-        "country": "DE"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "Erin",
-        "gender": "woman",
-        "age": 18,
-        "height": 170,
-        "weight": 55,
-        "country": "FR"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "complet"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "complet"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "complet"
-    }, 
-    {
-        "status": "booked",
-        "firstname": "complet"
+        
     }]
 }
