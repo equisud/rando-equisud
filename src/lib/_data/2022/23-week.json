@@ -3,6 +3,14 @@
     "title": "Capcir",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
+        "status": "booked",
+        "firstname": "nine",
+        "gender": "woman",
+        "age": 21,
+        "height": 178,
+        "weight": 67,
+        "country": "nl",
+        "diet": "veggie"
             
        
     }],
