@@ -3,15 +3,14 @@
     "title": "haute ariege",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "rhule", "el tarter", "equisud"],
     "riders": [{
-            "status": "booked",
-            "firstname": "harry",
-            "gender": "man",
-            "age": 65,
-            "height": 192,
-            "weight": 82,
-            "country": "NL",
-            "arrival": "voiture",
-        }       
-    ],
-    "no stationaries": []
+        "status": "booked",
+        "firstname": "harry",
+        "gender": "man",
+        "age": 65,
+        "height": 192,
+        "weight": 82,
+        "country": "NL",
+        "arrival": "voiture"
+    }],
+    "stationaries": []
 }

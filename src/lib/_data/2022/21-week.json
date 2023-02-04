@@ -3,8 +3,7 @@
     "title": "Mediterannée",
     "locations": ["equisud", "opoul", "tuchan", "bouchard", "aigues-bones", "col de jau", "equisud"],
     "riders": [{
-            
-        }
-    ],
-    "NO STATIONARIES": []
+
+    }],
+    "stationaries": []
 }
