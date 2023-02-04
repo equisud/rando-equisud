@@ -3,7 +3,6 @@ import {
 } from "$lib/db";
 
 export async function load({
-    fetch,
     params
 }) {
     const fileName = `../../../lib/_data/2022/${params.slug}`
