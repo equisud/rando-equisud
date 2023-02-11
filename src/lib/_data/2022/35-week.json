@@ -18,8 +18,8 @@
             "age": 61,
             "height": 170,
             "weight": 73,
-            "country": "NL"
-        }
+            "country": "nl"
+        },
          {
             "status": "booked",
             "firstname": "rob",
@@ -27,8 +27,8 @@
             "age": 62,
             "height": 185,
             "weight": 89,
-            "country": "NL"
-        }
+            "country": "nl"
+        },
         {
             "status": "booked",
             "firstname": "conny",
@@ -36,7 +36,7 @@
             "age": 60,
             "height": 160,
             "weight": 61,
-            "country": "NL"
+            "country": "nl"
         } 
               
     ],
