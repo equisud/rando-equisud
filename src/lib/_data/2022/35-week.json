@@ -20,6 +20,25 @@
             "weight": 73,
             "country": "NL"
         }
+         {
+            "status": "booked",
+            "firstname": "rob",
+            "gender": "man",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "NL"
+        }
+        {
+            "status": "booked",
+            "firstname": "conny",
+            "gender": "woman",
+            "age": 60,
+            "height": 160,
+            "weight": 61,
+            "country": "NL"
+        } 
+              
     ],
     "stationaries": []
 }
