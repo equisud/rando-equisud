@@ -37,8 +37,16 @@
             "height": 160,
             "weight": 61,
             "country": "nl"
-        } 
-              
+        }, 
+        {
+            "status": "booked",
+            "firstname": "cassandra",
+            "gender": "woman",
+            "age": 62,
+            "height": 162,
+            "weight": 65,
+            "country": "nl"
+        }       
     ],
     "stationaries": []
 }
