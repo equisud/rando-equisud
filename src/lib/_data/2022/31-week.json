@@ -1,6 +1,33 @@
 {
     "period": "07/30 to 08/06",
-    "title": "available",
-
+    "title": "chemin des bonshommes",
+     "riders": [{
+            "status": "booked",
+            "firstname": "mariette",
+            "gender": "woman",
+            "age": 24,
+            "height": 160,
+            "weight": 55,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "marleen",
+            "gender": "woman",
+            "age": 61,
+            "height": 170,
+            "weight": 73,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "marianne",
+            "gender": "woman",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "fr"
+        }
+                ]
     "stationaries": []
 }
