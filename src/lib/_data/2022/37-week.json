@@ -1,6 +1,24 @@
 {
     "period": "09/10 to 09/17",
-    "title": "available",
+    ,"title": "Capcir 5j ",
+    "locations": ["equisud", "mijanes", "camurac", "luzenac", "refuge rhule", "llop gris", "equisud"],
+    "riders": [{
+        "status": "booked",
+        "firstname": "esther",
+        "gender": "woman",
+        "age": 52,
+        "height": 160,
+        "weight": 60,
+        "country": "nl"
+    }, {
+        "status": "booked",
+        "firstname": "tony",
+        "gender": "man",
+        "age": 56,
+        "height": 180,
+        "weight": 95,
+        "country": "nl"
+    }
 
     "stationaries": []
 }
