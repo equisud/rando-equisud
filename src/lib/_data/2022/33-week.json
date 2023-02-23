@@ -11,7 +11,16 @@
         "weight": 66,
         "diet": "veggie",
         "horse": "ufo",
-        "country": "NL"
-    }],
+        "country": "nl"
+    }, {
+        "status": "booked",
+        "firstname": "linda",
+        "gender": "woman",
+        "age": 45,
+        "height": 168,
+        "weight": 59,
+        "country": "nl"
+    }
+     ],
     "stationaries": []
 }
