@@ -3,7 +3,16 @@
     "title": "Mediterannée",
     "locations": ["equisud", "opoul", "tuchan", "bouchard", "aigues-bones", "col de jau", "equisud"],
     "riders": [{
+        "status": "booked",
+        "firstname": "josien",
+        "gender": "woman",
+        "age": 29,
+        "height": 174,
+        "weight": 70,
+        "country": "nl"
 
     }],
     "stationaries": []
 }
+
+   
