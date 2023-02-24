@@ -1,26 +1,25 @@
-{
-    "period": "08/13 to 08/20",
-    "title": "capcir",
-    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
-    "riders": [{
-        "status": "booked",
-        "firstname": "andrea",
-        "gender": "woman",
-        "age": 53,
-        "height": 170,
-        "weight": 66,
-        "diet": "veggie",
-        "horse": "ufo",
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "linda",
-        "gender": "woman",
-        "age": 45,
-        "height": 168,
-        "weight": 59,
-        "country": "nl"
+    {
+        "period": "08/13 to 08/20",
+        "title": "capcir",
+        "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+        "riders": [{
+            "status": "booked",
+            "firstname": "andrea",
+            "gender": "woman",
+            "age": 53,
+            "height": 170,
+            "weight": 66,
+            "diet": "veggie",
+            "horse": "ufo",
+            "country": "nl"
+        }, {
+            "status": "booked",
+            "firstname": "linda",
+            "gender": "woman",
+            "age": 45,
+            "height": 168,
+            "weight": 59,
+            "country": "nl"
+        }],
+        "stationaries": []
     }
-       ],
-    "stationaries": []
-}
