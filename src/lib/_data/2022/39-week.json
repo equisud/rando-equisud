@@ -1,6 +1,17 @@
 {
     "period": "09/24 to 10/01",
-    "title": "avalaible",
+    "title": "Capcir",
+    "riders": [{
+        "status": "booked",
+        "firstname": "carmen",
+        "gender": "woman",
+        "age": 57,
+        "height": 163,
+        "weight": 65,
+        "country": "nl"
+
+    }],
+    
     
     
     "stationaries": []
