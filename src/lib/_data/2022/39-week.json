@@ -10,8 +10,7 @@
         "weight": 65,
         "country": "nl"
          "status": "booked"
-    }, {
-               
+    }, {       
         "firstname": "esther",
         "gender": "woman",
         "age": 52,
@@ -27,7 +26,7 @@
         "weight": 95,
         "country": "nl"
     }, {
-           "status": "booked",
+        "status": "booked",
         "firstname": "jasmine",
         "gender": "woman",
         "age": 46,
@@ -35,7 +34,6 @@
         "weight": 55,
         "country": "nl"
     }, {
-        
         "status": "booked",
         "firstname": "carmen",
         "gender": "woman",
