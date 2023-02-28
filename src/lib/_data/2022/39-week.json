@@ -9,8 +9,42 @@
         "height": 163,
         "weight": 65,
         "country": "nl"
-
-    }],
+         "status": "booked",},
+               
+      
+        "firstname": "esther",
+        "gender": "woman",
+        "age": 52,
+        "height": 160,
+        "weight": 60,
+        "country": "nl"
+    }, {
+        "status": "booked",
+        "firstname": "tony",
+        "gender": "man",
+        "age": 56,
+        "height": 180,
+        "weight": 95,
+        "country": "nl"
+    }, {
+           "status": "booked",
+        "firstname": "jasmine",
+        "gender": "woman",
+        "age": 46,
+        "height": 163,
+        "weight": 55,
+        "country": "nl"
+    }, 
+{
+        "status": "booked",
+        "firstname": "carmen",
+        "gender": "woman",
+        "age": 56,
+        "height": 163,
+        "weight": 55,
+        "country": "nl"
+    }
+     ],  
     
     
     
