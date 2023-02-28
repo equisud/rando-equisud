@@ -9,9 +9,9 @@
         "height": 163,
         "weight": 65,
         "country": "nl"
-         "status": "booked",},
+         "status": "booked"
+    }, {
                
-      
         "firstname": "esther",
         "gender": "woman",
         "age": 52,
@@ -34,8 +34,8 @@
         "height": 163,
         "weight": 55,
         "country": "nl"
-    }, 
-{
+    }, {
+        
         "status": "booked",
         "firstname": "carmen",
         "gender": "woman",
