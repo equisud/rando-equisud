@@ -1,7 +1,7 @@
 {
-    "period": "07/29 to 08/05",
+    "period": "07/22 to 07/28",
     "title": "chemin des bonshommes",
-     "riders": [{
+    "riders": [{
             "status": "booked",
             "firstname": "mariette",
             "gender": "woman",
@@ -28,6 +28,6 @@
             "weight": 89,
             "country": "fr"
         }
-                ],
+    ],
     "stationaries": []
 }

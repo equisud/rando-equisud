@@ -1,34 +1,34 @@
 {
-    "period": "09/09 to 09/16",
+    "period": "09/02 to 09/09",
     "title": "Andorra ",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "refuge rhule", "llop gris", "equisud"],
     "riders": [{
-        "status": "booked",
-        "firstname": "ingrid",
-        "gender": "woman",
-        "age": 52,
-        "height": 158,
-        "weight": 65,
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "anouchka",
-        "gender": "woman",
-        "age": 24,
-        "height": 165,
-        "weight": 65,
-        "country": "nl"
-    },
-    {
-        "status": "booked",
-        "firstname": "non cavalier",
-        "gender": "man",
-        "age": 24,
-        "height": 165,
-        "weight": 65,
-        "country": "nl"
-    }
-     ],
+            "status": "booked",
+            "firstname": "ingrid",
+            "gender": "woman",
+            "age": 52,
+            "height": 158,
+            "weight": 65,
+            "country": "nl"
+        }, {
+            "status": "booked",
+            "firstname": "anouchka",
+            "gender": "woman",
+            "age": 24,
+            "height": 165,
+            "weight": 65,
+            "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "non cavalier",
+            "gender": "man",
+            "age": 24,
+            "height": 165,
+            "weight": 65,
+            "country": "nl"
+        }
+    ],
 
     "stationaries": []
 }
