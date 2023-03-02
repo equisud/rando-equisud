@@ -1,5 +1,5 @@
 {
-    "period": "07/16 to 07/23",
+    "period": "07/15 to 07/22",
     "title": "haute ariege",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "rhule", "el tarter", "equisud"],
     "riders": [{
@@ -11,6 +11,16 @@
         "weight": 82,
         "country": "NL",
         "arrival": "voiture"
+    },
+    {
+        "status": "booked",
+        "firstname": "marloes",
+        "gender": "woman",
+        "age": 38,
+        "height": 165,
+        "weight": 60,
+        "country": "NL"
     }],
+        
     "stationaries": []
 }

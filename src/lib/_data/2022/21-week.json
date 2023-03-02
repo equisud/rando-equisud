@@ -1,5 +1,5 @@
 {
-    "period": "05/21 to 05/28",
+    "period": "05/20 to 05/27",
     "title": "Mediterannée",
     "locations": ["equisud", "opoul", "tuchan", "bouchard", "aigues-bones", "col de jau", "equisud"],
     "riders": [{
@@ -12,7 +12,7 @@
         "country": "nl"
 
     }],
-    "stationaries": []
+    " No stationaries": []
 }
 
    
