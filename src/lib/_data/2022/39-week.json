@@ -8,9 +8,9 @@
         "age": 57,
         "height": 163,
         "weight": 65,
-        "status": "booked",
         "country": "nl"
     }, {
+        "status": "booked",
         "firstname": "esther",
         "gender": "woman",
         "age": 52,
