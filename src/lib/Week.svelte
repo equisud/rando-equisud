@@ -1,26 +1,28 @@
 <script>
-  import { getCountrySummary } from "$lib/db"
-  import Booked from "$lib/Booked.svelte"
-  import Icon from '@iconify/svelte';
-  import { page } from '$app/stores';
+  import { getCountrySummary } from "$lib/db";
+  import Booked from "$lib/Booked.svelte";
+  import Icon from "@iconify/svelte";
+  import { page } from "$app/stores";
 
-  const isAdmin = $page.url.search === "?admin"
+  const isAdmin = $page.url.search === "?admin";
 
   export let week;
-  
-  const isStationaries = !(
-    week.title && week.title.includes("No stationary")
-  )
-  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${week.file}`
+
+  const isStationaries = !(week.title && week.title.includes("No stationary"));
+  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${week.file}`;
 </script>
 
 <article class="week">
   <header class="week-banner">
     <h3>{week.period || '?'}</h3>
     {#if isAdmin}
-      <a href="{githubEditLink}"><Icon icon="mdi-light:pencil" /></a>
+      <a href={githubEditLink}>
+        <Icon icon="mdi-light:pencil" />
+      </a>
       -
-      <a href="/week/{week.file}?admin"><Icon icon="mdi-light:eye" /></a>
+      <a href="/week/{week.file.replace(/\.[^/.]+$/, '')}?admin">
+        <Icon icon="mdi-light:eye" />
+      </a>
     {/if}
   </header>
   <body>
