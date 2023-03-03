@@ -5,9 +5,9 @@ import {
 export async function load({
     params
 }) {
-    const fileName = `../../../lib/_data/2022/${params.slug}`
+    const fileName = `../../../lib/_data/2022/${params.slug}.json`
     const importWeek =
-        import ( /* @vite-ignore */ fileName)
+        import ( /* @vite-ignore */ '$lib/_data/2022/20-week.json')
     const week = JSON.parse(JSON.stringify(await importWeek))
     week.file = fileName.match(/.*\/([^?]+)/)[1]
     week.dates = periodToDate(week.period)
