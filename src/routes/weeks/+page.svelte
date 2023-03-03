@@ -1,13 +1,12 @@
 <script>
-  import Week from "$lib/Week.svelte"
+  import { weeksLoad } from "$lib/stores.js";
+  import Week from "$lib/Week.svelte";
 
-  export let data
-
-  const weeks = sortByDate(data.post.weeksContents)
-  const year = new Date().getFullYear()
+  const weeks = $weeksLoad;
+  const year = new Date().getFullYear();
 
   function sortByDate(weeks) {
-    return weeks.sort((a, b) => a.dates.departure - b.dates.departure)
+    return weeks.sort((a, b) => a.dates.departure - b.dates.departure);
   }
 </script>
 
