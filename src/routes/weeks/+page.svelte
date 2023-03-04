@@ -1,8 +1,8 @@
 <script>
-  import { weeksLoad } from "$lib/stores.js";
   import Week from "$lib/Week.svelte";
-
-  const weeks = $weeksLoad;
+  export let data;
+  console.log("data", data.post.weeks);
+  const weeks = data.post.weeks;
   const year = new Date().getFullYear();
 
   function sortByDate(weeks) {

@@ -24,4 +24,6 @@ async function getWeeks() {
     return data
 }
 
-export const weeksLoad = writable(await getWeeks())
+const weeks = getWeeks()
+
+export const weeksLoad = writable(weeks)

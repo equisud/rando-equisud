@@ -11,7 +11,7 @@ import {
 export async function load({
     params
 }) {
-    const weeks = get(weeksLoad)
+    const weeks = await get(weeksLoad)
     const weekSelected = weeks.find(week => week.file === params.slug + '.json')
 
     weekSelected.dates = periodToDate(weekSelected.period)
