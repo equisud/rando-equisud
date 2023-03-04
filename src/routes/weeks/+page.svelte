@@ -1,7 +1,7 @@
 <script>
   import Week from "$lib/Week.svelte";
   export let data;
-  console.log("data", data.post.weeks);
+
   const weeks = data.post.weeks;
   const year = new Date().getFullYear();
 
