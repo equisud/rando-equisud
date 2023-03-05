@@ -9,7 +9,7 @@
   export let week;
 
   const isStationaries = !week.hasOwnProperty("No stationary");
-  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${week.file}`;
+  const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2023/${week.file}`;
 </script>
 
 <article class="week">
