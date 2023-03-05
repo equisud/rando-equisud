@@ -8,7 +8,7 @@
 
   export let week;
 
-  const isStationaries = !(week.title && week.title.includes("No stationary"));
+  const isStationaries = !week.hasOwnProperty("No stationary");
   const githubEditLink = `https://github.com/equisud/rando-equisud/edit/main/src/lib/_data/2022/${week.file}`;
 </script>
 
@@ -46,8 +46,7 @@
       </body>
     </article>
     <article class="week-stationary">
-      <header
-        class="stationary-banner {week.title && week.title.includes('No stationary') ? 'no-way' : ''}">
+      <header class="stationary-banner {isStationaries ? '' : 'no-way'}">
         {isStationaries ? 'Stationaries' : 'No stationary'}
       </header>
       {#if isStationaries && week.stationaries}
