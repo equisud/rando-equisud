@@ -1,5 +1,55 @@
 {
     "period": "09/30 to 10/07",
     "title": "Capcir"
+    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "riders": [{
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "moussa",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        }
+    ],
     "No stationary": []
 }
