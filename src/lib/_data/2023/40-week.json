@@ -1,6 +1,6 @@
 {
     "period": "09/30 to 10/07",
-    "title": "Capcir"
+    "title": "Capcir",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
             "status": "booked",
