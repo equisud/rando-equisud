@@ -25,9 +25,28 @@
             "gender": "woman",
             "age": 62,
             "height": 185,
+   
             "weight": 89,
             "country": "fr"
-        }
+        },
+       {
+           status": "booked",
+            "firstname": "annette",
+            "gender": "woman",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "fr"
+       },
+       {
+           status": "booked",
+            "firstname": "diter",
+            "gender": "man",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "fr"
+       }
     ],
     "stationaries": []
 }
