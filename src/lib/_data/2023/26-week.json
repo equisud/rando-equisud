@@ -1,7 +1,7 @@
 {
     "period": "06/24 to 07/01",
     "title": "Capcir",
-    "locations": ["equisud", "mijanes", "camurac", "luzenac", "refuge rhule", "llop gris", "equisud"],
+    "locations": ["equisud", "equisud", "bouillouses", "espou", "mijanes", "sansa", "equisud"],
     "riders": [{
         "status": "booked",
         "firstname": "nikita",
