@@ -30,7 +30,7 @@
             "country": "fr"
         },
        {
-            status": "booked",
+            "status": "booked",
             "firstname": "annette",
             "gender": "woman",
             "age": 62,
@@ -39,7 +39,7 @@
             "country": "fr"
        },
        {
-             status": "booked",
+             "status": "booked",
             "firstname": "diter",
             "gender": "man",
             "age": 62,
