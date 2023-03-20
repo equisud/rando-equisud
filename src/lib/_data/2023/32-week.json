@@ -3,7 +3,7 @@
     "title": "No trail",
 
     "stationaries": [
-     "riders": [{
+     "riders": {
             "status": "booked",
             "firstname": "Anaïs",
             "gender": "woman",
