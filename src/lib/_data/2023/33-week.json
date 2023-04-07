@@ -20,6 +20,15 @@
             "height": 168,
             "weight": 59,
             "country": "nl"
-        }],
+        }, {
+             "status": "booked",
+            "firstname": "nine",
+            "gender": "woman",
+            "age": 21,
+            "height": 17,
+            "weight": 67,
+            "diet": "veggie",
+            "country": "nl" 
+            }],
         "stationaries": []
     }
