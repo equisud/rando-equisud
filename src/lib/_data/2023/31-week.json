@@ -1,7 +1,7 @@
 {
     "period": "07/29 to 08/05",
     "title": "chemin des bonshommes",
-    "locations":  ["bouillouses" "mas franc" "belver" "baga" "gosol" "equisud"],
+    "locations": ["Bouillouses", "Mas Franc", "Belver", "Baga", "Gosol", "Equisud"],
     "riders": [{
             "status": "booked",
             "firstname": "mariette",
@@ -26,7 +26,7 @@
             "gender": "woman",
             "age": 62,
             "height": 185,
-   
+
             "weight": 89,
             "country": "fr"
         },
@@ -38,16 +38,16 @@
             "height": 185,
             "weight": 89,
             "country": "fr"
-       },
-       {
-             "status": "booked",
+        },
+        {
+            "status": "booked",
             "firstname": "diter",
             "gender": "man",
             "age": 62,
             "height": 185,
             "weight": 89,
             "country": "fr"
-       }
+        }
     ],
     "stationaries": []
 }
