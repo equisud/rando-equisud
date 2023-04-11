@@ -1,7 +1,7 @@
 {
     "period": "07/29 to 08/05",
     "title": "chemin des bonshommes",
-    "locations": "bouillouses, mas franc, belver, baga, gosol, equisud",
+    "locations":  ["bouillouses, mas franc, belver, baga, gosol, equisud"],
     "riders": [{
             "status": "booked",
             "firstname": "mariette",
