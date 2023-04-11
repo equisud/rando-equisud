@@ -1,7 +1,7 @@
 {
     "period": "08/26 to 09/02",
     "title": "capcir",
-    "locations": ["equisud", "equisud", "espousouille", "espousouille", "mijanes", "sansa", "equisud"],
+    "locations": ["equisud", "equisud", "bouillouses", "bouillouses", "espou", "sansa", "equisud"],
     "riders": [{
             "status": "booked",
             "firstname": "linde",
