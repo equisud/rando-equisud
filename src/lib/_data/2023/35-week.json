@@ -63,7 +63,8 @@
             "age": 60,
             "height": 171,
             "weight": 55,
-            "country": "nl"
+            "country": "nl",
+            "diet": "veggie"
         }
             
     ],
