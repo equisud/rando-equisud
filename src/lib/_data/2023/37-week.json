@@ -27,8 +27,17 @@
             "height": 165,
             "weight": 65,
             "country": "nl"
-        }
-    ],
+        },
+        {
+           "status": "booked",
+           "firstname": "josien",
+           "gender": "woman",
+           "age": 29,
+           "height": 174,
+           "weight": 70,
+           "country": "nl"
+
+    }],
 
     "stationaries": []
 }
