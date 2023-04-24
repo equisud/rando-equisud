@@ -11,8 +11,15 @@
         "weight": 67,
         "country": "nl",
         "diet": "veggie"
-
-
-    }],
+        }, 
+        {
+        "status": "booked",
+        "firstname": "katharina",
+        "gender": "woman",
+        "age": 25,
+        "height": 168,
+        "weight": 59,
+        "country": "all"
+        }],
     "No stationary": []
 }
