@@ -38,15 +38,6 @@
             "height": 180,
             "weight": 70,
             "country": "all"
-        },{
-            "status": "booked",
-            "firstname": "nicole",
-            "gender": "woman",
-            "age": 53,
-            "height": 167,
-            "weight": 62,
-            "diet": "allergie thon, lait, porc",
-            "country": "nl"
         },
         {
             "status": "booked",
