@@ -29,6 +29,25 @@
             "weight": 67,
             "diet": "veggie",
             "country": "nl"
+        },
+        {  
+            "status": "booked",
+            "firstname": "eike christian",
+            "gender": "man",
+            "age": 38,
+            "height": 180,
+            "weight": 70,
+            "country": "all"
+        },
+        {
+            "status": "booked",
+            "firstname": "fabien",
+            "gender": "man",
+            "age": 48,
+            "height": 182,
+            "weight": 73,
+            "country": "all"
         }],
+        
         "stationaries": []
     }
