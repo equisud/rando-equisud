@@ -65,8 +65,16 @@
             "weight": 55,
             "country": "nl",
             "diet": "veggie"
-        }
+        },
+        {
+           "status": "booked",
+            "firstname": "Manuela",
+            "gender": "woman",
+            "age": 62
+            "height": 165
+            "weight": 55,
+            "country": "nl" 
             
-    ],
+        }],
     "stationaries": []
 }
