@@ -55,7 +55,17 @@
             "height": 187,
             "weight": 90,
             "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "Lijn",
+            "gender": "woman",
+            "age": 60,
+            "height": 171,
+            "weight": 55,
+            "country": "nl"
         }
+            
     ],
     "stationaries": []
 }
