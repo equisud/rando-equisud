@@ -47,6 +47,16 @@
             "height": 182,
             "weight": 73,
             "country": "all"
-        }],
+        },
+        {
+            "status": "booked",
+            "firstname": "nathalie",
+            "gender": "woman",
+            "age": 59,
+            "height": 170,
+            "weight": 59,
+            "country": "fr"
+            
+                  ],
         "stationaries": []
     }
