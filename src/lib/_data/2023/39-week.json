@@ -42,8 +42,8 @@
         "height": 163,
         "weight": 55,
         "country": "nl"
-    },
-    {
+    },{
+    
         "status": "booked",
         "firstname": "juliane",
         "gender": "woman",
