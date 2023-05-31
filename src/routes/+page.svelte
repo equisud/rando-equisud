@@ -12,7 +12,7 @@
 </p>
 <ul>
   <li>email: rando@equisud.com</li>
-  <li>mobile: +(33) 7 79 47 65</li>
+  <li>mobile: +(33) 6 07 79 47 65</li>
 </ul>
 <hr />
 <p>
@@ -23,7 +23,7 @@
 </p>
 <ul>
   <li>e-mail: rando@equisud.com</li>
-  <li>telefonisch: +(33) 7 79 47 65</li>
+  <li>telefonisch: +(33) 6 07 79 47 65</li>
 </ul>
 <hr />
 <p>
@@ -34,7 +34,7 @@
 </p>
 <ul>
   <li>e-mail: rando@equisud.com</li>
-  <li>telefonisch: +(33) 7 79 47 65</li>
+  <li>telefonisch: +(33) 6 07 79 47 65</li>
 </ul>
 <hr />
 <p>
@@ -44,5 +44,5 @@
 </p>
 <ul>
   <li>e-mail: rando@equisud.com</li>
-  <li>telefonisch: +(33) 7 79 47 65</li>
+  <li>telefonisch: +(33) 6 07 79 47 65</li>
 </ul>
