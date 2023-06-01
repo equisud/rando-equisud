@@ -49,5 +49,22 @@
             "country": "fr"
         }
     ],
-    "stationaries": []
-}
+    "stationaries": [
+        "riders": [{
+            "status": "booked",
+            "firstname": "Robin",
+            "gender": "man",
+            "age": 9,
+            "height": 125,
+            "weight": 25,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "Maelie",
+            "gender": "woman",
+            "age": 12,
+            "height": 145,
+            "weight": 35,
+            "country": "fr"]
+}]
