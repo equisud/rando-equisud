@@ -4,22 +4,12 @@
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
         "status": "booked",
-        "firstname": "nine 5j",
-        "gender": "woman",
-        "age": 21,
-        "height": 178,
-        "weight": 67,
-        "country": "nl",
-        "diet": "veggie"
-        }, 
-        {
-        "status": "booked",
         "firstname": "katharina",
         "gender": "woman",
         "age": 25,
         "height": 168,
         "weight": 59,
-        "country": "all"
+        "country": "de"
         },
         {
         "status": "booked",
@@ -28,7 +18,7 @@
         "age": 53,
         "height": 167,
         "weight": 62,
-        "country": "all",
+        "country": "de",
         "diet": "allergie thon,lait,porc"
         }], 
     "No stationary": []
