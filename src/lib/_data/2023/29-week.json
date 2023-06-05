@@ -29,7 +29,17 @@
             "height": 181,
             "weight": 73,
             "country": "NL"
-        }      
+        },
+        {
+            "status": "booked",
+            "firstname": "ariane",
+            "gender": "woman",
+            "age": 51,
+            "height": 173,
+            "weight": 68,
+            "country": "NL"
+        }  
+        
     ],
 
     "No stationary": []
