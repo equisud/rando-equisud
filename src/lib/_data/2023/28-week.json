@@ -2,5 +2,22 @@
     "period": "07/08 to 07/15",
     "title": "No trail",
 
-    "stationaries": []
+    "stationaries": [{
+        "status": "booked",
+        "firstname": "fransisca",
+        "gender": "woman",
+        "age": 32,
+        "height": 163,
+        "weight": 52,
+        "country": "ger"
+    },{
+        "status": "booked",
+        "firstname": "milena",
+        "gender": "woman",
+        "age": 42,
+        "height": 172,
+        "weight": 75,
+        "country": "fr"
+    }
+                    ]
 }
