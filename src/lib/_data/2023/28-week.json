@@ -10,7 +10,8 @@
         "height": 163,
         "weight": 52,
         "country": "ger"
-    },{
+    },
+    {
         "status": "booked",
         "firstname": "milena",
         "gender": "woman",
