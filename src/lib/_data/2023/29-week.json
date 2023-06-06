@@ -38,7 +38,16 @@
             "height": 173,
             "weight": 68,
             "country": "NL"
-        }      
+        }, 
+        {
+            "status": "booked",
+            "firstname": "sanderine",
+            "gender": "woman",
+            "age": 30,
+            "height": 170,
+            "weight": 80,
+            "country": "NL"
+        }
     ],
 
     "No stationary": []
