@@ -77,7 +77,7 @@
 		}
 	],
 
-	"stationaries": [{
+	" No stationaries": [{
 			"status": "booked",
 			"firstname": "sophie",
 			"gender": "woman",
