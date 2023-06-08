@@ -56,7 +56,16 @@
             "height": 170,
             "weight": 59,
             "country": "fr"
-          }   
+          },
+        {
+            "status": "booked",
+            "firstname": "Marlene",
+            "gender": "woman",
+            "age": 30,
+            "height": 174,
+            "weight": 65,
+            "diet": "veggie",
+            "country": "DE"   
         ],
         "stationaries": []
     }
