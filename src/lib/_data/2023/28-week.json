@@ -19,6 +19,15 @@
         "height": 172,
         "weight": 75,
         "country": "DE"
+    },
+    {
+        "status": "booked"
+        "firstname": "milena",
+        "gender": "woman",
+        "age": 12,
+        "height": 150,
+        "weight": 40,
+        "country": "DE"
     }
                     ]
 }
