@@ -22,6 +22,12 @@
         },
         {
             "status": "booked"
+            "firstname": "ella",
+            "gender": "woman",
+            "age": 12,
+            "height": 150,
+            "weight": 40,
+            "country": "fr"
         },
         {
             "status": "booked"
