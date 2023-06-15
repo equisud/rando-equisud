@@ -21,7 +21,7 @@
             "country": "DE"
         },
         {
-            "status": "booked"
+            "status": "booked",
             "firstname": "ella",
             "gender": "woman",
             "age": 12,
