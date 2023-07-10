@@ -66,6 +66,16 @@
                 "weight": 65,
                 "diet": "veggie",
                 "country": "de"
+            },
+            {
+                "status": "booked",
+                "firstname": "Rosalie",
+                "gender": "woman",
+                "age": 25,
+                "height": 180,
+                "weight": 75,
+                "diet": "veggie",
+                "country": "de"
             }
         ],
         "stationaries": []
