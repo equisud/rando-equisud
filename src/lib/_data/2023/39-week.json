@@ -43,6 +43,15 @@
         "height": 170,
         "weight": 67,
         "country": "de"
+    },{
+    
+        "status": "booked",
+        "firstname": "femke",
+        "gender": "woman",
+        "age": 55,
+        "height": 171,
+        "weight": 57,
+        "country": "nl"
     }],
 
     "No stationary": []
