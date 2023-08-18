@@ -53,16 +53,7 @@
             "height": 185,
             "weight": 75,
             "country": "de"
-        },
-          {
-            "status": "booked",
-            "firstname": "oliver",
-            "gender": "man",
-            "age": 40,
-            "height": 185,
-            "weight": 75,
-            "country": "de"
-          }      
+        }
          ],
 
     "stationaries": []
