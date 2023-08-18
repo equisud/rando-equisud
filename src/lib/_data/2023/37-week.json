@@ -37,6 +37,15 @@
            "weight": 80,
            "country": "nl"
          },
+         {
+           "status": "booked",
+           "firstname": "mirjam",
+           "gender": "woman",
+           "age": 47,
+           "height": 172,
+           "weight": 63,
+           "country": "nl"
+         },
           { "status": "booked",
             "firstname": "anita",
             "gender": "woman",
