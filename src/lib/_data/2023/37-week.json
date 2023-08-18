@@ -36,7 +36,34 @@
            "height": 161,
            "weight": 80,
            "country": "nl"
-         }],
+         },
+          { "status": "booked",
+            "firstname": "anita",
+            "gender": "woman",
+            "age": 39,
+            "height": 170,
+            "weight": 55,
+            "country": "de"
+        }, 
+         {
+            "status": "booked",
+            "firstname": "oliver",
+            "gender": "man",
+            "age": 40,
+            "height": 185,
+            "weight": 75,
+            "country": "de"
+        },
+          {
+            "status": "booked",
+            "firstname": "oliver",
+            "gender": "man",
+            "age": 40,
+            "height": 185,
+            "weight": 75,
+            "country": "de"
+          }      
+         ],
 
     "stationaries": []
 }
