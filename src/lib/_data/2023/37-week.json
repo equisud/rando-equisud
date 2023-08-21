@@ -39,6 +39,7 @@
          },
          {
            "status": "booked",
+             "diet": "vegetarien"
            "firstname": "mirjam",
            "gender": "woman",
            "age": 47,
