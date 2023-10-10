@@ -1,47 +1,6 @@
 {
     "period": "06/22 to 06/29",
-    "title": "Capcir",
-    "locations": ["equisud", "equisud", "bouillouses", "espou", "mijanes", "sansa", "equisud"],
-    "riders": [{
-        "status": "booked",
-        "firstname": "nikita",
-        "gender": "woman",
-        "age": 27,
-        "height": 160,
-        "weight": 65,
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "annemiek",
-        "gender": "woman",
-        "age": 56,
-        "height": 168,
-        "weight": 68,
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "monique",
-        "gender": "woman",
-        "age": 44,
-        "height": 174,
-        "weight": 78,
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "nathalie 5j",
-        "gender": "woman",
-        "age": 54,
-        "height": 168,
-        "weight": 62,
-        "country": "nl"
-    }, {
-        "status": "booked",
-        "firstname": "angela 5j",
-        "gender": "woman",
-        "age": 54,
-        "height": 172,
-        "weight": 80,
-        "country": "nl"
-    }],
+    "title": "availaible",
+    "riders": [],
     "stationaries": []
 }
