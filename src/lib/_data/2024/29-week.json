@@ -1,54 +1,5 @@
 {
     "period": "07/13 to 07/20",
-    "title": "haute ariege",
-    "locations": ["equisud", "mijanes", "camurac", "luzenac", "rhule", "el tarter", "equisud"],
-    "riders": [{
-            "status": "booked",
-            "firstname": "harry",
-            "gender": "man",
-            "age": 65,
-            "height": 192,
-            "weight": 82,
-            "country": "NL",
-            "arrival": "voiture"
-        },
-        {
-            "status": "booked",
-            "firstname": "marloes",
-            "gender": "woman",
-            "age": 38,
-            "height": 165,
-            "weight": 60,
-            "country": "NL"
-        },
-        {
-            "status": "booked",
-            "firstname": "nico",
-            "gender": "man",
-            "age": 61,
-            "height": 181,
-            "weight": 73,
-            "country": "NL"
-        },
-        {
-            "status": "booked",
-            "firstname": "ariane",
-            "gender": "woman",
-            "age": 51,
-            "height": 173,
-            "weight": 68,
-            "country": "NL"
-        },
-        {
-            "status": "booked",
-            "firstname": "sanderine",
-            "gender": "woman",
-            "age": 30,
-            "height": 170,
-            "weight": 80,
-            "country": "NL"
-        }
-    ],
-
-    "No stationary": []
+    "title": "availaible",
+    "stationary": []
 }
