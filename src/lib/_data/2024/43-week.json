@@ -1,0 +1,16 @@
+{
+    "period": "10/13 to 10/20",
+    "title": "Transhumance",
+    "locations": ["Equisud", "Mijanes", "Camurac", "Montsegur", "Roquefixade", "Cantegrill"],
+    "riders": [{
+        "status": "booked",
+        "firstname": "tina",
+        "gender": "woman",
+        "horse": "kampa",
+        "age": 40,
+        "height": 170,
+        "weight": 55,
+        "country": "DE"
+    }],
+    "stationaries": []
+}

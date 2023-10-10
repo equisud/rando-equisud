@@ -1,0 +1,71 @@
+{
+    "period": "07/29 to 08/05",
+    "title": "chemin des bonshommes",
+    "locations": ["Bouillouses", "Mas Franc", "Belver", "Baga", "Gosol", "Equisud"],
+    "riders": [{
+            "status": "booked",
+            "firstname": "mariette",
+            "gender": "woman",
+            "age": 24,
+            "height": 160,
+            "weight": 55,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "marleen",
+            "gender": "woman",
+            "age": 61,
+            "height": 170,
+            "weight": 73,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "marianne",
+            "gender": "woman",
+            "age": 62,
+            "height": 185,
+
+            "weight": 89,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "annette",
+            "gender": "woman",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "diter",
+            "gender": "man",
+            "age": 62,
+            "height": 185,
+            "weight": 89,
+            "country": "fr"
+        }
+    ],
+    "stationaries": [{
+            "status": "booked",
+            "firstname": "Robin",
+            "gender": "man",
+            "age": 9,
+            "height": 125,
+            "weight": 25,
+            "country": "fr"
+        },
+        {
+            "status": "booked",
+            "firstname": "Maelie",
+            "gender": "woman",
+            "age": 12,
+            "height": 145,
+            "weight": 35,
+            "country": "fr"
+        }
+    ]
+}

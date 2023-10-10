@@ -1,0 +1,32 @@
+{
+    "period": "07/01 to 07/07",
+    "title": "Capcir 5j",
+    "locations": ["equisud", "bouillouses", "espou", "sansa","mijanes","equisud"],
+    "riders": [{
+        "status": "booked",
+        "firstname": "henk",
+        "gender": "man",
+        "age": 65,
+        "height": 179,
+        "weight": 73,
+        "country": "nl"
+    }, {
+        "status": "booked",
+        "firstname": "lynn",
+        "gender": "woman",
+        "age": 29,
+        "height": 165,
+        "weight": 58,
+        "country": "nl"
+    }, {
+        "status": "booked",
+        "firstname": "patrick",
+        "gender": "man",
+        "age": 56,
+        "height": 165,
+        "weight": 70,
+        "country": "fr"
+    }],
+
+    "No stationary": []
+}

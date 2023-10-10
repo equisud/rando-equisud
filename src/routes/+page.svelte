@@ -1,4 +1,4 @@
-<h1>Equisud riding 2023 - Tour Operator</h1>
+<h1>Equisud riding 2024 - Tour Operator</h1>
 <img src="bandeau.jpg" alt="equisud" />
 <p>
   <a href="/weeks">To visualize the weeks</a>

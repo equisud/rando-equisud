@@ -1,0 +1,99 @@
+{
+	"period": "08/26 to 09/02",
+	"title": "capcir",
+	"locations": ["equisud", "equisud", "bouillouses", "bouillouses", "espou", "sansa", "equisud"],
+	"riders": [{
+			"status": "booked",
+			"firstname": "linde",
+			"gender": "woman",
+			"age": 24,
+			"height": 160,
+			"weight": 55,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "ingrid",
+			"gender": "woman",
+			"age": 61,
+			"height": 170,
+			"weight": 73,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "rob",
+			"gender": "man",
+			"age": 62,
+			"height": 185,
+			"weight": 89,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "conny",
+			"gender": "woman",
+			"age": 60,
+			"height": 160,
+			"weight": 61,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "cassandra",
+			"gender": "woman",
+			"age": 62,
+			"height": 162,
+			"weight": 65,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "pieter",
+			"gender": "man",
+			"age": 62,
+			"height": 187,
+			"weight": 90,
+			"country": "nl"
+		},
+		{
+			"status": "booked",
+			"firstname": "Lijn",
+			"gender": "woman",
+			"age": 60,
+			"height": 171,
+			"weight": 55,
+			"country": "nl",
+			"diet": "veggie"
+		},
+		{
+			"status": "booked",
+			"firstname": "Manuela",
+			"gender": "woman",
+			"age": 62,
+			"height": 165,
+			"weight": 55,
+			"country": "nl"
+		}
+	],
+
+	" No stationaries": [{
+			"status": "booked",
+			"firstname": "sophie",
+			"gender": "woman",
+			"age": 24,
+			"height": 158,
+			"weight": 53,
+			"country": "de"
+		},
+		{
+			"status": "booked",
+			"firstname": "edouard",
+			"gender": "man",
+			"age": 34,
+			"height": 179,
+			"weight": 61,
+			"country": "de"
+		}
+	]
+}

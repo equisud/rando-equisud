@@ -3,7 +3,6 @@
   export let data;
 
   const weeks = data.post.weeks;
-  const year = new Date().getFullYear();
 
   function sortByDate(weeks) {
     return weeks.sort((a, b) => a.dates.departure - b.dates.departure);
@@ -11,10 +10,10 @@
 </script>
 
 <svelte:head>
-  <title>Equisud riding {year} - Tour Operator</title>
+  <title>Equisud riding 2024 - Tour Operator</title>
 </svelte:head>
 
-<h1>Equisud riding {year} - Tour Operator</h1>
+<h1>Equisud riding 2024 - Tour Operator</h1>
 <h2>Future weeks</h2>
 <section class="future-weeks">
   {#each weeks as week}
