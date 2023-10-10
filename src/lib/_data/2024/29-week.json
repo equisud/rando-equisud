@@ -1,5 +1,5 @@
 {
-    "period": "07/15 to 07/22",
+    "period": "07/13 to 07/20",
     "title": "haute ariege",
     "locations": ["equisud", "mijanes", "camurac", "luzenac", "rhule", "el tarter", "equisud"],
     "riders": [{
@@ -38,7 +38,7 @@
             "height": 173,
             "weight": 68,
             "country": "NL"
-        }, 
+        },
         {
             "status": "booked",
             "firstname": "sanderine",

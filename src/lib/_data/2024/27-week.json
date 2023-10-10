@@ -1,7 +1,7 @@
 {
-    "period": "07/01 to 07/07",
+    "period": "06/29 to 06/07",
     "title": "Capcir 5j",
-    "locations": ["equisud", "bouillouses", "espou", "sansa","mijanes","equisud"],
+    "locations": ["equisud", "bouillouses", "espou", "sansa", "mijanes", "equisud"],
     "riders": [{
         "status": "booked",
         "firstname": "henk",

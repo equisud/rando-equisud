@@ -1,25 +1,26 @@
 {
-    "period": "06/03 to 06/10",
+    "period": "06/01 to 06/08",
     "title": "Capcir",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
     "riders": [{
-        "status": "booked",
-        "firstname": "katharina",
-        "gender": "woman",
-        "age": 25,
-        "height": 168,
-        "weight": 59,
-        "country": "de"
+            "status": "booked",
+            "firstname": "katharina",
+            "gender": "woman",
+            "age": 25,
+            "height": 168,
+            "weight": 59,
+            "country": "de"
         },
         {
-        "status": "booked",
-        "firstname": "nicole",
-        "gender": "woman",
-        "age": 53,
-        "height": 167,
-        "weight": 62,
-        "country": "de",
-        "diet": "allergie thon,lait,porc"
-        }], 
+            "status": "booked",
+            "firstname": "nicole",
+            "gender": "woman",
+            "age": 53,
+            "height": 167,
+            "weight": 62,
+            "country": "de",
+            "diet": "allergie thon,lait,porc"
+        }
+    ],
     "No stationary": []
 }
