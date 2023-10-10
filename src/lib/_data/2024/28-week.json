@@ -1,48 +1,5 @@
 {
     "period": "07/06 to 07/13",
     "title": "No trail",
-
-    "stationaries": [{
-            "status": "booked",
-            "firstname": "fransisca",
-            "gender": "woman",
-            "age": 32,
-            "height": 163,
-            "weight": 52,
-            "country": "DE"
-        },
-        {
-            "status": "booked",
-            "firstname": "milena",
-            "gender": "woman",
-            "age": 42,
-            "height": 172,
-            "weight": 75,
-            "country": "DE"
-        },
-        {
-            "status": "booked",
-            "firstname": "ella",
-            "gender": "woman",
-            "age": 12,
-            "height": 150,
-            "weight": 40,
-            "country": "fr"
-        },
-        {
-            "status": "booked"
-        },
-        {
-            "status": "booked"
-        },
-        {
-            "status": "booked"
-        },
-        {
-            "status": "booked"
-        },
-        {
-            "status": "booked"
-        }
-    ]
+    "stationaries": [],
 }
