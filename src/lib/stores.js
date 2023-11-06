@@ -13,8 +13,8 @@ async function getWeeks() {
         const week = content.default
 
         week.file = path.match(/.*\/([^?]+)/)[1]
-        week.dates = periodToDate(week.period);
-        week.old = week.dates.arrival < Date.now()
+        week.dates = periodToDate(week.period)
+        week.old = week.dates.arrival.getTime() > Date.now()
 
         return week
     }))
