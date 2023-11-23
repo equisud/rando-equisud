@@ -1,6 +1,58 @@
 {
     "period": "06/22 to 06/29",
-    "title": "availaible",
-    "riders": [],
+    "title": "chemin des BH",
+    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "riders": [{
+            "status": "booked",
+            "firstname": "hans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "moussa",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        },
+        {
+            "status": "booked",
+            "firstname": "catalans",
+            "gender": "man",
+            "country": "FR"
+        }
+    ],
+    "No stationary": []
+}
+],
     "No stationary": []
 }
