@@ -9,7 +9,7 @@
             "weight": "55",
             "age":"55",
             "gender": "woman",
-            "diet": "omni"
+            "diet": "omni",
             "country": "FR"
         },
         {
@@ -19,7 +19,7 @@
             "weight": "70",
             "age": "27",
             "gender": "woman",
-            "diet": "omni"
+            "diet": "omni",
             "gender": "woman",
             "country": "FR"
         },
@@ -30,10 +30,10 @@
             "weight": "80",
             "age": "31",
             "gender": "man",
-            "diet": "omni"
+            "diet": "omni",
             "gender": "man",
             "country": "FR"
         },
 
-    "No stationary": []
-}
+    "No stationary": []}
+
