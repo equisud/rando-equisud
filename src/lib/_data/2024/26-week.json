@@ -5,54 +5,14 @@
     "riders": [{
             "status": "booked",
             "firstname": "hans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "moussa",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
-        },
-        {
-            "status": "booked",
-            "firstname": "catalans",
-            "gender": "man",
-            "country": "FR"
+            "heigt": "172",
+            "weight": "72",
+            "age":"57",
+            "gender": "woman",
+            "diet": "omni",
+            "country": "nl"
         }
     ],
     "No stationary": []
 }
-],
-    "No stationary": []
-}
+]
