@@ -1,23 +1,24 @@
-    {
-        "period": "08/10 to 08/17",
-        "title": "andorre",
-        "riders": [{
+{
+    "period": "08/10 to 08/17",
+    "title": "andorre",
+    "riders": [{
             "status": "booked",
             "firstname": "melissa",
             "gender": "woman",
-            "age"   : "27",
+            "age": "27",
             "taille": "166",
             "poids": "79",
-            "country": "ger"
+            "country": "de"
         },
         {
             "status": "booked",
             "firstname": "alicia",
             "gender": "woman",
-            "age"   : "25",
+            "age": "25",
             "taille": "175",
             "poids": "85",
-            "country": "ger"
+            "country": "de"
         }
-        "stationaries": []
-    }
+    ],
+    "No stationary": []
+}

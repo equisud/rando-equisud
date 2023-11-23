@@ -2,11 +2,11 @@
     "period": "05/25 to 06/01",
     "title": "Mediterranée",
     "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
-            "riders": [{
+    "riders": [{
             "status": "booked",
             "firstname": "anita",
             "gender": "woman",
-            "age"   : "55",
+            "age": "55",
             "taille": "170",
             "poids": "55",
             "country": "fr"
@@ -15,7 +15,7 @@
             "status": "booked",
             "firstname": "sophia",
             "gender": "woman",
-            "age"   : "27",
+            "age": "27",
             "taille": "171",
             "poids": "70",
             "country": "fr"
@@ -24,12 +24,12 @@
             "status": "booked",
             "firstname": "kevin",
             "gender": "man",
-            "age"   : "31",
+            "age": "31",
             "taille": "178",
             "poids": "80",
-            "country": "fr"    
-        },
+            "country": "fr"
+        }
+    ],
 
     "No stationary": []
 }
-
