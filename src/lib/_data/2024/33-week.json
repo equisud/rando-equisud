@@ -1,5 +1,23 @@
     {
         "period": "08/10 to 08/17",
-        "title": "not availaible",
+        "title": "andorre",
+        "riders": [{
+            "status": "booked",
+            "firstname": "melissa",
+            "gender": "woman",
+            "age"   : "27",
+            "taille": "166",
+            "poids": "79",
+            "country": "ger"
+        },
+        {
+            "status": "booked",
+            "firstname": "alicia",
+            "gender": "woman",
+            "age"   : "25",
+            "taille": "175",
+            "poids": "85",
+            "country": "ger"
+        }
         "stationaries": []
     }
