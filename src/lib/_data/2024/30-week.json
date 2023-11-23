@@ -1,5 +1,32 @@
 {
     "period": "07/20 to 07/27",
-    "title": "available",
+    "title": "capcir",
+    "riders": [{
+            "status": "booked",
+            "firstname": "lisbeth",
+            "gender": "woman",
+            "age"   : "43",
+            "taille": "163",
+            "poids": "80",
+            "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "lucas",
+            "gender": "man",
+            "age"   : "13",
+            "taille": "155",
+            "poids": "50",
+            "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "sabrina",
+            "gender": "woman",
+            "age"   : "27",
+            "taille": "160",
+            "poids": "63",
+            "country": "nl"    
+        }
     "stationary": []
 }
