@@ -7,7 +7,7 @@
             "firstname": "anita",
             "heigt": "170",
             "weight": "55",
-            "age":"55"
+            "age":"55",
             "gender": "woman",
             "diet": "omni"
             "country": "FR"
@@ -17,7 +17,7 @@
             "firstname": "sophia",
             "heigt": "171",
             "weight": "70",
-            "age": "27"
+            "age": "27",
             "gender": "woman",
             "diet": "omni"
             "gender": "woman",
@@ -28,7 +28,7 @@
             "firstname": "kevin",
             "heigt": "178",
             "weight": "80",
-            "age": "31"
+            "age": "31",
             "gender": "man",
             "diet": "omni"
             "gender": "man",
