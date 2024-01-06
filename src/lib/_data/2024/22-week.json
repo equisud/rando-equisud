@@ -1,7 +1,7 @@
 {
     "period": "05/25 to 06/01",
     "title": "Mediterranée",
-    "locations": ["equisud", "equisud", "sansa", "espousouille", "bouillouses", "bouillouses", "equisud"],
+    "locations": ["equisud", "jau", "puylaurens", "bouchard", "tuchan", "opoul", "equisud"],
     "riders": [{
             "status": "booked",
             "firstname": "anita",
