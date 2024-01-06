@@ -8,8 +8,18 @@
             "heigt": "172",
             "weight": "72",
             "age":"57",
-            "gender": "woman",
+            "gender": "man",
             "diet": "omni",
+            "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "lieke",
+            "heigt": "168",
+            "weight": "58",
+            "age":"39",
+            "gender": "woman",
+            "diet": "vege",
             "country": "nl"
         }
     ],
