@@ -45,6 +45,24 @@
             "taille": "174",
             "poids": "64",
             "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "esther",
+            "gender": "woman",
+            "age": "47",
+            "taille": "166",
+            "poids": "65",
+            "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "jette",
+            "gender": "woman",
+            "age": "14",
+            "taille": "160",
+            "poids": "55",
+            "country": "nl"
         }
         
     ],
