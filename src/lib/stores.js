@@ -14,7 +14,7 @@ async function getWeeks() {
 
         week.file = path.match(/.*\/([^?]+)/)[1]
         week.dates = periodToDate(week.period)
-        week.old = week.dates.arrival.getTime() > Date.now()
+        week.old = week.dates.arrival.getTime() < Date.now()
 
         return week
     }))
