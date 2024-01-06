@@ -21,6 +21,16 @@
             "gender": "woman",
             "diet": "vege",
             "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "mieke",
+            "heigt": "165",
+            "weight": "63",
+            "age":"20",
+            "gender": "woman",
+            "diet": "omni",
+            "country": "nl"
         }
     ],
     "No stationary": []
