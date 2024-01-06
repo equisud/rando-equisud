@@ -1,0 +1,46 @@
+period: 06/29 to 06/07
+title: Andorra
+riders:
+  - status: booked
+    firstname: nico
+    gender: man
+    age: '62'
+    taille: '180'
+    poids: '72'
+    country: nl
+  - status: booked
+    firstname: harry
+    gender: man
+    age: '65'
+    taille: '192'
+    poids: '81'
+    country: nl
+  - status: booked
+    firstname: marloes
+    gender: woman
+    age: '39'
+    taille: '165'
+    poids: '60'
+    country: nl
+  - status: booked
+    firstname: ariane
+    gender: woman
+    age: '51'
+    taille: '172'
+    poids: '68'
+    country: nl
+  - status: booked
+    firstname: sanderine
+    gender: woman
+    age: '31'
+    taille: '175'
+    poids: '75'
+    country: nl
+  - status: booked
+    firstname: kevin
+    gender: man
+    age: '32'
+    taille: '180'
+    poids: '75'
+    country: nl
+No stationary: []

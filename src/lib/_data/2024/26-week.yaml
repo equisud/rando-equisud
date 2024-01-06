@@ -1,0 +1,36 @@
+period: 06/22 to 06/29
+title: chemin des BH
+locations:
+  - equisud
+  - equisud
+  - sansa
+  - espousouille
+  - bouillouses
+  - bouillouses
+  - equisud
+riders:
+  - status: booked
+    firstname: hans
+    heigt: '172'
+    weight: '72'
+    age: '57'
+    gender: man
+    diet: omni
+    country: nl
+  - status: booked
+    firstname: lieke
+    heigt: '168'
+    weight: '58'
+    age: '39'
+    gender: woman
+    diet: vege
+    country: nl
+  - status: booked
+    firstname: mieke
+    heigt: '165'
+    weight: '63'
+    age: '20'
+    gender: woman
+    diet: omni
+    country: nl
+No stationary: []

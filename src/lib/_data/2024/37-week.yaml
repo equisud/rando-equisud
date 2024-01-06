@@ -1,0 +1,26 @@
+period: 09/07 to 09/14
+title: capcir
+locations: []
+riders:
+  - status: booked
+    firstname: natasha
+    gender: woman
+    age: '50'
+    taille: '182'
+    poids: '80'
+    country: nl
+  - status: booked
+    firstname: kirsten
+    gender: woman
+    age: '54'
+    taille: '168'
+    poids: '80'
+    country: nl
+  - status: booked
+    firstname: bo
+    gender: woman
+    age: '56'
+    taille: '182'
+    poids: '79'
+    country: nl
+stationaries: []
