@@ -27,6 +27,15 @@
             "taille": "160",
             "poids": "63",
             "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "antonie",
+            "gender": "woman",
+            "age": "24",
+            "taille": "170",
+            "poids": "70",
+            "country": "nl"
         }
     ],
     "No Stationary": []
