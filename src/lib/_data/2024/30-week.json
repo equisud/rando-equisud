@@ -30,13 +30,23 @@
         },
         {
             "status": "booked",
-            "firstname": "antonie",
+            "firstname": "antonia",
             "gender": "woman",
             "age": "24",
             "taille": "170",
             "poids": "70",
             "country": "nl"
+        },
+        {
+            "status": "booked",
+            "firstname": "saskia",
+            "gender": "woman",
+            "age": "42",
+            "taille": "174",
+            "poids": "64",
+            "country": "nl"
         }
+        
     ],
     "No Stationary": []
 }
