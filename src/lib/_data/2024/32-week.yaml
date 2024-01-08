@@ -2,52 +2,53 @@ period: 08/03 to 08/10
 title: Capcir
 riders:
   - status: booked
-    firstname: nico
-    gender: man
-    age: '62'
-    taille: '180'
-    poids: '72'
-    country: nl
-  - status: booked
-    firstname: harry
-    gender: man
-    age: '65'
-    taille: '192'
-    poids: '81'
-    country: nl
-  - status: booked
-    firstname: marloes
+    firstname: ina
     gender: woman
-    age: '39'
-    taille: '165'
-    poids: '60'
+    age: 
+    taille: 
+    poids: 
     country: nl
   - status: booked
-    firstname: ariane
+    firstname: julia
     gender: woman
-    age: '51'
-    taille: '172'
-    poids: '68'
+    age: 
+    taille: 
+    poids: 
     country: nl
   - status: booked
-    firstname: sanderine
+    firstname: hanneke
     gender: woman
-    age: '31'
-    taille: '175'
-    poids: '75'
+    age: 
+    taille: 
+    poids: 
     country: nl
   - status: booked
-    firstname: kevin
-    gender: man
-    age: '32'
-    taille: '180'
-    poids: '75'
+    firstname: mauit
+    gender: woman
+    age: 
+    taille: 
+    poids: 
     country: nl
   - status: booked
-    firstname: kevin
-    gender: man
-    age: '32'
-    taille: '180'
-    poids: '75'
+    firstname: flore
+    gender: woman
+    age: 
+    taille: 
+    poids: 
+    diet: allergie noix, kiwi, gluten
+    country: nl
+  - status: booked
+    firstname: clara
+    gender: woman
+    age: 
+    taille: 
+    poids: 
+    country: nl
+  - status: booked
+    firstname: alleta
+    gender: woman
+    age: 
+    taille: 
+    poids: 
     country: nl
 No stationary: []
