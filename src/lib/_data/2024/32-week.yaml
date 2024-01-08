@@ -32,11 +32,12 @@ riders:
   - status: booked
     firstname: flore
     gender: woman
-    age: 
-    taille: 
+    age: 22
+    ceinture: jaune  
     poids: 
     diet: allergie noix, kiwi, gluten
     country: nl
+    notes: ATTENTION - allergie
   - status: booked
     firstname: clara
     gender: woman
