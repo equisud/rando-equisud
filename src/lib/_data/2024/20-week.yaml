@@ -1,0 +1,14 @@
+period: 05/11 to 05/18
+title: Capcir
+locations:
+  - equisud
+  - equisud
+riders:
+  - status: booked
+    firstname: anita
+    gender: woman
+    age: '55'
+    taille: '170'
+    poids: '55'
+    country: fr
+No stationary: []
