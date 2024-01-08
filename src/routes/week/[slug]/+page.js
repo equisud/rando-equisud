@@ -11,8 +11,9 @@ import {
 export async function load({
     params
 }) {
+
     const weeks = await get(weeksLoad)
-    const weekSelected = weeks.find(week => week.file === params.slug + '.json')
+    const weekSelected = weeks.find(week => week.file === params.slug + '.yaml')
 
     weekSelected.dates = periodToDate(weekSelected.period)
     weekSelected.old = weekSelected.dates.arrival < Date.now()
