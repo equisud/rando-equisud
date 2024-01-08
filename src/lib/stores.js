@@ -1,29 +1,24 @@
-import {
-    writable
-} from 'svelte/store'
-import {
-    periodToDate
-} from "$lib/db"
+import { writable } from 'svelte/store';
+import { periodToDate } from "$lib/db";
+import { load as loadYaml } from 'js-yaml';
 
 async function getWeeks() {
-    const jsons =
-        import.meta.glob('$lib/_data/2024/*.json')
-    const weeksContents = await Promise.all(Object.entries(jsons).map(async([path, resolver]) => {
-        const content = await resolver()
-        const week = content.default
+    const yamlFiles =
+        import.meta.glob('$lib/_data/2024/*.yaml', { as: 'raw', eager: true });
 
-        week.file = path.match(/.*\/([^?]+)/)[1]
-        week.dates = periodToDate(week.period)
-        week.old = week.dates.arrival.getTime() < Date.now()
+    const weeksContents = Object.entries(yamlFiles).map(([path, yamlContent]) => {
+        const week = loadYaml(yamlContent);
 
-        return week
-    }))
+        week.file = path.match(/.*\/([^?]+)/)[1];
+        week.dates = periodToDate(week.period);
+        week.old = week.dates.arrival.getTime() < Date.now();
 
-    const data = await weeksContents
+        return week;
+    });
 
-    return data
+    return weeksContents;
 }
 
-const weeks = getWeeks()
+const weeks = getWeeks();
 
-export const weeksLoad = writable(weeks)
+export const weeksLoad = writable(weeks);

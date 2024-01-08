@@ -2,7 +2,7 @@ period: 07/20 to 07/27
 title: capcir
 riders:
   - status: booked
-    firstname: lisbeth
+    firstname: liesbeth
     gender: woman
     age: '43'
     taille: '163'
@@ -33,6 +33,7 @@ riders:
     poids: '70'
     country: nl
     durée: 5j
+    diet: veggie
   - status: booked
     firstname: saskia
     gender: woman
