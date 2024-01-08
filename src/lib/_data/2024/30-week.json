@@ -29,7 +29,8 @@
             "taille": "160",
             "poids": "63",
             "country": "nl",
-            "durée": "5j"
+            "durée": "5j",
+            "diet": "veggie"
         },
         {
             "status": "booked",
