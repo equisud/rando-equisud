@@ -5,6 +5,7 @@
 
   const ridersForceArray = Array.isArray(week.riders) ? week.riders : [];
   const stationariesForceArray = Array.isArray(week.stationaries) ? week.stationaries : [];
+
 </script>
 
 <section class="section week-detail { week.old && 'past-week'}">

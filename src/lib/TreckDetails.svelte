@@ -1,5 +1,5 @@
 <script>
-  import RidersDetails from "$lib/RidersDetails.svelte"
+  import PersonsDetails from "$lib/PersonsDetails.svelte"
   import Synthesis from "$lib/Synthesis.svelte"
 
   export let riders, locations, title
@@ -22,7 +22,7 @@
         {/if}
         {#if riders.length}
             <Synthesis persons={riders} />
-            <RidersDetails {riders} />
+            <PersonsDetails persons={riders} title="Riders" />
         {/if}
     </body>
 </article>

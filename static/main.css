@@ -105,9 +105,8 @@ body {
 
 .week,
 .week-detail,
-.rider,
-.location,
-.stationary {
+.person,
+.location {
     padding: .3em;
     margin: 0 .2em;
     display: flex;
@@ -123,8 +122,7 @@ body {
 }
 
 .week-banner,
-.rider-banner,
-.stationary-banner {
+.person-banner {
     background-color: rgb(124, 233, 139);
     padding: .2em
 }
@@ -155,10 +153,8 @@ body {
     background-color: rgb(212, 212, 212);
 }
 
-.past-weeks .stationary-banner,
-.past-weeks .rider-banner,
-.past-week .stationary-banner,
-.past-week .rider-banner,
+.past-weeks .person-banner,
+.past-week .person-banner,
 .past-week .treck-detail-banner {
     background-color: #eee;
 }
@@ -168,8 +164,7 @@ body {
 }
 
 .locations ul,
-.riders,
-.stationaries {
+.persons {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
