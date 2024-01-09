@@ -23,4 +23,25 @@ riders:
     taille: '182'
     poids: '79'
     country: nl
+  - status: booked
+    firstname: michael
+    gender: man
+    age: '52'
+    taille: '180'
+    poids: '77'
+    country: nl
+  - status: booked
+    firstname: jolanda
+    gender: woman
+    age: '55'
+    taille: '169'
+    poids: '65'
+    country: nl
+  - status: booked
+    firstname: sanco
+    gender: man
+    age: '53'
+    taille: '187'
+    poids: '91'
+    country: nl
 stationaries: []
