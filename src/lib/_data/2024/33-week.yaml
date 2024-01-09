@@ -1,18 +1,40 @@
 period: 08/10 to 08/17
-title: andorre
+title: capcir
 riders:
   - status: booked
-    firstname: melissa
+    firstname: wilma
     gender: woman
-    age: '27'
-    taille: '166'
-    poids: '79'
-    country: de
+    age: '62'
+    taille: '170'
+    poids: '70'
+    country: nl
   - status: booked
-    firstname: alicia
+    firstname: clemens
+    gender: man
+    age: '59'
+    taille: '185'
+    poids: '80'
+    country: nl
+  - status: booked
+    firstname: rian
     gender: woman
-    age: '25'
-    taille: '175'
-    poids: '85'
-    country: de
+    age: '51'
+    taille: '170'
+    poids: '70'
+    country: nl
+ - status: booked
+    firstname: marije
+    gender: woman
+    age: '49'
+    taille: '168'
+    poids: '60'
+    country: nl
+- status: booked
+    firstname: henrikje
+    gender: woman
+    age: '43'
+    taille: '182'
+    poids: '75'
+    country: nl
+    
 No stationary: []
