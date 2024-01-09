@@ -29,7 +29,7 @@ riders:
     taille: '168'
     poids: '60'
     country: nl
- - status: booked
+  - status: booked
     firstname: henrikje
     gender: woman
     age: '43'
