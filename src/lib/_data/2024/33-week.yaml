@@ -22,7 +22,7 @@ riders:
     taille: '170'
     poids: '70'
     country: nl
- - status: booked
+  - status: booked
     firstname: marije
     gender: woman
     age: '49'
