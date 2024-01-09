@@ -1,3 +1,18 @@
 period: 08/17 to 08/24
-title: capcir
+title: andorre
+riders:
+  - status: booked
+    firstname: melissa
+    gender: woman
+    age: '45'
+    taille: '166'
+    poids: '79'
+    country: de
+  - status: booked
+    firstname: alicia
+    gender: woman
+    age: '39'
+    taille: '175'
+    poids: '85'
+    country: nl
 stationaries: []
