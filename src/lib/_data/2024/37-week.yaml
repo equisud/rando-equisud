@@ -29,7 +29,7 @@ riders:
     age: '52'
     taille: '180'
     poids: '77'
-    country: nl
+    country: de
   - status: booked
     firstname: jolanda
     gender: woman
