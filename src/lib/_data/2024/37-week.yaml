@@ -44,4 +44,27 @@ riders:
     taille: '187'
     poids: '91'
     country: nl
+  - status: booked
+    firstname: Monique
+    gender: woman
+    age: '45'
+    taille: '174'
+    poids: '78'
+    country: nl
+    diet: allergie poivrons
+  - status: booked
+    firstname: Annemiek
+    gender: woman
+    age: '67'
+    taille: '168'
+    poids: '56'
+    country: nl
+  - status: booked
+    firstname: Loes
+    gender: woman
+    age: '33'
+    taille: '170'
+    poids: '52'
+    country: nl
+    diet: veggie
 stationaries: []
