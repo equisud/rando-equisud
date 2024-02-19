@@ -1,6 +1,6 @@
 period: 06/08 to 06/15
 title: No trail
-stationary possible: [
+stationary possible: 
  - status: booked
     firstname: dagmar
     heigt: '168'
@@ -17,4 +17,4 @@ stationary possible: [
     gender: woman
     diet: omni
     country: ger
-]
+
