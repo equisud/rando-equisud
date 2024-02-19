@@ -1,20 +1,20 @@
 period: 06/08 to 06/15
 title: No trail
 stationary possible: 
- - status: booked
-    firstname: dagmar
-    heigt: '168'
-    weight: '65'
-    age: '57'
-    gender: man
-    diet: omni
-    country: ger
-  - status: booked
-    firstname: stephanie
-    heigt: '166'
-    weight: '68'
-    age: '48'
-    gender: woman
-    diet: omni
-    country: ger
+  status: booked
+  firstname: dagmar
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: man
+  diet: omni
+  country: ger
+  status: booked
+  firstname: stephanie
+  heigt: '166'
+  weight: '68'
+  age: '48'
+  gender: woman
+  diet: omni
+  country: ger
 
