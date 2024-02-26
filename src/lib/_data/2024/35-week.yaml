@@ -15,4 +15,18 @@ riders:
     taille: '175'
     poids: '85'
     country: de
+  - status: booked
+    firstname: Sarah
+    gender: woman
+    age: ''
+    taille: ''
+    poids: ''
+    country: fr
+  - status: booked
+    firstname: Celine
+    gender: woman
+    age: ''
+    taille: ''
+    poids: ''
+    country: fr
 stationaries: []
