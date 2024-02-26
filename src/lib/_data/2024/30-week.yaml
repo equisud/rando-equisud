@@ -58,52 +58,76 @@ riders:
     poids: '55'
     country: nl
     durée: 6j
+  - status: booked
+    firstname: complet
+    gender: 
+    age: 
+    taille: 
+    poids: 
+    country: fr
+    durée: 
 stationaries: 
-- status: booked
-  firstname: Monika
-  heigt: '168'
-  weight: '65'
-  age: '57'
-  gender: woman
-  diet: omni
-  country: fr
-- status: booked
-  firstname: Monika
-  heigt: '166'
-  weight: '68'
-  age: '48'
-  gender: woman
-  diet: omni
-  country: fr
-- status: booked
-  firstname: Monika
-  heigt: '168'
-  weight: '65'
-  age: '57'
-  gender: woman
-  diet: omni
-  country: fr
-- status: booked
-  firstname: Monika
-  heigt: '168'
-  weight: '65'
-  age: '57'
-  gender: woman
-  diet: omni
-  country: fr
-- status: booked
-  firstname: Monika
-  heigt: '168'
-  weight: '65'
-  age: '57'
-  gender: woman
-  diet: omni
-  country: fr
-- status: booked
-  firstname: Monika
-  heigt: '168'
-  weight: '65'
-  age: '57'
-  gender: woman
-  diet: omni
-  country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '166'
+    weight: '68'
+    age: '48'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    heigt: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: 
+    age: 
+    taille: 
+    poids: 
+    country: fr
+    durée: 
+  - status: booked
+    firstname: complet
+    gender: 
+    age: 
+    taille: 
+    poids: 
+    country: fr
+    durée: 
