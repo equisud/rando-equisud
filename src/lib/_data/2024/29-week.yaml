@@ -1,5 +1,5 @@
 period: 07/14 to 07/20
-title: capcir short!
+title: capcir 5J
 riders:
   - status: booked
     firstname: Marion
@@ -17,4 +17,52 @@ riders:
     poids: '58'
     country: de
     durée: 5j
-stationaries: []
+stationaries: 
+- status: booked
+  firstname: Monika
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: woman
+  diet: omni
+  country: fr
+- status: booked
+  firstname: Monika
+  heigt: '166'
+  weight: '68'
+  age: '48'
+  gender: woman
+  diet: omni
+  country: fr
+- status: booked
+  firstname: Monika
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: woman
+  diet: omni
+  country: fr
+- status: booked
+  firstname: Monika
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: woman
+  diet: omni
+  country: fr
+- status: booked
+  firstname: Monika
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: woman
+  diet: omni
+  country: fr
+- status: booked
+  firstname: Monika
+  heigt: '168'
+  weight: '65'
+  age: '57'
+  gender: woman
+  diet: omni
+  country: fr
