@@ -7,7 +7,7 @@ riders:
     age: '42'
     taille: '170'
     poids: '75'
-    country: de
+    country: ger
     durée: 5j
  - status: booked
     firstname: Irmgard
@@ -15,7 +15,23 @@ riders:
     age: '52'
     taille: '170'
     poids: '58'
-    country: de
+    country: ger
     durée: 5j
-stationaries: []
+  - status: booked
+    firstname: Ulf
+    gender: man
+    age: '54'
+    taille: '180'
+    poids: '75'
+    country: ger
+    durée: 5j
+ - status: booked
+    firstname: Louise
+    gender: woman
+    age: '13'
+    taille: '170'
+    poids: '50'
+    country: ger
+    durée: 5j
+stationaries: [no stationaries]
 
