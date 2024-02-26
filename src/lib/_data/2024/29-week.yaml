@@ -1,3 +1,20 @@
 period: 07/14 to 07/20
-title: capcir 5j
+title: capcir short!
+riders:
+  - status: booked
+    firstname: Marion
+    gender: woman
+    age: '42'
+    taille: '170'
+    poids: '75'
+    country: de
+    durée: 5j
+ - status: booked
+    firstname: Irmgard
+    gender: woman
+    age: '52'
+    taille: '170'
+    poids: '58'
+    country: de
+    durée: 5j
 stationaries: []
