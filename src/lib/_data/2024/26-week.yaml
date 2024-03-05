@@ -11,7 +11,7 @@ locations:
 riders:
   - status: booked
     firstname: hans
-    heigt: '172'
+    height: '172'
     weight: '72'
     age: '57'
     gender: man
@@ -19,7 +19,7 @@ riders:
     country: nl
   - status: booked
     firstname: lieke
-    heigt: '168'
+    height: '168'
     weight: '58'
     age: '39'
     gender: woman
@@ -27,7 +27,7 @@ riders:
     country: nl
   - status: booked
     firstname: mieke
-    heigt: '165'
+    height: '165'
     weight: '63'
     age: '20'
     gender: woman

@@ -54,7 +54,7 @@ riders:
 stationaries: 
 - status: booked
   firstname: margo
-  heigt: '156'
+  height: '156'
   weight: '56'
   age: '15'
   gender: woman

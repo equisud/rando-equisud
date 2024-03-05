@@ -3,7 +3,7 @@ title: No trail
 stationaries : 
 - status: booked
   firstname: dagmar
-  heigt: '168'
+  height: '168'
   weight: '65'
   age: '57'
   gender: man
@@ -11,7 +11,7 @@ stationaries :
   country: ger
 - status: booked
   firstname: stephanie
-  heigt: '166'
+  height: '166'
   weight: '68'
   age: '48'
   gender: woman
