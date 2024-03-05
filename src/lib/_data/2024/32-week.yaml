@@ -51,4 +51,14 @@ riders:
     taille: 
     poids: 
     country: nl
-stationaries: []
+stationaries: 
+- status: booked
+  firstname: margo
+  heigt: '16856'
+  weight: '56'
+  age: '15'
+  gender: woman
+  diet: omni
+  country: fr
+
+
