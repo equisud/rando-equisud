@@ -43,4 +43,11 @@ riders:
     taille: '180'
     poids: '75'
     country: nl
+  - status: booked
+    firstname: ursula
+    gender: woman
+    age: '60'
+    taille: '167'
+    poids: '62'
+    country: ger
 No stationary: []
