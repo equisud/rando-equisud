@@ -8,50 +8,50 @@ riders:
     firstname: anita
     gender: woman
     age: '59'
-    taille: '165'
-    poids: '70'
+    height: '165'
+    weight: '70'
     country: de
   - status: booked
     firstname: angelina
     gender: woman
     age: '56'
-    taille: '170'
-    poids: '70'
+    height: '170'
+    weight: '70'
     country: de
   - status: booked
     firstname: annelie
     gender: woman
     age: '39'
-    taille: '180'
-    poids: '83'
+    height: '180'
+    weight: '83'
     country: de
   - status: booked
     firstname: lea
     gender: woman
     age: '29'
-    taille: '172'
-    poids: '58'
+    height: '172'
+    weight: '58'
     country: de
   - status: booked
     firstname: heike
     gender: woman
     age: '58'
-    taille: '167'
-    poids: '53'
+    height: '167'
+    weight: '53'
     country: de
   - status: booked
     firstname: Monique
     gender: woman
     age: '45'
-    taille: '174'
-    poids: '78'
+    height: '174'
+    weight: '78'
     country: nl
     diet: allergie poivrons
   - status: booked
     firstname: Annemiek
     gender: woman
     age: '67'
-    taille: '168'
-    poids: '56'
+    height: '168'
+    weight: '56'
     country: nl
 No stationary: []

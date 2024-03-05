@@ -6,65 +6,65 @@ riders:
     firstname: natasha
     gender: woman
     age: '50'
-    taille: '182'
-    poids: '80'
+    height: '182'
+    weight: '80'
     country: nl
   - status: booked
     firstname: kirsten
     gender: woman
     age: '54'
-    taille: '168'
-    poids: '80'
+    height: '168'
+    weight: '80'
     country: nl
   - status: booked
     firstname: bo
     gender: woman
     age: '56'
-    taille: '182'
-    poids: '79'
+    height: '182'
+    weight: '79'
     country: nl
   - status: booked
     firstname: michael
     gender: man
     age: '52'
-    taille: '180'
-    poids: '77'
+    height: '180'
+    weight: '77'
     country: de
   - status: booked
     firstname: jolanda
     gender: woman
     age: '55'
-    taille: '169'
-    poids: '65'
+    height: '169'
+    weight: '65'
     country: nl
   - status: booked
     firstname: sanco
     gender: man
     age: '53'
-    taille: '187'
-    poids: '91'
+    height: '187'
+    weight: '91'
     country: nl
   - status: booked
     firstname: Monique
     gender: woman
     age: '45'
-    taille: '174'
-    poids: '78'
+    height: '174'
+    weight: '78'
     country: nl
     diet: allergie poivrons
   - status: booked
     firstname: Annemiek
     gender: woman
     age: '67'
-    taille: '168'
-    poids: '56'
+    height: '168'
+    weight: '56'
     country: nl
   - status: booked
     firstname: Loes
     gender: woman
     age: '33'
-    taille: '170'
-    poids: '52'
+    height: '170'
+    weight: '52'
     country: nl
     diet: veggie
 stationaries: []

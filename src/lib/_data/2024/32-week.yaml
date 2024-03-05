@@ -5,35 +5,35 @@ riders:
     firstname: ina
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
   - status: booked
     firstname: julia
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
   - status: booked
     firstname: hanneke
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
   - status: booked
     firstname: mauit
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
   - status: booked
     firstname: flore
     gender: woman
     age: 22
-    poids: 
+    weight: 
     diet: noix, kiwi, gluten
     country: nl
     notes: ATTENTION - allergie
@@ -41,15 +41,15 @@ riders:
     firstname: clara
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
   - status: booked
     firstname: alleta
     gender: woman
     age: 
-    taille: 
-    poids: 
+    height: 
+    weight: 
     country: nl
 stationaries: 
 - status: booked

@@ -5,35 +5,35 @@ riders:
     firstname: elke
     gender: woman
     age: '28'
-    taille: '167'
-    poids: '75'
+    height: '167'
+    weight: '75'
     country: nl
   - status: booked
     firstname: jessy
     gender: woman
     age: '27'
-    taille: '168'
-    poids: '60'
+    height: '168'
+    weight: '60'
     country: nl
   - status: booked
     firstname: jennifer
     gender: woman
     age: '30'
-    taille: '187'
-    poids: '75'
+    height: '187'
+    weight: '75'
     country: nl
   - status: booked
     firstname: dagmar
     gender: man
     age: '28'
-    taille: '175'
-    poids: '75'
+    height: '175'
+    weight: '75'
     country: nl
   - status: booked
     firstname: nienke
     gender: woman
     age: '29'
-    taille: '173'
-    poids: '64'
+    height: '173'
+    weight: '64'
     country: nl
 stationaries: []

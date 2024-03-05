@@ -5,49 +5,49 @@ riders:
     firstname: nico
     gender: man
     age: '62'
-    taille: '180'
-    poids: '72'
+    height: '180'
+    weight: '72'
     country: nl
   - status: booked
     firstname: harry
     gender: man
     age: '65'
-    taille: '192'
-    poids: '81'
+    height: '192'
+    weight: '81'
     country: nl
   - status: booked
     firstname: marloes
     gender: woman
     age: '39'
-    taille: '165'
-    poids: '60'
+    height: '165'
+    weight: '60'
     country: nl
   - status: booked
     firstname: ariane
     gender: woman
     age: '51'
-    taille: '172'
-    poids: '68'
+    height: '172'
+    weight: '68'
     country: nl
   - status: booked
     firstname: sanderine
     gender: woman
     age: '31'
-    taille: '175'
-    poids: '75'
+    height: '175'
+    weight: '75'
     country: nl
   - status: booked
     firstname: kevin
     gender: man
     age: '32'
-    taille: '180'
-    poids: '75'
+    height: '180'
+    weight: '75'
     country: nl
   - status: booked
     firstname: ursula
     gender: woman
     age: '60'
-    taille: '167'
-    poids: '62'
+    height: '167'
+    weight: '62'
     country: ger
 No stationary: []

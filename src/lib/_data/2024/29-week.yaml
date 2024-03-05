@@ -5,32 +5,32 @@ riders:
     firstname: Marion
     gender: woman
     age: '42'
-    taille: '170'
-    poids: '75'
+    height: '170'
+    weight: '75'
     country: ger
     durée: 5j
- - status: booked
+  - status: booked
     firstname: Irmgard
     gender: woman
     age: '52'
-    taille: '170'
-    poids: '58'
+    height: '170'
+    weight: '58'
     country: ger
     durée: 5j
   - status: booked
     firstname: Ulf
     gender: man
     age: '54'
-    taille: '180'
-    poids: '75'
+    height: '180'
+    weight: '75'
     country: ger
     durée: 5j
- - status: booked
+  - status: booked
     firstname: Louise
     gender: woman
     age: '13'
-    taille: '170'
-    poids: '50'
+    height: '170'
+    weight: '50'
     country: ger
     durée: 5j
 stationaries: [no stationaries]

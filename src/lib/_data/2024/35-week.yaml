@@ -5,28 +5,28 @@ riders:
     firstname: melissa
     gender: woman
     age: '45'
-    taille: '166'
-    poids: '79'
+    height: '166'
+    weight: '79'
     country: de
   - status: booked
     firstname: alicia
     gender: woman
     age: '39'
-    taille: '175'
-    poids: '85'
+    height: '175'
+    weight: '85'
     country: de
   - status: booked
     firstname: Sarah
     gender: woman
     age: ''
-    taille: ''
-    poids: ''
+    height: ''
+    weight: ''
     country: fr
   - status: booked
     firstname: Celine
     gender: woman
     age: ''
-    taille: ''
-    poids: ''
+    height: ''
+    weight: ''
     country: fr
 stationaries: []

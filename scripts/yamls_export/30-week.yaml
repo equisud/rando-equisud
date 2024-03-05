@@ -5,32 +5,32 @@ riders:
     firstname: liesbeth
     gender: woman
     age: '43'
-    taille: '163'
-    poids: '80'
+    height: '163'
+    weight: '80'
     country: nl
     durée: 5j
   - status: booked
     firstname: lucas
     gender: man
     age: '13'
-    taille: '155'
-    poids: '50'
+    height: '155'
+    weight: '50'
     country: nl
     durée: 5j
   - status: booked
     firstname: sabrina
     gender: woman
     age: '27'
-    taille: '160'
-    poids: '63'
+    height: '160'
+    weight: '63'
     country: nl
     durée: 5j
   - status: booked
     firstname: antonia
     gender: woman
     age: '24'
-    taille: '170'
-    poids: '70'
+    height: '170'
+    weight: '70'
     country: nl
     durée: 5j
     diet: veggie
@@ -38,24 +38,24 @@ riders:
     firstname: saskia
     gender: woman
     age: '42'
-    taille: '174'
-    poids: '64'
+    height: '174'
+    weight: '64'
     country: nl
     durée: 5j
   - status: booked
     firstname: esther
     gender: woman
     age: '47'
-    taille: '166'
-    poids: '65'
+    height: '166'
+    weight: '65'
     country: nl
     durée: 6j
   - status: booked
     firstname: jette
     gender: woman
     age: '14'
-    taille: '160'
-    poids: '55'
+    height: '160'
+    weight: '55'
     country: nl
     durée: 6j
 No Stationary: []

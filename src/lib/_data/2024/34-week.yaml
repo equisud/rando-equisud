@@ -5,36 +5,36 @@ riders:
     firstname: wilma
     gender: woman
     age: '62'
-    taille: '170'
-    poids: '70'
+    height: '170'
+    weight: '70'
     country: nl
   - status: booked
     firstname: clemens
     gender: man
     age: '59'
-    taille: '185'
-    poids: '80'
+    height: '185'
+    weight: '80'
     country: nl
   - status: booked
     firstname: rian
     gender: woman
     age: '51'
-    taille: '170'
-    poids: '70'
+    height: '170'
+    weight: '70'
     country: nl
   - status: booked
     firstname: marije
     gender: woman
     age: '49'
-    taille: '168'
-    poids: '60'
+    height: '168'
+    weight: '60'
     country: nl
   - status: booked
     firstname: henrikje
     gender: woman
     age: '43'
-    taille: '182'
-    poids: '75'
+    height: '182'
+    weight: '75'
     country: nl
     
 stationaries: []
