@@ -18,14 +18,6 @@ riders:
     diet: omni
     country: nl
   - status: booked
-    firstname: lieke
-    height: '168'
-    weight: '58'
-    age: '39'
-    gender: woman
-    diet: vege
-    country: nl
-  - status: booked
     firstname: mieke
     height: '165'
     weight: '63'
