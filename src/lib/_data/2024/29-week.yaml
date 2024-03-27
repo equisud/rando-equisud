@@ -33,5 +33,5 @@ riders:
     weight: '50'
     country: ger
     durée: 5j
-stationaries: [no stationary]
+ no stationary: []
 
