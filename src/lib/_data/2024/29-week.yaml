@@ -33,5 +33,21 @@ riders:
     weight: '50'
     country: ger
     durée: 5j
+  - status: booked
+    firstname: barbara
+    gender: woman
+    age: '60'
+    height: '163'
+    weight: '56'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: alexa
+    gender: woman
+    age: '30'
+    height: '163'
+    weight: '54'
+    country: ger
+    durée: 5j
 No stationary: []
 
