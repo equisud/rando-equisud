@@ -54,7 +54,7 @@ riders:
     height: '168'
     weight: '56'
     country: nl
-    - status: booked
+  - status: booked
     firstname: jeroen
     gender: man
     age: '47'
