@@ -54,4 +54,11 @@ riders:
     height: '168'
     weight: '56'
     country: nl
+    - status: booked
+    firstname: jeroen
+    gender: man
+    age: '47'
+    height: '187'
+    weight: '87'
+    country: nj
 No stationary: []
