@@ -29,4 +29,11 @@ riders:
     height: ''
     weight: ''
     country: fr
+  - status: booked
+    firstname: melissa
+    gender: woman
+    age: '45'
+    height: '166'
+    weight: '79'
+    country: de
 stationaries: []
