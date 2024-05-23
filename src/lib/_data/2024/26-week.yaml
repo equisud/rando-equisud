@@ -1,28 +1,3 @@
 period: 06/22 to 06/29
-title: Cathare Espagnol
-locations:
-  - equisud
-  - equisud
-  - sansa
-  - espousouille
-  - bouillouses
-  - bouillouses
-  - equisud
-riders:
-  - status: booked
-    firstname: hans
-    height: '172'
-    weight: '72'
-    age: '57'
-    gender: man
-    diet: omni
-    country: nl
-  - status: booked
-    firstname: mieke
-    height: '165'
-    weight: '63'
-    age: '20'
-    gender: woman
-    diet: omni
-    country: nl
+title: no trail
 No stationary: []
