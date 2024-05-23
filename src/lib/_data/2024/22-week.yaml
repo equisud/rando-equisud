@@ -30,4 +30,11 @@ riders:
     height: '178'
     weight: '80'
     country: fr
+  - status: booked
+    firstname: patrick
+    gender: man
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
 No stationary: []
