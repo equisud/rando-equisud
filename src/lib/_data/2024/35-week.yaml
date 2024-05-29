@@ -43,4 +43,18 @@ riders:
     height: '167'
     weight: '74'
     country: nl
+  - status: booked
+    firstname: Christine
+    gender: woman
+    age: '35'
+    height: '173'
+    weight: '60'
+    country: de
+  - status: booked
+    firstname: Elena
+    gender: woman
+    age: '32'
+    height: '163'
+    weight: '58'
+    country: de
 stationaries: []
