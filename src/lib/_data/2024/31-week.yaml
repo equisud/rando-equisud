@@ -1,7 +1,7 @@
 period: 07/27 to 08/03
 title: No trail
 stationaries: 
-- status: booked
+  - status: booked
     firstname: Monika
     height: '168'
     weight: '65'
@@ -65,6 +65,3 @@ stationaries:
     weight: 
     country: fr
     durée: 
-
-    height: 
-    weight: 
