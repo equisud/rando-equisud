@@ -52,7 +52,7 @@ riders:
     weight: 
     country: nl
 stationaries: 
-  - status: booked
+- status: booked
   firstname: margo
   height: '156'
   weight: '56'
@@ -60,15 +60,15 @@ stationaries:
   gender: woman
   diet: omni
   country: fr
-  - status: booked
+ - status: booked
   firstname: ninon
   height: '156'
   weight: '56'
   age: '15'
   gender: woman
   diet: omni
-  country: fr 
-  - status: booked
+  country: fr
+ - status: booked
   firstname: anais
   height: '156'
   weight: '56'
