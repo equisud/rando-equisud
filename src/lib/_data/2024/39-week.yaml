@@ -36,4 +36,11 @@ riders:
     height: '173'
     weight: '64'
     country: nl
+  - status: booked
+    firstname: miriam
+    gender: woman
+    age: '40'
+    height: '178'
+    weight: '79'
+    country: nl
 stationaries: []
