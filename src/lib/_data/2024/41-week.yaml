@@ -41,4 +41,12 @@ riders:
     firstname: catalans
     gender: man
     country: FR
-No stationary: []
+stationaries: 
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
