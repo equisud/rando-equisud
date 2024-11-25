@@ -30,11 +30,18 @@ riders:
     weight: '60'
     country: nl
   - status: booked
-    firstname: henrikje
+    firstname: henrike
     gender: woman
     age: '43'
     height: '182'
     weight: '75'
+    country: nl
+  - status: booked
+    firstname: Jelka
+    gender: woman
+    age: '30'
+    height: '165'
+    weight: '65'
     country: nl
     
 stationaries: 

@@ -43,4 +43,11 @@ riders:
     height: '178'
     weight: '79'
     country: nl
+  - status: booked
+    firstname: Tim
+    gender: man
+    age: '22'
+    height: '160'
+    weight: '55'
+    country: DE
 stationaries: []
