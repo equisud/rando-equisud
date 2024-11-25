@@ -1,0 +1,53 @@
+period: 07/14 to 07/20
+title: capcir 5J
+riders:
+  - status: booked
+    firstname: Marion
+    gender: woman
+    age: '42'
+    height: '170'
+    weight: '75'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: Irmgard
+    gender: woman
+    age: '52'
+    height: '170'
+    weight: '58'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: Ulf
+    gender: man
+    age: '54'
+    height: '180'
+    weight: '75'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: Louise
+    gender: woman
+    age: '13'
+    height: '170'
+    weight: '50'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: barbara
+    gender: woman
+    age: '60'
+    height: '163'
+    weight: '56'
+    country: ger
+    durée: 5j
+  - status: booked
+    firstname: alexa
+    gender: woman
+    age: '30'
+    height: '163'
+    weight: '54'
+    country: ger
+    durée: 5j
+No stationary: []
+

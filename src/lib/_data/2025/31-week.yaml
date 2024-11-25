@@ -1,0 +1,67 @@
+period: 07/27 to 08/03
+title: No trail
+stationaries: 
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    height: '166'
+    weight: '68'
+    age: '48'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: Monika
+    height: '168'
+    weight: '65'
+    age: '57'
+    gender: woman
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: 
+    age: 
+    height: 
+    weight: 
+    country: fr
+    durée: 
+  - status: booked
+    firstname: complet
+    gender: 
+    age: 
+    height: 
+    weight: 
+    country: fr
+    durée: 

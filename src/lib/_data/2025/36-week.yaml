@@ -1,0 +1,10 @@
+period: 08/31 to 09/07
+title: No trail
+stationaries:
+  - status: booked
+    firstname: kees
+    gender: man
+    age: '72'
+    height: '184'
+    weight: '84'
+    country: nl

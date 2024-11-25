@@ -1,0 +1,68 @@
+period: 08/17 to 08/24
+title: capcir
+riders:
+  - status: booked
+    firstname: wilma
+    gender: woman
+    age: '62'
+    height: '170'
+    weight: '70'
+    country: nl
+  - status: booked
+    firstname: clemens
+    gender: man
+    age: '59'
+    height: '185'
+    weight: '80'
+    country: nl
+  - status: booked
+    firstname: rian
+    gender: woman
+    age: '51'
+    height: '170'
+    weight: '70'
+    country: nl
+  - status: booked
+    firstname: marije
+    gender: woman
+    age: '49'
+    height: '168'
+    weight: '60'
+    country: nl
+  - status: booked
+    firstname: henrikje
+    gender: woman
+    age: '43'
+    height: '182'
+    weight: '75'
+    country: nl
+    
+stationaries: 
+  - status: booked
+    firstname: laureen
+    gender: woman
+    age: '62'
+    height: '170'
+    weight: '70'
+    country: fr
+  - status: booked
+    firstname: alexis
+    gender: man
+    age: '59'
+    height: '185'
+    weight: '80'
+    country: fr
+  - status: booked
+    firstname: romane
+    gender: woman
+    age: '12'
+    height: '170'
+    weight: '70'
+    country: fr
+  - status: booked
+    firstname: laurie
+    gender: woman
+    age: '49'
+    height: '168'
+    weight: '60'
+    country: fr
