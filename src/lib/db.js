@@ -18,7 +18,7 @@ function convertPeriodToDate(period) {
     function convertToDate(mmjj) {
         const year = new Date().getFullYear()
 
-        return new Date(`${year}/${mmjj}`)
+        return new Date(`2025/${mmjj}`)
     }
 
     const date = {}
