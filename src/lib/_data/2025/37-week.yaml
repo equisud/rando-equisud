@@ -16,18 +16,4 @@ riders:
     height: '170'
     weight: '55'
     country: fr
-  - status: booked
-    firstname: anita
-    gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
-    country: fr 
-  - status: booked
-    firstname: anita
-    gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
-    country: fr
 stationaries: []
