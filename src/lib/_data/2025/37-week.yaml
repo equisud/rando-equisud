@@ -10,8 +10,22 @@ locations:
   - equisud
 riders:
   - status: booked
-    firstname: anita
+    firstname: mariette
     gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
+    firstname: marlene
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
+    firstname: hans
+    gender: man
     age: '55'
     height: '170'
     weight: '55'
