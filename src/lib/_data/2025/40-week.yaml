@@ -16,7 +16,7 @@ riders:
     height: '170'
     weight: '55'
     country: fr
- - status: booked
+  - status: booked
     firstname: moussa
     gender: man
     age: '55'
