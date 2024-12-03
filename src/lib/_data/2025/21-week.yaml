@@ -1,3 +1,29 @@
-period: 05/19 to 05/26
-title: No trail
+period: 05/17 to 05/24
+title: Mediterranée
+locations:
+  - equisud
+  - jau
+  - puylaurens
+  - bouchard
+  - tuchan
+  - opoul
+  - equisudriders:
+  - status: booked
+    firstname: sibylle
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    diet: 'omni'
+    country: fr
+  - status: booked
+    firstname: pauline
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    diet: 'veggie'
+    country: fr
+    
+  
 No stationary: []
