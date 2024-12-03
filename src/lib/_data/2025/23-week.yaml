@@ -1,3 +1,19 @@
-period: 06/02 to 06/09
-title: No trail
+period: 05/31 to 06/07
+title: Capcir
+locations:
+  - equisud
+  - equisud
+  - mijanes
+  - sansa
+  - espousouille
+  - bouillouses
+  - equisud
+riders:
+  - status: booked
+    firstname: anita
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
 No stationary: []
