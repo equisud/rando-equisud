@@ -12,17 +12,17 @@ riders:
   - status: booked
     firstname: sibylle
     gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
+    age: '26'
+    height: '162'
+    weight: '62'
     diet: omni
     country: fr
   - status: booked
     firstname: pauline
     gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
+    age: '27'
+    height: '175'
+    weight: '60'
     diet: veggie
     country: fr
     
