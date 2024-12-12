@@ -1,3 +1,11 @@
 period: 06/14 to 06/21
-title: Capcir ou Cathare
+title: Cathare
+riders:
+  - status: booked
+    firstname: dionne
+    gender: woman
+    age: '40'
+    height: '174'
+    weight: '64'
+    country: nl
 No stationary: []
