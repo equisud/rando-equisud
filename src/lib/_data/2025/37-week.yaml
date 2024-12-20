@@ -30,4 +30,25 @@ riders:
     height: '170'
     weight: '55'
     country: fr
+    - status: booked
+    firstname: beate
+    gender: woman
+    age: '52'
+    height: '158'
+    weight: '50'
+    country: ger
+  - status: booked
+    firstname: andrea
+    gender: woman
+    age: '62'
+    height: '160'
+    weight: '50'
+    country: ger
+  - status: booked
+    firstname: heidi
+    gender: woman
+    age: '64'
+    height: '171'
+    weight: '60'
+    country: ger
 stationaries: []
