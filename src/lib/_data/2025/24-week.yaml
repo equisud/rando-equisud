@@ -1,7 +1,7 @@
 period: 06/07 to 06/14
 title: No trail
 stationaries: 
-[ riders:
+ riders:
   - status: booked
     firstname: monique
     gender: woman
@@ -15,4 +15,4 @@ stationaries:
     age: '55'
     height: '170'
     weight: '55'
-    country: fr ]
+    country: fr 
