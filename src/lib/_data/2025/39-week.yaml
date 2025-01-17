@@ -1,3 +1,27 @@
 period: 09/20 to 09/27
-title: Capcir ou Andorre
+title: Capcir
+locations:
+  - equisud
+  - equisud
+  - espou
+  - mija
+  - sansa
+  - sansa
+  - equisud
+riders:
+  - status: booked
+    firstname: ulrike
+    gender: woman
+    age: '58'
+    height: '165'
+    weight: '80'
+    country: ger
+  - status: booked
+    firstname: ester
+    height: '165'
+    weight: '78'
+    age: '58'
+    gender: woman
+    diet: vegetarien
+    country: ger
 stationnaries: []
