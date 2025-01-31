@@ -52,10 +52,10 @@ riders:
     weight: '60'
     country: ger
   - status: booked
-    firstname: heidi
+    firstname: beate
     gender: woman
-    age: '64'
-    height: '171'
-    weight: '60'
+    age: '63'
+    height: '173'
+    weight: '68'
     country: ger
 stationaries: []
