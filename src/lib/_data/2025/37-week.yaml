@@ -51,4 +51,11 @@ riders:
     height: '171'
     weight: '60'
     country: ger
+  - status: booked
+    firstname: heidi
+    gender: woman
+    age: '64'
+    height: '171'
+    weight: '60'
+    country: ger
 stationaries: []
