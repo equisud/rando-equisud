@@ -32,6 +32,21 @@ riders:
     height: '175'
     weight: '60'
     diet: veggie
+  - status: booked
+    firstname: christine
+    gender: woman
+    age: '35'
+    height: '173'
+    weight: '60'
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: elena
+    gender: woman
+    age: '32'
+    height: '160'
+    weight: '58'
+    diet: veggie
     country: fr    
     
   
