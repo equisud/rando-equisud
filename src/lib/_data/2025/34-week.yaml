@@ -2,17 +2,17 @@ period: 08/16 to 08/23
 title: Andorre
 riders:
   - status: booked
-    firstname: mariette
+    firstname: conny
     gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
-    country: fr
+    age: '62'
+    height: '173'
+    weight: '65'
+    country: nl
   - status: booked
-    firstname: marlene
-    gender: woman
-    age: '55'
-    height: '170'
-    weight: '55'
-    country: fr
+    firstname: toon
+    gender: man
+    age: '64'
+    height: '184'
+    weight: '76'
+    country: nl
 stationaries: []
