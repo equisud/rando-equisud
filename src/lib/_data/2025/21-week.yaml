@@ -38,7 +38,7 @@ riders:
     age: '35'
     height: '173'
     weight: '60'
-    diet: omni
+    diet: veggie allergie noix
     country: fr
   - status: booked
     firstname: elena
@@ -46,6 +46,6 @@ riders:
     age: '32'
     height: '160'
     weight: '58'
-    diet: veggie
+    diet: veggie 
     country: fr    
 No stationary: []
