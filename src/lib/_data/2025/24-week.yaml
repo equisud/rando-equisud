@@ -15,3 +15,11 @@ stationaries:
     height: '170'
     weight: '55'
     country: fr 
+  - status: booked
+    firstname: natacha
+    gender: woman
+    age: '49'
+    height: '162'
+    weight: '85'
+    country: fr 
+
