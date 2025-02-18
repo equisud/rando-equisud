@@ -15,4 +15,11 @@ riders:
     height: '175'
     weight: '64'
     country: ger
+  - status: booked
+    firstname: bianca
+    gender: woman
+    age: '40'
+    height: '183'
+    weight: '63'
+    country: nl  
 No stationary: []
