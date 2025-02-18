@@ -8,4 +8,11 @@ riders:
     height: '174'
     weight: '64'
     country: nl
+  - status: booked
+    firstname: cara
+    gender: woman
+    age: '30'
+    height: '175'
+    weight: '64'
+    country: ger
 No stationary: []
