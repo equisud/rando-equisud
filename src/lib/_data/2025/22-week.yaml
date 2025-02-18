@@ -1,10 +1,10 @@
 period: 05/24 to 05/31
 title: No trail
-stationaries:
-- status: booked
-  firstname: brigitte
-  gender: woman
-  age: '55'
-  height: '170'
-  weight: '46'
-  country: fr
+stationaries:  
+  - status: booked
+    firstname: brigitte
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '46'
+    country: fr
