@@ -8,3 +8,10 @@ stationaries:
     height: '170'
     weight: '46'
     country: fr
+  - status: booked
+    firstname: brigitte
+    gender: woman
+    age: '65'
+    height: '164'
+    weight: '58'
+    country: fr  
