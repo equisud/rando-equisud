@@ -15,4 +15,21 @@ riders:
     height: '184'
     weight: '76'
     country: nl
+  - status: booked
+    firstname: jules
+    gender: woman
+    age: '24'
+    height: '167'
+    weight: '63'
+    diet: vegan
+    country: ger
+  - status: booked
+    firstname: anne
+    gender: woman
+    age: '27'
+    height: '178'
+    weight: '68'
+    diet: vegan
+    country: ger
+    
 stationaries: []
