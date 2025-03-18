@@ -15,7 +15,7 @@ riders:
     age: '27'
     height: '170'
     weight: '60'
-    diet: vomni
+    diet: omni
     country: ger
   - status: booked
     firstname: rebecca
