@@ -1,7 +1,7 @@
 period: 07/19 to 07/26
 title: Capcir
 riders:
-- status: booked
+ - status: booked
    firstname: carolina
    gender: woman
    age: '21'
@@ -9,7 +9,7 @@ riders:
    weight: '50'
    diet: veggie
    country: ger
-- status: booked
+ - status: booked
    firstname: luisa
    gender: woman
    age: '27'
@@ -17,7 +17,7 @@ riders:
    weight: '60'
    diet: omni
    country: ger 
-- status: booked
+ - status: booked
    firstname: rebecca
    gender: woman 
    age: '27'
