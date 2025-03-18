@@ -9,4 +9,20 @@ riders:
     weight: '50'
     diet: veggie
     country: ger
+  - status: booked
+    firstname: luisa
+    gender: woman
+    age: '27'
+    height: '170'
+    weight: '60'
+    diet: vomni
+    country: ger
+  - status: booked
+    firstname: rebecca
+    gender: woman
+    age: '27'
+    height: '170'
+    weight: '68'
+    diet: omni
+    country: ger 
 stationaries: []
