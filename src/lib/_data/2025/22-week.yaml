@@ -16,9 +16,9 @@ stationaries:
     weight: '58'
     country: fr  
  - status: booked
-    firstname: pietro
-    gender: man
-    age: '65'
-    height: '176'
-    weight: '75'
-    country: fr  
+   firstname: pietro
+   gender: man
+   age: '65'
+   height: '176'
+   weight: '75'
+   country: fr  
