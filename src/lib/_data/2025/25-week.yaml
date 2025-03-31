@@ -29,4 +29,11 @@ riders:
     height: '170'
     weight: '60'
     country: fr  
+  - status: booked
+    firstname: hans
+    gender: man
+    age: '58'
+    height: '173'
+    weight: '73'
+    country: nl
 No stationary: []
