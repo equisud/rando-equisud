@@ -24,12 +24,12 @@ riders:
     weight: '55'
     country: fr
   - status: booked
-    firstname: hans
-    gender: man
-    age: '55'
-    height: '170'
-    weight: '55'
-    country: fr
+    firstname: verena
+    gender: woman
+    age: '31'
+    height: '163'
+    weight: '60'
+    country: ger
   - status: booked
     firstname: beate
     gender: woman
