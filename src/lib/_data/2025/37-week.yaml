@@ -17,6 +17,13 @@ riders:
     weight: '55'
     country: fr
   - status: booked
+    firstname: mariette
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
     firstname: marlene
     gender: woman
     age: '55'
