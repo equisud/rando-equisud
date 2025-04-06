@@ -24,5 +24,21 @@ riders:
    height: '170'
    weight: '68'
    diet: omni
-   country: ger 
+   country: ger         
+ - status: booked
+   firstname: mees
+   gender: man
+   age: '26'
+   height: '182'
+   weight: '80'
+   diet: omni
+   country: nl
+ - status: booked
+   firstname: puck
+   gender: woman
+   age: '24'
+   height: '168'
+   weight: '75'
+   diet: omni
+   country: nl
 stationaries: []
