@@ -1,3 +1,32 @@
 period: 09/13 to 09/20
-title: No trail
+title: Capcir
+locations:
+  - mijanes
+  - camurac
+  - luzenac
+  - rhule
+  - el tarter
+  - equisud
+riders:
+  - status: booked
+    firstname: dikky
+    gender: woman
+    age: '55'
+    height: '175'
+    weight: '66'
+    country: nl
+  - status: booked
+    firstname: suzan
+    gender: woman
+    age: '52'
+    height: '172'
+    weight: '72'
+    country: nl
+  - status: booked
+    firstname: joanne
+    gender: woman
+    age: '26'
+    height: '175'
+    weight: '72'
+    country: nl
 stationnaries: []
