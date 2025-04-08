@@ -7,14 +7,14 @@ stationaries:
     age: '55'
     height: '170'
     weight: '46'
-    country: fr
+    country: nl
   - status: booked
     firstname: annemieke
     gender: woman
     age: '55'
     height: '170'
     weight: '55'
-    country: fr 
+    country: nl
   - status: booked
     firstname: natacha
     gender: woman
