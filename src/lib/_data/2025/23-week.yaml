@@ -16,4 +16,11 @@ riders:
     height: '170'
     weight: '55'
     country: fr
+  - status: booked
+    firstname: ariane
+    gender: woman
+    age: '36'
+    height: '164'
+    weight: '53'
+    country: ger
 No stationary: []
