@@ -1,3 +1,12 @@
 period: 08/02 to 08/09
 title: Capcir
+riders:
+ - status: booked
+   firstname: detlef
+   gender: man
+   age: '67'
+   height: '178'
+   weight: '79'
+   diet: omni
+   country: ger
 stationaries: []
