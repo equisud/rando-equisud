@@ -1,3 +1,18 @@
 period: 08/23 to 08/30
 title: Capcir
+riders:
+  - status: booked
+    firstname: mara
+    gender: woman
+    age: '20'
+    height: '166'
+    weight: '50'
+    country: ger
+  - status: booked
+    firstname: emma
+    gender: woman
+    age: '20'
+    height: '165'
+    weight: '56'
+    country: ger
 No stationary : []
