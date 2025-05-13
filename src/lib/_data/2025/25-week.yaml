@@ -35,5 +35,12 @@ riders:
     age: '58'
     height: '173'
     weight: '73'
-    country: nl
+    country: nl 
+  - status: booked
+    firstname: patrick
+    gender: man
+    age: '58'
+    height: '173'
+    weight: '73'
+    country: fr
 No stationary: []
