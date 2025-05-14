@@ -10,17 +10,17 @@ riders:
    diet: omni
    country: ger
  - status: booked
-    firstname: monique
-    gender: woman
-    age: '28'
-    height: '178'
-    weight: '73'
-    country: nl
-  - status: booked
-    firstname: floris
-    gender: man
-    age: '27'
-    height: '179'
-    weight: '79'
-    country: nl
+   firstname: monique
+   gender: woman
+   age: '28'
+   height: '178'
+   weight: '73'
+   country: nl
+ - status: booked
+   firstname: floris
+   gender: man
+   age: '27'
+   height: '179'
+   weight: '79'
+   country: nl
 stationaries: []
