@@ -43,4 +43,25 @@ riders:
     height: '173'
     weight: '73'
     country: fr
+  - status: booked
+    firstname: birgit
+    gender: woman
+    age: '50'
+    height: '165'
+    weight: '70'
+    country: ger  
+  - status: booked
+    firstname: luisa
+    gender: woman
+    age: '15'
+    height: '155'
+    weight: '35'
+    country: ger 
+  - status: booked
+    firstname: laura
+    gender: woman
+    age: '14'
+    height: '157'
+    weight: '45'
+    country: ger
 No stationary: []
