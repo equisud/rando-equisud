@@ -1,7 +1,7 @@
 period: 07/26 to 08/02
 title: No trail
 stationaries: 
- - status: booked
+  - status: booked
     firstname: charles
     gender: man
     age: '55'
