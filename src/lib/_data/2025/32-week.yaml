@@ -16,8 +16,8 @@ stationaries:
    age: '28'
    height: '178'
    weight: '73'
-   country: nl
-   - status: booked
+   country: nl 
+ - status: booked
    firstname: floris
    gender: man
    age: '27'
