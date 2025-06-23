@@ -38,7 +38,7 @@ stationaries:
     height: '179'
     weight: '79'
     country: fr
-    - status: booked
+  - status: booked
     firstname: complet
     gender: woman
     age: '28'
@@ -52,7 +52,7 @@ stationaries:
     height: '179'
     weight: '79'
     country: fr
-   - status: booked
+  - status: booked
     firstname: complet
     gender: woman
     age: '28'
