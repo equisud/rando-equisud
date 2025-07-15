@@ -1,3 +1,24 @@
 period: 08/30 to 09/06
 title: No trail
-stationaries: []
+stationaries: 
+  - status: booked
+    firstname: charles
+    gender: man
+    age: '55'
+    height: '170'
+    weight: '46'
+    country: fr
+  - status: booked
+    firstname: nuria
+    gender: woman
+    age: '12'
+    height: '170'
+    weight: '46'
+    country: fr
+  - status: booked
+    firstname: nuria
+    gender: woman
+    age: '12'
+    height: '170'
+    weight: '46'
+    country: fr
