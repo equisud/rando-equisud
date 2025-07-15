@@ -16,7 +16,7 @@ stationaries:
     weight: '46'
     country: fr
   - status: booked
-    firstname: nuria
+    firstname: sixtine
     gender: woman
     age: '12'
     height: '170'
