@@ -14,5 +14,19 @@ riders:
     age: '20'
     height: '165'
     weight: '56'
+    country: ger 
+  - status: booked
+    firstname: viola
+    gender: woman
+    age: '22'
+    height: '165'
+    weight: '65'
+    country: ger
+  - status: booked
+    firstname: emilia
+    gender: woman
+    age: '22'
+    height: '155'
+    weight: '55'
     country: ger
 No stationary : []
