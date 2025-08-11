@@ -29,4 +29,11 @@ riders:
     height: '155'
     weight: '55'
     country: ger
+  - status: booked
+    firstname: eva
+    gender: woman
+    age: '19'
+    height: '165'
+    weight: '69'
+    country: ger
 No stationary : []
