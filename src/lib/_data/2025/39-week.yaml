@@ -32,4 +32,12 @@ riders:
     gender: man
     diet: omni
     country: nl
+  - status: booked
+    firstname: jaqueline
+    height: '160'
+    weight: '68'
+    age: '41'
+    gender: woman
+    diet: omni
+    country: nl
 No stationary: []
