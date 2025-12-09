@@ -1,11 +1,11 @@
 period: 09/13 to 09/20
 title: Capcir
 locations:
+  - equisud
   - mijanes
-  - camurac
-  - luzenac
-  - rhule
-  - el tarter
+  - mijanes
+  - espousouille
+  - sansa
   - equisud
 riders:
   - status: booked
@@ -29,11 +29,4 @@ riders:
     height: '175'
     weight: '72'
     country: nl
-  - status: booked
-    firstname: jaqueline
-    gender: woman
-    age: '41'
-    height: '160'
-    weight: '68'
-    country: nl
-No stationary: []
+  No stationary: []

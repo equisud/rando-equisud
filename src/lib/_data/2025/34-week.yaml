@@ -31,5 +31,12 @@ riders:
     weight: '68'
     diet: vegan
     country: ger
-    
+  - status: booked
+    firstname: dethlef
+    gender: man
+    age: '67'
+    height: '178'
+    weight: '79'
+    diet: omni
+    country: ger
 No stationary: []
