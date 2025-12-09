@@ -1,0 +1,51 @@
+period: 05/17 to 05/24
+title: Mediterranée
+locations:
+  - equisud
+  - jau
+  - puylaurens
+  - bouchard
+  - tuchan
+  - embre et castelmaure
+  - equisud
+riders:
+  - status: booked
+    firstname: sibylle
+    gender: woman
+    age: '26'
+    height: '162'
+    weight: '62'
+    diet: omni
+    country: fr
+  - status: booked
+    firstname: pauline
+    gender: woman
+    age: '27'
+    height: '175'
+    weight: '60'
+    diet: veggie
+    country: fr
+  - status: booked
+    firstname: elena
+    gender: woman
+    age: '27'
+    height: '175'
+    weight: '60'
+    diet: veggie
+  - status: booked
+    firstname: christine
+    gender: woman
+    age: '35'
+    height: '173'
+    weight: '60'
+    diet: veggie allergie noix
+    country: fr
+  - status: booked
+    firstname: elena
+    gender: woman
+    age: '32'
+    height: '160'
+    weight: '58'
+    diet: veggie 
+    country: fr    
+No stationary: []

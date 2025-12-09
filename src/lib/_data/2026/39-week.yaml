@@ -1,0 +1,35 @@
+period: 09/20 to 09/27
+title: Capcir
+riders:
+  - status: booked
+    firstname: ulrike
+    gender: woman
+    age: '58'
+    height: '165'
+    weight: '80'
+    country: ger
+  - status: booked
+    firstname: ester
+    height: '165'
+    weight: '78'
+    age: '58'
+    gender: woman
+    diet: vegetarien
+    country: ger
+  - status: booked
+    firstname: brenda
+    height: '168'
+    weight: '76'
+    age: '27'
+    gender: woman
+    diet: omni
+    country: nl
+  - status: booked
+    firstname: duncan
+    height: '178'
+    weight: '80'
+    age: '30'
+    gender: man
+    diet: omni
+    country: nl
+No stationary: []

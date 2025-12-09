@@ -1,0 +1,68 @@
+period: 09/06 to 09/13
+title: Haute-ariège
+locations:
+  - equisud
+  - mijanes
+  - camurac
+  - luzenac
+  - rhule
+  - el tarter
+  - equisud
+riders:
+  - status: booked
+    firstname: mariette
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
+    firstname: mariette
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
+    firstname: marlene
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+  - status: booked
+    firstname: verena
+    gender: woman
+    age: '31'
+    height: '163'
+    weight: '60'
+    country: ger
+  - status: booked
+    firstname: beate
+    gender: woman
+    age: '52'
+    height: '158'
+    weight: '50'
+    country: ger
+  - status: booked
+    firstname: andrea
+    gender: woman
+    age: '62'
+    height: '160'
+    weight: '50'
+    country: ger
+  - status: booked
+    firstname: heidi
+    gender: woman
+    age: '64'
+    height: '171'
+    weight: '60'
+    country: ger
+  - status: booked
+    firstname: beate
+    gender: woman
+    age: '63'
+    height: '173'
+    weight: '68'
+    country: ger
+No stationary: []

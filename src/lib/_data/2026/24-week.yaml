@@ -1,0 +1,26 @@
+period: 06/07 to 06/14
+title: No trail
+stationaries: 
+  - status: booked
+    firstname: monique
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '46'
+    country: nl
+  - status: booked
+    firstname: annemieke
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: nl
+  - status: booked
+    firstname: natacha
+    gender: woman
+    age: '49'
+    height: '162'
+    weight: '85'
+    country: nl
+    
+

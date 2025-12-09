@@ -10,10 +10,10 @@
 </script>
 
 <svelte:head>
-  <title>Equisud riding 2025 - Tour Operator</title>
+  <title>Equisud riding 2026 - Tour Operator</title>
 </svelte:head>
 
-<h1>Equisud riding 2025 - Tour Operator</h1>
+<h1>Equisud riding 2026 - Tour Operator</h1>
 <h2>Future weeks</h2>
 <section class="future-weeks">
   {#each weeks as week}

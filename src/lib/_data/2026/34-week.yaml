@@ -1,0 +1,35 @@
+period: 08/16 to 08/23
+title: Andorre
+riders:
+  - status: booked
+    firstname: conny
+    gender: woman
+    age: '62'
+    height: '173'
+    weight: '65'
+    country: nl
+  - status: booked
+    firstname: toon
+    gender: man
+    age: '64'
+    height: '184'
+    weight: '76'
+    country: nl
+  - status: booked
+    firstname: jules
+    gender: woman
+    age: '24'
+    height: '167'
+    weight: '63'
+    diet: vegan
+    country: ger
+  - status: booked
+    firstname: anne
+    gender: woman
+    age: '27'
+    height: '178'
+    weight: '68'
+    diet: vegan
+    country: ger
+    
+No stationary: []

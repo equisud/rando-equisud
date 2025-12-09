@@ -1,0 +1,70 @@
+period: 08/02 to 08/09
+title: Capcir
+riders:
+  - status: booked
+    firstname: detlef
+    gender: man
+    age: '67'
+    height: '178'
+    weight: '79'
+    diet: omni
+    country: ger
+stationaries: 
+  - status: booked
+    firstname: monique
+    gender: woman
+    age: '28'
+    height: '178'
+    weight: '73'
+    country: nl 
+  - status: booked
+    firstname: floris
+    gender: man
+    age: '27'
+    height: '179'
+    weight: '79'
+    country: nl
+  - status: booked
+    firstname: complet
+    gender: woman
+    age: '28'
+    height: '178'
+    weight: '73'
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: man
+    age: '27'
+    height: '179'
+    weight: '79'
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: woman
+    age: '28'
+    height: '178'
+    weight: '73'
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: man
+    age: '27'
+    height: '179'
+    weight: '79'
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: woman
+    age: '28'
+    height: '178'
+    weight: '73'
+    country: fr
+  - status: booked
+    firstname: complet
+    gender: man
+    age: '27'
+    height: '179'
+    weight: '79'
+    country: fr
+   
+ 

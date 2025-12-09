@@ -4,7 +4,7 @@ import { load as loadYaml } from 'js-yaml';
 
 async function getWeeks() {
     const yamlFiles =
-        import.meta.glob('$lib/_data/2025/*.yaml', { as: 'raw', eager: true });
+        import.meta.glob('$lib/_data/2026/*.yaml', { as: 'raw', eager: true });
 
     const weeksContents = Object.entries(yamlFiles).map(([path, yamlContent]) => {
         const week = loadYaml(yamlContent);

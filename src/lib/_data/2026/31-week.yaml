@@ -1,0 +1,18 @@
+period: 07/26 to 08/02
+title: No trail
+stationaries: 
+  - status: booked
+    firstname: charles
+    gender: man
+    age: '55'
+    height: '170'
+    weight: '46'
+    country: fr
+  - status: booked
+    firstname: anna
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '55'
+    country: fr
+ 

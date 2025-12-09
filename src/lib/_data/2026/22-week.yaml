@@ -1,0 +1,24 @@
+period: 05/24 to 05/31
+title: No trail
+stationaries:  
+  - status: booked
+    firstname: brigitte
+    gender: woman
+    age: '55'
+    height: '170'
+    weight: '46'
+    country: fr
+  - status: booked
+    firstname: brigitte
+    gender: woman
+    age: '65'
+    height: '164'
+    weight: '58'
+    country: fr  
+  - status: booked
+    firstname: pietro
+    gender: man
+    age: '65'
+    height: '176'
+    weight: '75'
+    country: fr  
